@@ -1,0 +1,3852 @@
+[
+  {
+    "id": "min_3226",
+    "arabic": "مِن",
+    "transliteration": "min",
+    "frequency": 3226,
+    "type": "Preposition"
+  },
+  {
+    "id": "{ll~ah_2699",
+    "arabic": "ٱللَّه",
+    "transliteration": "{ll~ah",
+    "frequency": 2699,
+    "type": "Proper noun"
+  },
+  {
+    "id": "fiY_1701",
+    "arabic": "فِى",
+    "transliteration": "fiY",
+    "frequency": 1701,
+    "type": "Preposition"
+  },
+  {
+    "id": "&lt;in~_1682",
+    "arabic": "إِنّ",
+    "transliteration": "&lt;in~",
+    "frequency": 1682,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "EalaY`_1445",
+    "arabic": "عَلَىٰ",
+    "transliteration": "EalaY`",
+    "frequency": 1445,
+    "type": "Preposition"
+  },
+  {
+    "id": "{l~a*iY_1442",
+    "arabic": "ٱلَّذِى",
+    "transliteration": "{l~a*iY",
+    "frequency": 1442,
+    "type": "Relative pronoun"
+  },
+  {
+    "id": "laA_1364",
+    "arabic": "لَا",
+    "transliteration": "laA",
+    "frequency": 1364,
+    "type": "Negative particle"
+  },
+  {
+    "id": "maA_1266",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 1266,
+    "type": "Relative pronoun"
+  },
+  {
+    "id": "rab~_975",
+    "arabic": "رَبّ",
+    "transliteration": "rab~",
+    "frequency": 975,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;ilaY`_742",
+    "arabic": "إِلَىٰ",
+    "transliteration": "&lt;ilaY`",
+    "frequency": 742,
+    "type": "Preposition"
+  },
+  {
+    "id": "maA_704",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 704,
+    "type": "Negative particle"
+  },
+  {
+    "id": "man_606",
+    "arabic": "مَن",
+    "transliteration": "man",
+    "frequency": 606,
+    "type": "Relative pronoun"
+  },
+  {
+    "id": "&lt;in_578",
+    "arabic": "إِن",
+    "transliteration": "&lt;in",
+    "frequency": 578,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "&gt;an_578",
+    "arabic": "أَن",
+    "transliteration": "&gt;an",
+    "frequency": 578,
+    "type": "Subordinating conjunction"
+  },
+  {
+    "id": "&lt;il~aA_558",
+    "arabic": "إِلَّا",
+    "transliteration": "&lt;il~aA",
+    "frequency": 558,
+    "type": "Restriction particle"
+  },
+  {
+    "id": "*a`lik_520",
+    "arabic": "ذَٰلِك",
+    "transliteration": "*a`lik",
+    "frequency": 520,
+    "type": "Demonstrative pronoun"
+  },
+  {
+    "id": "Ean_465",
+    "arabic": "عَن",
+    "transliteration": "Ean",
+    "frequency": 465,
+    "type": "Preposition"
+  },
+  {
+    "id": "&gt;aroD_461",
+    "arabic": "أَرْض",
+    "transliteration": "&gt;aroD",
+    "frequency": 461,
+    "type": "Noun"
+  },
+  {
+    "id": "qad_406",
+    "arabic": "قَد",
+    "transliteration": "qad",
+    "frequency": 406,
+    "type": "Particle of certainty"
+  },
+  {
+    "id": "&lt;i*aA_405",
+    "arabic": "إِذَا",
+    "transliteration": "&lt;i*aA",
+    "frequency": 405,
+    "type": "Time adverb"
+  },
+  {
+    "id": "qawom_383",
+    "arabic": "قَوْم",
+    "transliteration": "qawom",
+    "frequency": 383,
+    "type": "Noun"
+  },
+  {
+    "id": "'aAyap_382",
+    "arabic": "ءَايَة",
+    "transliteration": "'aAyap",
+    "frequency": 382,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;an~_362",
+    "arabic": "أَنّ",
+    "transliteration": "&gt;an~",
+    "frequency": 362,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "kul~_358",
+    "arabic": "كُلّ",
+    "transliteration": "kul~",
+    "frequency": 358,
+    "type": "Noun"
+  },
+  {
+    "id": "lam_353",
+    "arabic": "لَم",
+    "transliteration": "lam",
+    "frequency": 353,
+    "type": "Negative particle"
+  },
+  {
+    "id": "vum~_338",
+    "arabic": "ثُمّ",
+    "transliteration": "vum~",
+    "frequency": 338,
+    "type": "Coordinating conjunction"
+  },
+  {
+    "id": "rasuwl_332",
+    "arabic": "رَسُول",
+    "transliteration": "rasuwl",
+    "frequency": 332,
+    "type": "Noun"
+  },
+  {
+    "id": "laA_327",
+    "arabic": "لَا",
+    "transliteration": "laA",
+    "frequency": 327,
+    "type": "Prohibition particle"
+  },
+  {
+    "id": "yawom_325",
+    "arabic": "يَوْم",
+    "transliteration": "yawom",
+    "frequency": 325,
+    "type": "Noun"
+  },
+  {
+    "id": "Ea*aAb_322",
+    "arabic": "عَذَاب",
+    "transliteration": "Ea*aAb",
+    "frequency": 322,
+    "type": "Noun"
+  },
+  {
+    "id": "ha`*aA_317",
+    "arabic": "هَٰذَا",
+    "transliteration": "ha`*aA",
+    "frequency": 317,
+    "type": "Demonstrative pronoun"
+  },
+  {
+    "id": "samaA^'_310",
+    "arabic": "سَمَآء",
+    "transliteration": "samaA^'",
+    "frequency": 310,
+    "type": "Noun"
+  },
+  {
+    "id": "nafos_295",
+    "arabic": "نَفْس",
+    "transliteration": "nafos",
+    "frequency": 295,
+    "type": "Noun"
+  },
+  {
+    "id": "$aYo'_283",
+    "arabic": "شَىْء",
+    "transliteration": "$aYo'",
+    "frequency": 283,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aw_280",
+    "arabic": "أَو",
+    "transliteration": "&gt;aw",
+    "frequency": 280,
+    "type": "Coordinating conjunction"
+  },
+  {
+    "id": "kita`b_260",
+    "arabic": "كِتَٰب",
+    "transliteration": "kita`b",
+    "frequency": 260,
+    "type": "Noun"
+  },
+  {
+    "id": "bayon_243",
+    "arabic": "بَيْن",
+    "transliteration": "bayon",
+    "frequency": 243,
+    "type": "Location adverb"
+  },
+  {
+    "id": "Haq~_242",
+    "arabic": "حَقّ",
+    "transliteration": "Haq~",
+    "frequency": 242,
+    "type": "Noun"
+  },
+  {
+    "id": "n~aAs_241",
+    "arabic": "نَّاس",
+    "transliteration": "n~aAs",
+    "frequency": 241,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;i*_239",
+    "arabic": "إِذ",
+    "transliteration": "&lt;i*",
+    "frequency": 239,
+    "type": "Time adverb"
+  },
+  {
+    "id": "&gt;uwla`^}ik_204",
+    "arabic": "أُولَٰٓئِك",
+    "transliteration": "&gt;uwla`^}ik",
+    "frequency": 204,
+    "type": "Demonstrative pronoun"
+  },
+  {
+    "id": "qabol_197",
+    "arabic": "قَبْل",
+    "transliteration": "qabol",
+    "frequency": 197,
+    "type": "Noun"
+  },
+  {
+    "id": "mu&omin_195",
+    "arabic": "مُؤْمِن",
+    "transliteration": "mu&omin",
+    "frequency": 195,
+    "type": "Noun"
+  },
+  {
+    "id": "law_184",
+    "arabic": "لَو",
+    "transliteration": "law",
+    "frequency": 184,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "man_184",
+    "arabic": "مَن",
+    "transliteration": "man",
+    "frequency": 184,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "sabiyl_176",
+    "arabic": "سَبِيل",
+    "transliteration": "sabiyl",
+    "frequency": 176,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;amor_166",
+    "arabic": "أَمْ��",
+    "transliteration": "&gt;amor",
+    "frequency": 166,
+    "type": "Noun"
+  },
+  {
+    "id": "Eind_160",
+    "arabic": "عِند",
+    "transliteration": "Eind",
+    "frequency": 160,
+    "type": "Location adverb"
+  },
+  {
+    "id": "maE_159",
+    "arabic": "مَع",
+    "transliteration": "maE",
+    "frequency": 159,
+    "type": "Location adverb"
+  },
+  {
+    "id": "baEoD_157",
+    "arabic": "بَعْض",
+    "transliteration": "baEoD",
+    "frequency": 157,
+    "type": "Noun"
+  },
+  {
+    "id": "lam~aA_156",
+    "arabic": "لَمَّا",
+    "transliteration": "lam~aA",
+    "frequency": 156,
+    "type": "Time adverb"
+  },
+  {
+    "id": "&gt;ay~uhaA_153",
+    "arabic": "أَيُّهَا",
+    "transliteration": "&gt;ay~uhaA",
+    "frequency": 153,
+    "type": "Noun"
+  },
+  {
+    "id": "xayor_148",
+    "arabic": "خَيْر",
+    "transliteration": "xayor",
+    "frequency": 148,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;ila`h_147",
+    "arabic": "إِلَٰه",
+    "transliteration": "&lt;ila`h",
+    "frequency": 147,
+    "type": "Noun"
+  },
+  {
+    "id": "naAr_145",
+    "arabic": "نَار",
+    "transliteration": "naAr",
+    "frequency": 145,
+    "type": "Noun"
+  },
+  {
+    "id": "gayor_144",
+    "arabic": "غَيْر",
+    "transliteration": "gayor",
+    "frequency": 144,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;am_137",
+    "arabic": "أَم",
+    "transliteration": "&gt;am",
+    "frequency": 137,
+    "type": "Coordinating conjunction"
+  },
+  {
+    "id": "muwsaY`_136",
+    "arabic": "مُوسَىٰ",
+    "transliteration": "muwsaY`",
+    "frequency": 136,
+    "type": "Proper noun"
+  },
+  {
+    "id": "duwn_135",
+    "arabic": "دُون",
+    "transliteration": "duwn",
+    "frequency": 135,
+    "type": "Noun"
+  },
+  {
+    "id": "A^xir_133",
+    "arabic": "آخِر",
+    "transliteration": "A^xir",
+    "frequency": 133,
+    "type": "Noun"
+  },
+  {
+    "id": "baEod_133",
+    "arabic": "بَعْد",
+    "transliteration": "baEod",
+    "frequency": 133,
+    "type": "Noun"
+  },
+  {
+    "id": "qalob_132",
+    "arabic": "قَلْب",
+    "transliteration": "qalob",
+    "frequency": 132,
+    "type": "Noun"
+  },
+  {
+    "id": "Eabod_131",
+    "arabic": "عَبْد",
+    "transliteration": "Eabod",
+    "frequency": 131,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;ahol_127",
+    "arabic": "أَهْل",
+    "transliteration": "&gt;ahol",
+    "frequency": 127,
+    "type": "Noun"
+  },
+  {
+    "id": "laEal~_123",
+    "arabic": "لَعَلّ",
+    "transliteration": "laEal~",
+    "frequency": 123,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "bal_122",
+    "arabic": "بَل",
+    "transliteration": "bal",
+    "frequency": 122,
+    "type": "Retraction particle"
+  },
+  {
+    "id": "yad_120",
+    "arabic": "يَد",
+    "transliteration": "yad",
+    "frequency": 120,
+    "type": "Noun"
+  },
+  {
+    "id": "ka`firuwn_119",
+    "arabic": "كَٰفِرُون",
+    "transliteration": "ka`firuwn",
+    "frequency": 119,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;in_114",
+    "arabic": "إِن",
+    "transliteration": "&lt;in",
+    "frequency": 114,
+    "type": "Negative particle"
+  },
+  {
+    "id": "raHomap_114",
+    "arabic": "رَحْمَة",
+    "transliteration": "raHomap",
+    "frequency": 114,
+    "type": "Noun"
+  },
+  {
+    "id": "r~aHiym_112",
+    "arabic": "رَّحِيم",
+    "transliteration": "r~aHiym",
+    "frequency": 112,
+    "type": "Adjective"
+  },
+  {
+    "id": "&gt;ajor_105",
+    "arabic": "أَجْر",
+    "transliteration": "&gt;ajor",
+    "frequency": 105,
+    "type": "Noun"
+  },
+  {
+    "id": "ZaAlim_105",
+    "arabic": "ظَالِم",
+    "transliteration": "ZaAlim",
+    "frequency": 105,
+    "type": "Noun"
+  },
+  {
+    "id": "Eilom_105",
+    "arabic": "عِلْم",
+    "transliteration": "Eilom",
+    "frequency": 105,
+    "type": "Noun"
+  },
+  {
+    "id": "EaZiym_104",
+    "arabic": "عَظِيم",
+    "transliteration": "EaZiym",
+    "frequency": 104,
+    "type": "Adjective"
+  },
+  {
+    "id": "lan_104",
+    "arabic": "لَن",
+    "transliteration": "lan",
+    "frequency": 104,
+    "type": "Negative particle"
+  },
+  {
+    "id": "&lt;il~aA_102",
+    "arabic": "إِلَّا",
+    "transliteration": "&lt;il~aA",
+    "frequency": 102,
+    "type": "Exceptive particle"
+  },
+  {
+    "id": "Ealiym_101",
+    "arabic": "عَلِيم",
+    "transliteration": "Ealiym",
+    "frequency": 101,
+    "type": "Adjective"
+  },
+  {
+    "id": "jan~ap_96",
+    "arabic": "جَنَّة",
+    "transliteration": "jan~ap",
+    "frequency": 96,
+    "type": "Noun"
+  },
+  {
+    "id": "Hat~aY`_95",
+    "arabic": "حَتَّىٰ",
+    "transliteration": "Hat~aY`",
+    "frequency": 95,
+    "type": "Preposition"
+  },
+  {
+    "id": "hal_93",
+    "arabic": "هَل",
+    "transliteration": "hal",
+    "frequency": 93,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "diyn_92",
+    "arabic": "دِين",
+    "transliteration": "diyn",
+    "frequency": 92,
+    "type": "Noun"
+  },
+  {
+    "id": "qawol_92",
+    "arabic": "قَوْل",
+    "transliteration": "qawol",
+    "frequency": 92,
+    "type": "Noun"
+  },
+  {
+    "id": "maA_92",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 92,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "*uw_90",
+    "arabic": "ذُو",
+    "transliteration": "*uw",
+    "frequency": 90,
+    "type": "Noun"
+  },
+  {
+    "id": "malak_88",
+    "arabic": "مَلَك",
+    "transliteration": "malak",
+    "frequency": 88,
+    "type": "Noun"
+  },
+  {
+    "id": "maval_87",
+    "arabic": "مَثَل",
+    "transliteration": "maval",
+    "frequency": 87,
+    "type": "Noun"
+  },
+  {
+    "id": "maAl_86",
+    "arabic": "مَال",
+    "transliteration": "maAl",
+    "frequency": 86,
+    "type": "Noun"
+  },
+  {
+    "id": "waliY~_86",
+    "arabic": "وَلِىّ",
+    "transliteration": "waliY~",
+    "frequency": 86,
+    "type": "Noun"
+  },
+  {
+    "id": "hudFY_85",
+    "arabic": "هُدًى",
+    "transliteration": "hudFY",
+    "frequency": 85,
+    "type": "Noun"
+  },
+  {
+    "id": "Hakiym_84",
+    "arabic": "حَكِيم",
+    "transliteration": "Hakiym",
+    "frequency": 84,
+    "type": "Adjective"
+  },
+  {
+    "id": "faDol_84",
+    "arabic": "فَضْل",
+    "transliteration": "faDol",
+    "frequency": 84,
+    "type": "Noun"
+  },
+  {
+    "id": "Salaw`p_83",
+    "arabic": "صَلَوٰة",
+    "transliteration": "Salaw`p",
+    "frequency": 83,
+    "type": "Noun"
+  },
+  {
+    "id": "layol_82",
+    "arabic": "لَيْل",
+    "transliteration": "layol",
+    "frequency": 82,
+    "type": "Noun"
+  },
+  {
+    "id": "bunaY~_80",
+    "arabic": "بُنَىّ",
+    "transliteration": "bunaY~",
+    "frequency": 80,
+    "type": "Noun"
+  },
+  {
+    "id": "$ayoTa`n_80",
+    "arabic": "شَيْطَٰن",
+    "transliteration": "$ayoTa`n",
+    "frequency": 80,
+    "type": "Proper noun"
+  },
+  {
+    "id": "kayof_80",
+    "arabic": "كَيْف",
+    "transliteration": "kayof",
+    "frequency": 80,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "yawom_80",
+    "arabic": "يَوْم",
+    "transliteration": "yawom",
+    "frequency": 80,
+    "type": "Time adverb"
+  },
+  {
+    "id": "maA_79",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 79,
+    "type": "Subordinating conjunction"
+  },
+  {
+    "id": "&gt;aSoHa`b_78",
+    "arabic": "أَصْحَٰب",
+    "transliteration": "&gt;aSoHa`b",
+    "frequency": 78,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;akovar_78",
+    "arabic": "أَكْثَر",
+    "transliteration": "&gt;akovar",
+    "frequency": 78,
+    "type": "Noun"
+  },
+  {
+    "id": "jahan~am_77",
+    "arabic": "جَهَنَّم",
+    "transliteration": "jahan~am",
+    "frequency": 77,
+    "type": "Proper noun"
+  },
+  {
+    "id": "Hayaw`p_76",
+    "arabic": "حَيَوٰة",
+    "transliteration": "Hayaw`p",
+    "frequency": 76,
+    "type": "Noun"
+  },
+  {
+    "id": "*ikor_76",
+    "arabic": "ذِكْر",
+    "transliteration": "*ikor",
+    "frequency": 76,
+    "type": "Noun"
+  },
+  {
+    "id": "zawoj_76",
+    "arabic": "زَوْج",
+    "transliteration": "zawoj",
+    "frequency": 76,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;ax_75",
+    "arabic": "أَخ",
+    "transliteration": "&gt;ax",
+    "frequency": 75,
+    "type": "Noun"
+  },
+  {
+    "id": "mivol_75",
+    "arabic": "مِثْل",
+    "transliteration": "mivol",
+    "frequency": 75,
+    "type": "Noun"
+  },
+  {
+    "id": "n~abiY~_75",
+    "arabic": "نَّبِىّ",
+    "transliteration": "n~abiY~",
+    "frequency": 75,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aHad_74",
+    "arabic": "أَحَد",
+    "transliteration": "&gt;aHad",
+    "frequency": 74,
+    "type": "Noun"
+  },
+  {
+    "id": "xa`lid_74",
+    "arabic": "خَٰلِد",
+    "transliteration": "xa`lid",
+    "frequency": 74,
+    "type": "Noun"
+  },
+  {
+    "id": "d~unoyaA_74",
+    "arabic": "دُّنْيَا",
+    "transliteration": "d~unoyaA",
+    "frequency": 74,
+    "type": "Adjective"
+  },
+  {
+    "id": "firoEawon_74",
+    "arabic": "فِرْعَوْن",
+    "transliteration": "firoEawon",
+    "frequency": 74,
+    "type": "Proper noun"
+  },
+  {
+    "id": "Ea`lamiyn_73",
+    "arabic": "عَٰلَمِين",
+    "transliteration": "Ea`lamiyn",
+    "frequency": 73,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aliym_72",
+    "arabic": "أَلِيم",
+    "transliteration": "&gt;aliym",
+    "frequency": 72,
+    "type": "Adjective"
+  },
+  {
+    "id": "m~ubiyn_72",
+    "arabic": "مُّبِين",
+    "transliteration": "m~ubiyn",
+    "frequency": 72,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;insa`n_71",
+    "arabic": "إِنسَٰن",
+    "transliteration": "&lt;insa`n",
+    "frequency": 71,
+    "type": "Noun"
+  },
+  {
+    "id": "Eamal_71",
+    "arabic": "عَمَل",
+    "transliteration": "Eamal",
+    "frequency": 71,
+    "type": "Noun"
+  },
+  {
+    "id": "wajoh_71",
+    "arabic": "وَجْه",
+    "transliteration": "wajoh",
+    "frequency": 71,
+    "type": "Noun"
+  },
+  {
+    "id": "qiya`map_70",
+    "arabic": "قِيَٰمَة",
+    "transliteration": "qiya`map",
+    "frequency": 70,
+    "type": "Noun"
+  },
+  {
+    "id": "yawoma}i*_70",
+    "arabic": "يَوْمَئِذ",
+    "transliteration": "yawoma}i*",
+    "frequency": 70,
+    "type": "Time adverb"
+  },
+  {
+    "id": "&lt;iboraAhiym_69",
+    "arabic": "إِبْرَاهِيم",
+    "transliteration": "&lt;iboraAhiym",
+    "frequency": 69,
+    "type": "Proper noun"
+  },
+  {
+    "id": "quro'aAn_68",
+    "arabic": "قُرْءَان",
+    "transliteration": "quro'aAn",
+    "frequency": 68,
+    "type": "Proper noun"
+  },
+  {
+    "id": "baEod_66",
+    "arabic": "بَعْد",
+    "transliteration": "baEod",
+    "frequency": 66,
+    "type": "Time adverb"
+  },
+  {
+    "id": "bayot_65",
+    "arabic": "بَيْت",
+    "transliteration": "bayot",
+    "frequency": 65,
+    "type": "Noun"
+  },
+  {
+    "id": "la`kin_65",
+    "arabic": "لَٰكِن",
+    "transliteration": "la`kin",
+    "frequency": 65,
+    "type": "Amendment particle"
+  },
+  {
+    "id": "yamiyn_65",
+    "arabic": "يَمِين",
+    "transliteration": "yamiyn",
+    "frequency": 65,
+    "type": "Noun"
+  },
+  {
+    "id": "A^baA'_64",
+    "arabic": "آبَاء",
+    "transliteration": "A^baA'",
+    "frequency": 64,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;um~ap_64",
+    "arabic": "أُمَّة",
+    "transliteration": "&gt;um~ap",
+    "frequency": 64,
+    "type": "Noun"
+  },
+  {
+    "id": "{bon_63",
+    "arabic": "ٱبْن",
+    "transliteration": "{bon",
+    "frequency": 63,
+    "type": "Noun"
+  },
+  {
+    "id": "Eaziyz_63",
+    "arabic": "عَزِيز",
+    "transliteration": "Eaziyz",
+    "frequency": 63,
+    "type": "Noun"
+  },
+  {
+    "id": "maA^'_63",
+    "arabic": "مَآء",
+    "transliteration": "maA^'",
+    "frequency": 63,
+    "type": "Noun"
+  },
+  {
+    "id": "S~a`liHa`t_62",
+    "arabic": "صَّٰلِحَٰت",
+    "transliteration": "S~a`liHa`t",
+    "frequency": 62,
+    "type": "Noun"
+  },
+  {
+    "id": "Ealiym_62",
+    "arabic": "عَلِيم",
+    "transliteration": "Ealiym",
+    "frequency": 62,
+    "type": "Noun"
+  },
+  {
+    "id": "gafuwr_62",
+    "arabic": "غَفُور",
+    "transliteration": "gafuwr",
+    "frequency": 62,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aw~al_61",
+    "arabic": "أَوَّل",
+    "transliteration": "&gt;aw~al",
+    "frequency": 61,
+    "type": "Noun"
+  },
+  {
+    "id": "Sa`liH_60",
+    "arabic": "صَٰلِح",
+    "transliteration": "Sa`liH",
+    "frequency": 60,
+    "type": "Noun"
+  },
+  {
+    "id": "SaAdiq_59",
+    "arabic": "صَادِق",
+    "transliteration": "SaAdiq",
+    "frequency": 59,
+    "type": "Noun"
+  },
+  {
+    "id": "nisaA^'_59",
+    "arabic": "نِسَآء",
+    "transliteration": "nisaA^'",
+    "frequency": 59,
+    "type": "Noun"
+  },
+  {
+    "id": "na*iyr_58",
+    "arabic": "نَذِير",
+    "transliteration": "na*iyr",
+    "frequency": 58,
+    "type": "Noun"
+  },
+  {
+    "id": "Eayon_57",
+    "arabic": "عَيْن",
+    "transliteration": "Eayon",
+    "frequency": 57,
+    "type": "Noun"
+  },
+  {
+    "id": "qaroyap_57",
+    "arabic": "قَرْيَة",
+    "transliteration": "qaroyap",
+    "frequency": 57,
+    "type": "Noun"
+  },
+  {
+    "id": "la`kin~_57",
+    "arabic": "لَٰكِنّ",
+    "transliteration": "la`kin~",
+    "frequency": 57,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "nahaAr_56",
+    "arabic": "نَهَار",
+    "transliteration": "nahaAr",
+    "frequency": 56,
+    "type": "Noun"
+  },
+  {
+    "id": "walad_56",
+    "arabic": "وَلَد",
+    "transliteration": "walad",
+    "frequency": 56,
+    "type": "Noun"
+  },
+  {
+    "id": "bay~inap_55",
+    "arabic": "بَيِّنَة",
+    "transliteration": "bay~inap",
+    "frequency": 55,
+    "type": "Noun"
+  },
+  {
+    "id": "rizoq_55",
+    "arabic": "رِزْق",
+    "transliteration": "rizoq",
+    "frequency": 55,
+    "type": "Noun"
+  },
+  {
+    "id": "nahar_54",
+    "arabic": "نَهَر",
+    "transliteration": "nahar",
+    "frequency": 54,
+    "type": "Noun"
+  },
+  {
+    "id": "jamiyE_53",
+    "arabic": "جَمِيع",
+    "transliteration": "jamiyE",
+    "frequency": 53,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;ajal_52",
+    "arabic": "أَجَل",
+    "transliteration": "&gt;ajal",
+    "frequency": 52,
+    "type": "Noun"
+  },
+  {
+    "id": "xaloq_52",
+    "arabic": "خَلْق",
+    "transliteration": "xaloq",
+    "frequency": 52,
+    "type": "Noun"
+  },
+  {
+    "id": "jan~ap_51",
+    "arabic": "جَنَّة",
+    "transliteration": "jan~ap",
+    "frequency": 51,
+    "type": "Proper noun"
+  },
+  {
+    "id": "suw^'_50",
+    "arabic": "سُوٓء",
+    "transliteration": "suw^'",
+    "frequency": 50,
+    "type": "Noun"
+  },
+  {
+    "id": "mawot_50",
+    "arabic": "مَوْت",
+    "transliteration": "mawot",
+    "frequency": 50,
+    "type": "Noun"
+  },
+  {
+    "id": "niEomap_50",
+    "arabic": "نِعْمَة",
+    "transliteration": "niEomap",
+    "frequency": 50,
+    "type": "Noun"
+  },
+  {
+    "id": "Eaduw~_49",
+    "arabic": "عَدُوّ",
+    "transliteration": "Eaduw~",
+    "frequency": 49,
+    "type": "Noun"
+  },
+  {
+    "id": "gayob_49",
+    "arabic": "غَيْب",
+    "transliteration": "gayob",
+    "frequency": 49,
+    "type": "Noun"
+  },
+  {
+    "id": "mut~aqiyn_49",
+    "arabic": "مُتَّقِين",
+    "transliteration": "mut~aqiyn",
+    "frequency": 49,
+    "type": "Noun"
+  },
+  {
+    "id": "waEod_49",
+    "arabic": "وَعْد",
+    "transliteration": "waEod",
+    "frequency": 49,
+    "type": "Noun"
+  },
+  {
+    "id": "baSar_48",
+    "arabic": "بَصَر",
+    "transliteration": "baSar",
+    "frequency": 48,
+    "type": "Noun"
+  },
+  {
+    "id": "taHot_48",
+    "arabic": "تَحْت",
+    "transliteration": "taHot",
+    "frequency": 48,
+    "type": "Noun"
+  },
+  {
+    "id": "daAr_48",
+    "arabic": "دَار",
+    "transliteration": "daAr",
+    "frequency": 48,
+    "type": "Noun"
+  },
+  {
+    "id": "mulok_48",
+    "arabic": "مُلْك",
+    "transliteration": "mulok",
+    "frequency": 48,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;an_47",
+    "arabic": "أَن",
+    "transliteration": "&gt;an",
+    "frequency": 47,
+    "type": "Particle of interpretation"
+  },
+  {
+    "id": "Hat~aY`_47",
+    "arabic": "حَتَّىٰ",
+    "transliteration": "Hat~aY`",
+    "frequency": 47,
+    "type": "Inceptive particle"
+  },
+  {
+    "id": "saAEap_47",
+    "arabic": "سَاعَة",
+    "transliteration": "saAEap",
+    "frequency": 47,
+    "type": "Noun"
+  },
+  {
+    "id": "m~ubiyn_47",
+    "arabic": "مُّبِين",
+    "transliteration": "m~ubiyn",
+    "frequency": 47,
+    "type": "Adjective"
+  },
+  {
+    "id": "&gt;abN_46",
+    "arabic": "أَبٌ",
+    "transliteration": "&gt;abN",
+    "frequency": 46,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;uwliY_45",
+    "arabic": "أُولِى",
+    "transliteration": "&gt;uwliY",
+    "frequency": 45,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;iyma`n_45",
+    "arabic": "إِيمَٰن",
+    "transliteration": "&lt;iyma`n",
+    "frequency": 45,
+    "type": "Noun"
+  },
+  {
+    "id": "r~aHoma`n_45",
+    "arabic": "رَّحْمَٰن",
+    "transliteration": "r~aHoma`n",
+    "frequency": 45,
+    "type": "Noun"
+  },
+  {
+    "id": "Sira`T_45",
+    "arabic": "صِرَٰط",
+    "transliteration": "Sira`T",
+    "frequency": 45,
+    "type": "Noun"
+  },
+  {
+    "id": "qabol_45",
+    "arabic": "قَبْل",
+    "transliteration": "qabol",
+    "frequency": 45,
+    "type": "Time adverb"
+  },
+  {
+    "id": "A^xar_44",
+    "arabic": "آخَر",
+    "transliteration": "A^xar",
+    "frequency": 44,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;am~aA_44",
+    "arabic": "أَمَّا",
+    "transliteration": "&gt;am~aA",
+    "frequency": 44,
+    "type": "Explanation particle"
+  },
+  {
+    "id": "Sador_44",
+    "arabic": "صَدْر",
+    "transliteration": "Sador",
+    "frequency": 44,
+    "type": "Noun"
+  },
+  {
+    "id": "qadiyr_44",
+    "arabic": "قَدِير",
+    "transliteration": "qadiyr",
+    "frequency": 44,
+    "type": "Noun"
+  },
+  {
+    "id": "mujorim_44",
+    "arabic": "مُجْرِم",
+    "transliteration": "mujorim",
+    "frequency": 44,
+    "type": "Noun"
+  },
+  {
+    "id": "mu$orik_44",
+    "arabic": "مُشْرِك",
+    "transliteration": "mu$orik",
+    "frequency": 44,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;isoraA}iyl_43",
+    "arabic": "إِسْرَائِيل",
+    "transliteration": "&lt;isoraA}iyl",
+    "frequency": 43,
+    "type": "Proper noun"
+  },
+  {
+    "id": "Hamod_43",
+    "arabic": "حَمْد",
+    "transliteration": "Hamod",
+    "frequency": 43,
+    "type": "Noun"
+  },
+  {
+    "id": "qaliyl_43",
+    "arabic": "قَلِيل",
+    "transliteration": "qaliyl",
+    "frequency": 43,
+    "type": "Noun"
+  },
+  {
+    "id": "nuwH_43",
+    "arabic": "نُوح",
+    "transliteration": "nuwH",
+    "frequency": 43,
+    "type": "Proper noun"
+  },
+  {
+    "id": "nuwr_43",
+    "arabic": "نُور",
+    "transliteration": "nuwr",
+    "frequency": 43,
+    "type": "Noun"
+  },
+  {
+    "id": "jazaA^'_42",
+    "arabic": "جَزَآء",
+    "transliteration": "jazaA^'",
+    "frequency": 42,
+    "type": "Noun"
+  },
+  {
+    "id": "sawof_42",
+    "arabic": "سَوْف",
+    "transliteration": "sawof",
+    "frequency": 42,
+    "type": "Future particle"
+  },
+  {
+    "id": "kaviyr_42",
+    "arabic": "كَث��ير",
+    "transliteration": "kaviyr",
+    "frequency": 42,
+    "type": "Noun"
+  },
+  {
+    "id": "baHor_41",
+    "arabic": "بَحْر",
+    "transliteration": "baHor",
+    "frequency": 41,
+    "type": "Noun"
+  },
+  {
+    "id": "d~unoyaA_41",
+    "arabic": "دُّنْيَا",
+    "transliteration": "d~unoyaA",
+    "frequency": 41,
+    "type": "Noun"
+  },
+  {
+    "id": "suboHa`n_41",
+    "arabic": "سُبْحَٰن",
+    "transliteration": "suboHa`n",
+    "frequency": 41,
+    "type": "Noun"
+  },
+  {
+    "id": "sala`m_41",
+    "arabic": "سَلَٰم",
+    "transliteration": "sala`m",
+    "frequency": 41,
+    "type": "Noun"
+  },
+  {
+    "id": "$ariyk_40",
+    "arabic": "شَرِيك",
+    "transliteration": "$ariyk",
+    "frequency": 40,
+    "type": "Noun"
+  },
+  {
+    "id": "$ahiyd_40",
+    "arabic": "شَهِيد",
+    "transliteration": "$ahiyd",
+    "frequency": 40,
+    "type": "Noun"
+  },
+  {
+    "id": "lawolaA^_40",
+    "arabic": "لَوْلَآ",
+    "transliteration": "lawolaA^",
+    "frequency": 40,
+    "type": "Exhortation particle"
+  },
+  {
+    "id": "wayol_40",
+    "arabic": "وَيْل",
+    "transliteration": "wayol",
+    "frequency": 40,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;i*on_39",
+    "arabic": "إِذْن",
+    "transliteration": "&lt;i*on",
+    "frequency": 39,
+    "type": "Noun"
+  },
+  {
+    "id": "{som_39",
+    "arabic": "ٱسْم",
+    "transliteration": "{som",
+    "frequency": 39,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;alaA^_39",
+    "arabic": "أَلَآ",
+    "transliteration": "&gt;alaA^",
+    "frequency": 39,
+    "type": "Inceptive particle"
+  },
+  {
+    "id": "jabal_39",
+    "arabic": "جَبَل",
+    "transliteration": "jabal",
+    "frequency": 39,
+    "type": "Noun"
+  },
+  {
+    "id": "samiyE_39",
+    "arabic": "سَمِيع",
+    "transliteration": "samiyE",
+    "frequency": 39,
+    "type": "Noun"
+  },
+  {
+    "id": "HisaAb_38",
+    "arabic": "حِسَاب",
+    "transliteration": "HisaAb",
+    "frequency": 38,
+    "type": "Noun"
+  },
+  {
+    "id": "Dala`l_38",
+    "arabic": "ضَلَٰل",
+    "transliteration": "Dala`l",
+    "frequency": 38,
+    "type": "Noun"
+  },
+  {
+    "id": "Eaziyz_38",
+    "arabic": "عَزِيز",
+    "transliteration": "Eaziyz",
+    "frequency": 38,
+    "type": "Adjective"
+  },
+  {
+    "id": "muHosin_38",
+    "arabic": "مُحْسِن",
+    "transliteration": "muHosin",
+    "frequency": 38,
+    "type": "Noun"
+  },
+  {
+    "id": "ba$ar_37",
+    "arabic": "بَشَر",
+    "transliteration": "ba$ar",
+    "frequency": 37,
+    "type": "Noun"
+  },
+  {
+    "id": "*anb_37",
+    "arabic": "ذَنب",
+    "transliteration": "*anb",
+    "frequency": 37,
+    "type": "Noun"
+  },
+  {
+    "id": "suloTa`n_37",
+    "arabic": "سُلْطَٰن",
+    "transliteration": "suloTa`n",
+    "frequency": 37,
+    "type": "Noun"
+  },
+  {
+    "id": "Eind_37",
+    "arabic": "عِند",
+    "transliteration": "Eind",
+    "frequency": 37,
+    "type": "Noun"
+  },
+  {
+    "id": "kufor_37",
+    "arabic": "كُفْر",
+    "transliteration": "kufor",
+    "frequency": 37,
+    "type": "Noun"
+  },
+  {
+    "id": "say~i_#aAt_36",
+    "arabic": "سَيِّـَٔات",
+    "transliteration": "say~i_#aAt",
+    "frequency": 36,
+    "type": "Noun"
+  },
+  {
+    "id": "$adiyd_36",
+    "arabic": "شَدِيد",
+    "transliteration": "$adiyd",
+    "frequency": 36,
+    "type": "Adjective"
+  },
+  {
+    "id": "&lt;ivom_35",
+    "arabic": "إِثْم",
+    "transliteration": "&lt;ivom",
+    "frequency": 35,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aHosan_35",
+    "arabic": "أَحْسَن",
+    "transliteration": "&gt;aHosan",
+    "frequency": 35,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aY~_35",
+    "arabic": "أَىّ",
+    "transliteration": "&gt;aY~",
+    "frequency": 35,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "lawolaA^_35",
+    "arabic": "لَوْلَآ",
+    "transliteration": "lawolaA^",
+    "frequency": 35,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "mata`E_35",
+    "arabic": "مَتَٰع",
+    "transliteration": "mata`E",
+    "frequency": 35,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;um~_34",
+    "arabic": "أُمّ",
+    "transliteration": "&gt;um~",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "fitonap_34",
+    "arabic": "فِتْنَة",
+    "transliteration": "fitonap",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "m~urosal_34",
+    "arabic": "مُّرْسَل",
+    "transliteration": "m~urosal",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "maroyam_34",
+    "arabic": "مَرْيَم",
+    "transliteration": "maroyam",
+    "frequency": 34,
+    "type": "Proper noun"
+  },
+  {
+    "id": "m~aEoruwf_34",
+    "arabic": "مَّعْرُوف",
+    "transliteration": "m~aEoruwf",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "man_34",
+    "arabic": "مَن",
+    "transliteration": "man",
+    "frequency": 34,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "m~ay~it_34",
+    "arabic": "مَّيِّت",
+    "transliteration": "m~ay~it",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "naSiyr_34",
+    "arabic": "نَصِير",
+    "transliteration": "naSiyr",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "'aAlaA^'_34",
+    "arabic": "ءَالَآء",
+    "transliteration": "'aAlaA^'",
+    "frequency": 34,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aEolam_33",
+    "arabic": "أَعْلَم",
+    "transliteration": "&gt;aEolam",
+    "frequency": 33,
+    "type": "Noun"
+  },
+  {
+    "id": "$amos_33",
+    "arabic": "شَمْس",
+    "transliteration": "$amos",
+    "frequency": 33,
+    "type": "Noun"
+  },
+  {
+    "id": "fariyq_33",
+    "arabic": "فَرِيق",
+    "transliteration": "fariyq",
+    "frequency": 33,
+    "type": "Noun"
+  },
+  {
+    "id": "ka*ib_33",
+    "arabic": "كَذِب",
+    "transliteration": "ka*ib",
+    "frequency": 33,
+    "type": "Noun"
+  },
+  {
+    "id": "kal~aA_33",
+    "arabic": "كَلَّا",
+    "transliteration": "kal~aA",
+    "frequency": 33,
+    "type": "Aversion particle"
+  },
+  {
+    "id": "n~aEam_33",
+    "arabic": "نَّعَم",
+    "transliteration": "n~aEam",
+    "frequency": 33,
+    "type": "Noun"
+  },
+  {
+    "id": "xa`siriyn_32",
+    "arabic": "خَٰسِرِين",
+    "transliteration": "xa`siriyn",
+    "frequency": 32,
+    "type": "Noun"
+  },
+  {
+    "id": "zakaw`p_32",
+    "arabic": "زَكَوٰة",
+    "transliteration": "zakaw`p",
+    "frequency": 32,
+    "type": "Noun"
+  },
+  {
+    "id": "Ea`qibap_32",
+    "arabic": "عَٰقِبَة",
+    "transliteration": "Ea`qibap",
+    "frequency": 32,
+    "type": "Noun"
+  },
+  {
+    "id": "kabiyr_32",
+    "arabic": "كَبِير",
+    "transliteration": "kabiyr",
+    "frequency": 32,
+    "type": "Adjective"
+  },
+  {
+    "id": "baSiyr_31",
+    "arabic": "بَصِير",
+    "transliteration": "baSiyr",
+    "frequency": 31,
+    "type": "Noun"
+  },
+  {
+    "id": "Hiyn_31",
+    "arabic": "حِين",
+    "transliteration": "Hiyn",
+    "frequency": 31,
+    "type": "Noun"
+  },
+  {
+    "id": "ka`*ib_31",
+    "arabic": "كَٰذِب",
+    "transliteration": "ka`*ib",
+    "frequency": 31,
+    "type": "Noun"
+  },
+  {
+    "id": "Hukom_30",
+    "arabic": "حُكْم",
+    "transliteration": "Hukom",
+    "frequency": 30,
+    "type": "Noun"
+  },
+  {
+    "id": "xayor_30",
+    "arabic": "خَيْر",
+    "transliteration": "xayor",
+    "frequency": 30,
+    "type": "Adjective"
+  },
+  {
+    "id": "$ar~_30",
+    "arabic": "شَرّ",
+    "transliteration": "$ar~",
+    "frequency": 30,
+    "type": "Noun"
+  },
+  {
+    "id": "quw~ap_30",
+    "arabic": "قُوَّة",
+    "transliteration": "quw~ap",
+    "frequency": 30,
+    "type": "Noun"
+  },
+  {
+    "id": "mala&gt;_30",
+    "arabic": "مَلَأ",
+    "transliteration": "mala&gt;",
+    "frequency": 30,
+    "type": "Noun"
+  },
+  {
+    "id": "jund_29",
+    "arabic": "جُند",
+    "transliteration": "jund",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "rajul_29",
+    "arabic": "رَجُل",
+    "transliteration": "rajul",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "riyH_29",
+    "arabic": "رِيح",
+    "transliteration": "riyH",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "Earo$_29",
+    "arabic": "عَرْش",
+    "transliteration": "Earo$",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "Eahod_29",
+    "arabic": "عَهْد",
+    "transliteration": "Eahod",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "gafuwr_29",
+    "arabic": "غَفُور",
+    "transliteration": "gafuwr",
+    "frequency": 29,
+    "type": "Adjective"
+  },
+  {
+    "id": "ka&gt;an~_29",
+    "arabic": "كَأَنّ",
+    "transliteration": "ka&gt;an~",
+    "frequency": 29,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "naba&gt;_29",
+    "arabic": "نَبَأ",
+    "transliteration": "naba&gt;",
+    "frequency": 29,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;abadFA_28",
+    "arabic": "أَبَدًا",
+    "transliteration": "&gt;abadFA",
+    "frequency": 28,
+    "type": "Time adverb"
+  },
+  {
+    "id": "&gt;a$ad~_28",
+    "arabic": "أَشَدّ",
+    "transliteration": "&gt;a$ad~",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "Hadiyv_28",
+    "arabic": "حَدِيث",
+    "transliteration": "Hadiyv",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "*ur~iy~ap_28",
+    "arabic": "ذُرِّيَّة",
+    "transliteration": "*ur~iy~ap",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "rijaAl_28",
+    "arabic": "رِجَال",
+    "transliteration": "rijaAl",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "siHor_28",
+    "arabic": "سِحْر",
+    "transliteration": "siHor",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "kariym_28",
+    "arabic": "كَرِيم",
+    "transliteration": "kariym",
+    "frequency": 28,
+    "type": "Adjective"
+  },
+  {
+    "id": "kalimap_28",
+    "arabic": "كَلِمَة",
+    "transliteration": "kalimap",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "masojid_28",
+    "arabic": "مَسْجِد",
+    "transliteration": "masojid",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "maSiyr_28",
+    "arabic": "مَصِير",
+    "transliteration": "maSiyr",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "m~agofirap_28",
+    "arabic": "مَّغْفِرَة",
+    "transliteration": "m~agofirap",
+    "frequency": 28,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;an~aY`_27",
+    "arabic": "أَنَّىٰ",
+    "transliteration": "&gt;an~aY`",
+    "frequency": 27,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "baAb_27",
+    "arabic": "بَاب",
+    "transliteration": "baAb",
+    "frequency": 27,
+    "type": "Noun"
+  },
+  {
+    "id": "ga`fil_27",
+    "arabic": "غَٰفِل",
+    "transliteration": "ga`fil",
+    "frequency": 27,
+    "type": "Noun"
+  },
+  {
+    "id": "qaliyl_27",
+    "arabic": "قَلِيل",
+    "transliteration": "qaliyl",
+    "frequency": 27,
+    "type": "Adjective"
+  },
+  {
+    "id": "qamar_27",
+    "arabic": "قَمَر",
+    "transliteration": "qamar",
+    "frequency": 27,
+    "type": "Noun"
+  },
+  {
+    "id": "kaAfir_27",
+    "arabic": "كَافِر",
+    "transliteration": "kaAfir",
+    "frequency": 27,
+    "type": "Noun"
+  },
+  {
+    "id": "luwT_27",
+    "arabic": "لُوط",
+    "transliteration": "luwT",
+    "frequency": 27,
+    "type": "Proper noun"
+  },
+  {
+    "id": "muna`fiquwn_27",
+    "arabic": "مُنَٰفِقُون",
+    "transliteration": "muna`fiquwn",
+    "frequency": 27,
+    "type": "Noun"
+  },
+  {
+    "id": "yuwsuf_27",
+    "arabic": "يُوسُف",
+    "transliteration": "yuwsuf",
+    "frequency": 27,
+    "type": "Proper noun"
+  },
+  {
+    "id": "A^xar_26",
+    "arabic": "آخَر",
+    "transliteration": "A^xar",
+    "frequency": 26,
+    "type": "Adjective"
+  },
+  {
+    "id": "&gt;ajomaEiyn_26",
+    "arabic": "أَجْمَعِين",
+    "transliteration": "&gt;ajomaEiyn",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "{mora&gt;at_26",
+    "arabic": "ٱمْرَأَت",
+    "transliteration": "{mora&gt;at",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "ba`Til_26",
+    "arabic": "بَٰطِل",
+    "transliteration": "ba`Til",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "vamuwd_26",
+    "arabic": "ثَمُود",
+    "transliteration": "vamuwd",
+    "frequency": 26,
+    "type": "Proper noun"
+  },
+  {
+    "id": "jaHiym_26",
+    "arabic": "جَحِيم",
+    "transliteration": "jaHiym",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "xawof_26",
+    "arabic": "خَوْف",
+    "transliteration": "xawof",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "sawaA^'_26",
+    "arabic": "سَوَآء",
+    "transliteration": "sawaA^'",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "kayod_26",
+    "arabic": "كَيْد",
+    "transliteration": "kayod",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "maA*aA_26",
+    "arabic": "مَاذَا",
+    "transliteration": "maA*aA",
+    "frequency": 26,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "'aAl_26",
+    "arabic": "ءَال",
+    "transliteration": "'aAl",
+    "frequency": 26,
+    "type": "Noun"
+  },
+  {
+    "id": "A^dam_25",
+    "arabic": "آدَم",
+    "transliteration": "A^dam",
+    "frequency": 25,
+    "type": "Proper noun"
+  },
+  {
+    "id": "ba&gt;os_25",
+    "arabic": "بَأْس",
+    "transliteration": "ba&gt;os",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "junaAH_25",
+    "arabic": "جُنَاح",
+    "transliteration": "junaAH",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "Hasanap_25",
+    "arabic": "حَسَنَة",
+    "transliteration": "Hasanap",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "EiysaY_25",
+    "arabic": "عِيسَى",
+    "transliteration": "EiysaY",
+    "frequency": 25,
+    "type": "Proper noun"
+  },
+  {
+    "id": "fawoq_25",
+    "arabic": "فَوْق",
+    "transliteration": "fawoq",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "lisaAn_25",
+    "arabic": "لِسَان",
+    "transliteration": "lisaAn",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "m~akaAn_25",
+    "arabic": "مَّكَان",
+    "transliteration": "m~akaAn",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "m~iyva`q_25",
+    "arabic": "مِّيثَٰق",
+    "transliteration": "m~iyva`q",
+    "frequency": 25,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;unvaY`_24",
+    "arabic": "أُنثَىٰ",
+    "transliteration": "&gt;unvaY`",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aY~_24",
+    "arabic": "أَىّ",
+    "transliteration": "&gt;aY~",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;iy~aA_24",
+    "arabic": "إِيَّا",
+    "transliteration": "&lt;iy~aA",
+    "frequency": 24,
+    "type": "Personal pronoun"
+  },
+  {
+    "id": "TaEaAm_24",
+    "arabic": "طَعَام",
+    "transliteration": "TaEaAm",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "ZaAlim_24",
+    "arabic": "ظَالِم",
+    "transliteration": "ZaAlim",
+    "frequency": 24,
+    "type": "Adjective"
+  },
+  {
+    "id": "EaAd2_24",
+    "arabic": "عَاد",
+    "transliteration": "EaAd2",
+    "frequency": 24,
+    "type": "Proper noun"
+  },
+  {
+    "id": "faAsiq_24",
+    "arabic": "فَاسِق",
+    "transliteration": "faAsiq",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "liqaA^'_24",
+    "arabic": "لِقَآء",
+    "transliteration": "liqaA^'",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "musolim_24",
+    "arabic": "مُسْلِم",
+    "transliteration": "musolim",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "wa`Hid_24",
+    "arabic": "وَٰحِد",
+    "transliteration": "wa`Hid",
+    "frequency": 24,
+    "type": "Adjective"
+  },
+  {
+    "id": "wakiyl_24",
+    "arabic": "وَكِيل",
+    "transliteration": "wakiyl",
+    "frequency": 24,
+    "type": "Noun"
+  },
+  {
+    "id": "bayon_23",
+    "arabic": "بَيْن",
+    "transliteration": "bayon",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "Hay~_23",
+    "arabic": "حَيّ",
+    "transliteration": "Hay~",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "xabiyr_23",
+    "arabic": "خَبِير",
+    "transliteration": "xabiyr",
+    "frequency": 23,
+    "type": "Adjective"
+  },
+  {
+    "id": "*ikoraY`_23",
+    "arabic": "ذِكْرَىٰ",
+    "transliteration": "*ikoraY`",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "$aha`dap_23",
+    "arabic": "شَهَٰدَة",
+    "transliteration": "$aha`dap",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "TaA^}ifap_23",
+    "arabic": "طَآئِفَة",
+    "transliteration": "TaA^}ifap",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "fulok_23",
+    "arabic": "فُلْك",
+    "transliteration": "fulok",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "qaron_23",
+    "arabic": "قَرْن",
+    "transliteration": "qaron",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "maA_23",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 23,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "m~usotaqiym_23",
+    "arabic": "مُّسْتَقِيم",
+    "transliteration": "m~usotaqiym",
+    "frequency": 23,
+    "type": "Noun"
+  },
+  {
+    "id": "{l~a*iY_22",
+    "arabic": "ٱلَّذِى",
+    "transliteration": "{l~a*iY",
+    "frequency": 22,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "&lt;im~aA_22",
+    "arabic": "إِمَّا",
+    "transliteration": "&lt;im~aA",
+    "frequency": 22,
+    "type": "Explanation particle"
+  },
+  {
+    "id": "balaY`_22",
+    "arabic": "بَلَىٰ",
+    "transliteration": "balaY`",
+    "frequency": 22,
+    "type": "Answer particle"
+  },
+  {
+    "id": "jin~_22",
+    "arabic": "جِنّ",
+    "transliteration": "jin~",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "xabiyr_22",
+    "arabic": "خَبِير",
+    "transliteration": "xabiyr",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "duEaA^'_22",
+    "arabic": "دُعَآء",
+    "transliteration": "duEaA^'",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "sa`Hir_22",
+    "arabic": "سَٰحِر",
+    "transliteration": "sa`Hir",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "saboE_22",
+    "arabic": "سَبْع",
+    "transliteration": "saboE",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "samoE_22",
+    "arabic": "سَمْع",
+    "transliteration": "samoE",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "Zuluma`t_22",
+    "arabic": "ظُلُمَٰت",
+    "transliteration": "Zuluma`t",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "ma&gt;owaY`_22",
+    "arabic": "مَأْوَىٰ",
+    "transliteration": "ma&gt;owaY`",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "misokiyn_22",
+    "arabic": "مِسْكِين",
+    "transliteration": "misokiyn",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "naSor_22",
+    "arabic": "نَصْر",
+    "transliteration": "naSor",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "wa`Hidap_22",
+    "arabic": "وَٰحِدَة",
+    "transliteration": "wa`Hidap",
+    "frequency": 22,
+    "type": "Noun"
+  },
+  {
+    "id": "A^xir_21",
+    "arabic": "آخِر",
+    "transliteration": "A^xir",
+    "frequency": 21,
+    "type": "Adjective"
+  },
+  {
+    "id": "bar~_21",
+    "arabic": "بَرّ",
+    "transliteration": "bar~",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "ruwH_21",
+    "arabic": "رُوح",
+    "transliteration": "ruwH",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "say~i}ap_21",
+    "arabic": "سَيِّئَة",
+    "transliteration": "say~i}ap",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "$ahor_21",
+    "arabic": "شَهْر",
+    "transliteration": "$ahor",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "Tay~iba`t_21",
+    "arabic": "طَيِّبَٰت",
+    "transliteration": "Tay~iba`t",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "Zan~_21",
+    "arabic": "ظَنّ",
+    "transliteration": "Zan~",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "kaviyr_21",
+    "arabic": "كَثِير",
+    "transliteration": "kaviyr",
+    "frequency": 21,
+    "type": "Adjective"
+  },
+  {
+    "id": "mufosid_21",
+    "arabic": "مُفْسِد",
+    "transliteration": "mufosid",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "m~uka*~ibiyn_21",
+    "arabic": "مُّكَذِّبِين",
+    "transliteration": "m~uka*~ibiyn",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "naSiyb_21",
+    "arabic": "نَصِيب",
+    "transliteration": "naSiyb",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "yatiym_21",
+    "arabic": "يَتِيم",
+    "transliteration": "yatiym",
+    "frequency": 21,
+    "type": "Noun"
+  },
+  {
+    "id": "baSiyr_20",
+    "arabic": "بَصِير",
+    "transliteration": "baSiyr",
+    "frequency": 20,
+    "type": "Adjective"
+  },
+  {
+    "id": "baEiyd_20",
+    "arabic": "بَعِيد",
+    "transliteration": "baEiyd",
+    "frequency": 20,
+    "type": "Adjective"
+  },
+  {
+    "id": "Hizob_20",
+    "arabic": "حِزْب",
+    "transliteration": "Hizob",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "Hasan_20",
+    "arabic": "حَسَن",
+    "transliteration": "Hasan",
+    "frequency": 20,
+    "type": "Adjective"
+  },
+  {
+    "id": "Hikomap_20",
+    "arabic": "حِكْمَة",
+    "transliteration": "Hikomap",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "$adiyd_20",
+    "arabic": "شَدِيد",
+    "transliteration": "$adiyd",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "Zulom_20",
+    "arabic": "ظُلْم",
+    "transliteration": "Zulom",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "EiqaAb_20",
+    "arabic": "عِقَاب",
+    "transliteration": "EiqaAb",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "ganiY~_20",
+    "arabic": "غَنِىّ",
+    "transliteration": "ganiY~",
+    "frequency": 20,
+    "type": "Noun"
+  },
+  {
+    "id": "kam_20",
+    "arabic": "كَم",
+    "transliteration": "kam",
+    "frequency": 20,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "laday_20",
+    "arabic": "لَدَي",
+    "transliteration": "laday",
+    "frequency": 20,
+    "type": "Location adverb"
+  },
+  {
+    "id": "ha`ruwn_20",
+    "arabic": "هَٰرُون",
+    "transliteration": "ha`ruwn",
+    "frequency": 20,
+    "type": "Proper noun"
+  },
+  {
+    "id": "&gt;aw~al_19",
+    "arabic": "أَوَّل",
+    "transliteration": "&gt;aw~al",
+    "frequency": 19,
+    "type": "Adjective"
+  },
+  {
+    "id": "ziynap_19",
+    "arabic": "زِينَة",
+    "transliteration": "ziynap",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "$aAhid_19",
+    "arabic": "شَاهِد",
+    "transliteration": "$aAhid",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "$ajarap_19",
+    "arabic": "شَجَرَة",
+    "transliteration": "$ajarap",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "SaAbir_19",
+    "arabic": "صَابِر",
+    "transliteration": "SaAbir",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "Dur~_19",
+    "arabic": "ضُرّ",
+    "transliteration": "Dur~",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "Tayor_19",
+    "arabic": "طَيْر",
+    "transliteration": "Tayor",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "fawoz_19",
+    "arabic": "فَوْز",
+    "transliteration": "fawoz",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "mar~ap_19",
+    "arabic": "مَرَّة",
+    "transliteration": "mar~ap",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "m~uEoriDuwn_19",
+    "arabic": "مُّعْرِضُون",
+    "transliteration": "m~uEoriDuwn",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "makor_19",
+    "arabic": "مَكْر",
+    "transliteration": "makor",
+    "frequency": 19,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;i*FA_18",
+    "arabic": "إِذًا",
+    "transliteration": "&lt;i*FA",
+    "frequency": 18,
+    "type": "Surprise particle"
+  },
+  {
+    "id": "&gt;u*unN_18",
+    "arabic": "أُذُنٌ",
+    "transliteration": "&gt;u*unN",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aEomaY`_18",
+    "arabic": "أَعْمَىٰ",
+    "transliteration": "&gt;aEomaY`",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;ins_18",
+    "arabic": "إِنس",
+    "transliteration": "&lt;ins",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "t~aworaY`p_18",
+    "arabic": "تَّوْرَىٰة",
+    "transliteration": "t~aworaY`p",
+    "frequency": 18,
+    "type": "Proper noun"
+  },
+  {
+    "id": "daA^b~ap_18",
+    "arabic": "دَآبَّة",
+    "transliteration": "daA^b~ap",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "dubur_18",
+    "arabic": "دُبُر",
+    "transliteration": "dubur",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "darajap_18",
+    "arabic": "دَرَجَة",
+    "transliteration": "darajap",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "*aA_18",
+    "arabic": "ذَا",
+    "transliteration": "*aA",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "*akar_18",
+    "arabic": "ذَكَر",
+    "transliteration": "*akar",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "ra&gt;os_18",
+    "arabic": "رَأْس",
+    "transliteration": "ra&gt;os",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "rayob_18",
+    "arabic": "رَيْب",
+    "transliteration": "rayob",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "saAjid_18",
+    "arabic": "سَاجِد",
+    "transliteration": "saAjid",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "Ea`lim_18",
+    "arabic": "عَٰلِم",
+    "transliteration": "Ea`lim",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "munkar_18",
+    "arabic": "مُنكَر",
+    "transliteration": "munkar",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "mawolaY`_18",
+    "arabic": "مَوْلَىٰ",
+    "transliteration": "mawolaY`",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "m~u&omina`t_18",
+    "arabic": "مُّؤْمِنَٰت",
+    "transliteration": "m~u&omina`t",
+    "frequency": 18,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;isoHaAq_17",
+    "arabic": "إِسْحَاق",
+    "transliteration": "&lt;isoHaAq",
+    "frequency": 17,
+    "type": "Proper noun"
+  },
+  {
+    "id": "&gt;aqorab_17",
+    "arabic": "أَقْرَب",
+    "transliteration": "&gt;aqorab",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;ahowaA^'_17",
+    "arabic": "أَهْوَآء",
+    "transliteration": "&gt;ahowaA^'",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "baTon_17",
+    "arabic": "بَطْن",
+    "transliteration": "baTon",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "banaAt_17",
+    "arabic": "بَنَات",
+    "transliteration": "banaAt",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "ta&gt;owiyl_17",
+    "arabic": "تَأْوِيل",
+    "transliteration": "ta&gt;owiyl",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "turaAb_17",
+    "arabic": "تُرَاب",
+    "transliteration": "turaAb",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "taqowaY_17",
+    "arabic": "تَقْوَى",
+    "transliteration": "taqowaY",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "HaraAm_17",
+    "arabic": "حَرَام",
+    "transliteration": "HaraAm",
+    "frequency": 17,
+    "type": "Adjective"
+  },
+  {
+    "id": "xalof_17",
+    "arabic": "خَلْف",
+    "transliteration": "xalof",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "sulayoma`n_17",
+    "arabic": "سُلَيْمَٰن",
+    "transliteration": "sulayoma`n",
+    "frequency": 17,
+    "type": "Proper noun"
+  },
+  {
+    "id": "fa`Hi$ap_17",
+    "arabic": "فَٰحِشَة",
+    "transliteration": "fa`Hi$ap",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "qaA^}im_17",
+    "arabic": "قَآئِم",
+    "transliteration": "qaA^}im",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "l~adun_17",
+    "arabic": "لَّدُن",
+    "transliteration": "l~adun",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "m~uhotaduwn_17",
+    "arabic": "مُّهْتَدُون",
+    "transliteration": "m~uhotaduwn",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "naEiym_17",
+    "arabic": "نَعِيم",
+    "transliteration": "naEiym",
+    "frequency": 17,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aZolam_16",
+    "arabic": "أَظْلَم",
+    "transliteration": "&gt;aZolam",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aEolam_16",
+    "arabic": "أَعْلَم",
+    "transliteration": "&gt;aEolam",
+    "frequency": 16,
+    "type": "Adjective"
+  },
+  {
+    "id": "&gt;aloba`b_16",
+    "arabic": "أَلْبَٰب",
+    "transliteration": "&gt;aloba`b",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "bay~inap_16",
+    "arabic": "بَيِّنَة",
+    "transliteration": "bay~inap",
+    "frequency": 16,
+    "type": "Adjective"
+  },
+  {
+    "id": "vamara`t_16",
+    "arabic": "ثَمَرَٰت",
+    "transliteration": "vamara`t",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "HaraAm_16",
+    "arabic": "حَرَام",
+    "transliteration": "HaraAm",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "Hamiyd_16",
+    "arabic": "حَمِيد",
+    "transliteration": "Hamiyd",
+    "frequency": 16,
+    "type": "Adjective"
+  },
+  {
+    "id": "Hayov_16",
+    "arabic": "حَيْث",
+    "transliteration": "Hayov",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "daAwud_16",
+    "arabic": "دَاوُد",
+    "transliteration": "daAwud",
+    "frequency": 16,
+    "type": "Proper noun"
+  },
+  {
+    "id": "saEiyr_16",
+    "arabic": "سَعِير",
+    "transliteration": "saEiyr",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "sun~ap_16",
+    "arabic": "سُنَّة",
+    "transliteration": "sun~ap",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "$ahiyd_16",
+    "arabic": "شَهِيد",
+    "transliteration": "$ahiyd",
+    "frequency": 16,
+    "type": "Adjective"
+  },
+  {
+    "id": "EaZiym_16",
+    "arabic": "عَظِيم",
+    "transliteration": "EaZiym",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "fu&aAd_16",
+    "arabic": "فُؤَاد",
+    "transliteration": "fu&aAd",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "fawoq_16",
+    "arabic": "فَوْق",
+    "transliteration": "fawoq",
+    "frequency": 16,
+    "type": "Location adverb"
+  },
+  {
+    "id": "qurobaY`_16",
+    "arabic": "قُرْبَىٰ",
+    "transliteration": "qurobaY`",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "law_16",
+    "arabic": "لَو",
+    "transliteration": "law",
+    "frequency": 16,
+    "type": "Subordinating conjunction"
+  },
+  {
+    "id": "marojiE_16",
+    "arabic": "مَرْجِع",
+    "transliteration": "marojiE",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "m~usam~FY_16",
+    "arabic": "مُّسَمًّى",
+    "transliteration": "m~usam~FY",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "miyzaAn_16",
+    "arabic": "مِيزَان",
+    "transliteration": "miyzaAn",
+    "frequency": 16,
+    "type": "Noun"
+  },
+  {
+    "id": "yaEoquwb_16",
+    "arabic": "يَعْقُوب",
+    "transliteration": "yaEoquwb",
+    "frequency": 16,
+    "type": "Proper noun"
+  },
+  {
+    "id": "bu$oraY`_15",
+    "arabic": "بُشْرَىٰ",
+    "transliteration": "bu$oraY`",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "bala`g_15",
+    "arabic": "بَلَٰغ",
+    "transliteration": "bala`g",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "tanziyl_15",
+    "arabic": "تَنزِيل",
+    "transliteration": "tanziyl",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "rijol_15",
+    "arabic": "رِجْل",
+    "transliteration": "rijol",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "$ak~_15",
+    "arabic": "شَكّ",
+    "transliteration": "$ak~",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "Sabor_15",
+    "arabic": "صَبْر",
+    "transliteration": "Sabor",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "Zahor_15",
+    "arabic": "ظَهْر",
+    "transliteration": "Zahor",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "qariyb_15",
+    "arabic": "قَرِيب",
+    "transliteration": "qariyb",
+    "frequency": 15,
+    "type": "Adjective"
+  },
+  {
+    "id": "qisoT_15",
+    "arabic": "قِسْط",
+    "transliteration": "qisoT",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "kul~amaA_15",
+    "arabic": "كُلَّمَا",
+    "transliteration": "kul~amaA",
+    "frequency": 15,
+    "type": "Time adverb"
+  },
+  {
+    "id": "muSad~iq_15",
+    "arabic": "مُصَدِّق",
+    "transliteration": "muSad~iq",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "mil~ap_15",
+    "arabic": "مِلَّة",
+    "transliteration": "mil~ap",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "mun*ir_15",
+    "arabic": "مُنذِر",
+    "transliteration": "mun*ir",
+    "frequency": 15,
+    "type": "Noun"
+  },
+  {
+    "id": "naSoraAniy~_15",
+    "arabic": "نَصْرَانِيّ",
+    "transliteration": "naSoraAniy~",
+    "frequency": 15,
+    "type": "Proper noun"
+  },
+  {
+    "id": "{botigaA^'_14",
+    "arabic": "ٱبْتِغَآء",
+    "transliteration": "{botigaA^'",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;avar_14",
+    "arabic": "أَثَر",
+    "transliteration": "&gt;avar",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;uxot_14",
+    "arabic": "أُخْت",
+    "transliteration": "&gt;uxot",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;i*aA2_14",
+    "arabic": "إِذَا",
+    "transliteration": "&lt;i*aA2",
+    "frequency": 14,
+    "type": "Surprise particle"
+  },
+  {
+    "id": "&gt;alof_14",
+    "arabic": "أَلْف",
+    "transliteration": "&gt;alof",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;amiyn_14",
+    "arabic": "أَمِين",
+    "transliteration": "&gt;amiyn",
+    "frequency": 14,
+    "type": "Adjective"
+  },
+  {
+    "id": "balad_14",
+    "arabic": "بَلَد",
+    "transliteration": "balad",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Huduwd_14",
+    "arabic": "حُدُود",
+    "transliteration": "Huduwd",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Haraj_14",
+    "arabic": "حَرَج",
+    "transliteration": "Haraj",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Hamiym_14",
+    "arabic": "حَمِيم",
+    "transliteration": "Hamiym",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "xaA$iE_14",
+    "arabic": "خَاشِع",
+    "transliteration": "xaA$iE",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "$aAkir_14",
+    "arabic": "شَاكِر",
+    "transliteration": "$aAkir",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Sidoq_14",
+    "arabic": "صِدْق",
+    "transliteration": "Sidoq",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Zil~_14",
+    "arabic": "ظِلّ",
+    "transliteration": "Zil~",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "Eadol_14",
+    "arabic": "عَدْل",
+    "transliteration": "Eadol",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "gaDab_14",
+    "arabic": "غَضَب",
+    "transliteration": "gaDab",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "qaAdir_14",
+    "arabic": "قَادِر",
+    "transliteration": "qaAdir",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "kalima`t_14",
+    "arabic": "كَلِمَٰت",
+    "transliteration": "kalima`t",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "laEonap_14",
+    "arabic": "لَعْنَة",
+    "transliteration": "laEonap",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "layot_14",
+    "arabic": "لَيْت",
+    "transliteration": "layot",
+    "frequency": 14,
+    "type": "Accusative particle"
+  },
+  {
+    "id": "m~usotaqiym_14",
+    "arabic": "مُّسْتَقِيم",
+    "transliteration": "m~usotaqiym",
+    "frequency": 14,
+    "type": "Adjective"
+  },
+  {
+    "id": "musolim_14",
+    "arabic": "مُسْلِم",
+    "transliteration": "musolim",
+    "frequency": 14,
+    "type": "Proper noun"
+  },
+  {
+    "id": "maqaAm_14",
+    "arabic": "مَقَام",
+    "transliteration": "maqaAm",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "waAlid_14",
+    "arabic": "وَالِد",
+    "transliteration": "waAlid",
+    "frequency": 14,
+    "type": "Noun"
+  },
+  {
+    "id": "{vonayon_13",
+    "arabic": "ٱثْنَيْن",
+    "transliteration": "{vonayon",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;i*FA_13",
+    "arabic": "إِذًا",
+    "transliteration": "&lt;i*FA",
+    "frequency": 13,
+    "type": "Answer particle"
+  },
+  {
+    "id": "&gt;akobar_13",
+    "arabic": "أَكْبَر",
+    "transliteration": "&gt;akobar",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "bagotap_13",
+    "arabic": "بَغْتَة",
+    "transliteration": "bagotap",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "vawaAb_13",
+    "arabic": "ثَوَاب",
+    "transliteration": "vawaAb",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "jamoE_13",
+    "arabic": "جَمْع",
+    "transliteration": "jamoE",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Ha`fiZ_13",
+    "arabic": "حَٰفِظ",
+    "transliteration": "Ha`fiZ",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Harov_13",
+    "arabic": "حَرْث",
+    "transliteration": "Harov",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Huson_13",
+    "arabic": "حُسْن",
+    "transliteration": "Huson",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Hakiym_13",
+    "arabic": "حَكِيم",
+    "transliteration": "Hakiym",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Hawol_13",
+    "arabic": "حَوْل",
+    "transliteration": "Hawol",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "Hayov_13",
+    "arabic": "حَيْث",
+    "transliteration": "Hayov",
+    "frequency": 13,
+    "type": "Location adverb"
+  },
+  {
+    "id": "riDowa`n_13",
+    "arabic": "رِضْوَٰن",
+    "transliteration": "riDowa`n",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "$afa`Eap_13",
+    "arabic": "شَفَٰعَة",
+    "transliteration": "$afa`Eap",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "SayoHap_13",
+    "arabic": "صَيْحَة",
+    "transliteration": "SayoHap",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "gaAlib_13",
+    "arabic": "غَالِب",
+    "transliteration": "gaAlib",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "gula`m_13",
+    "arabic": "غُلَٰم",
+    "transliteration": "gula`m",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "faAsiq_13",
+    "arabic": "فَاسِق",
+    "transliteration": "faAsiq",
+    "frequency": 13,
+    "type": "Adjective"
+  },
+  {
+    "id": "qitaAl_13",
+    "arabic": "قِتَال",
+    "transliteration": "qitaAl",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "maA_13",
+    "arabic": "مَا",
+    "transliteration": "maA",
+    "frequency": 13,
+    "type": "Supplemental particle"
+  },
+  {
+    "id": "mavowFY_13",
+    "arabic": "مَثْوًى",
+    "transliteration": "mavowFY",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "m~araD_13",
+    "arabic": "مَّرَض",
+    "transliteration": "m~araD",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "mufoliHuwn_13",
+    "arabic": "مُفْلِحُون",
+    "transliteration": "mufoliHuwn",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "malik_13",
+    "arabic": "مَلِك",
+    "transliteration": "malik",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "n~ajom_13",
+    "arabic": "نَّجْم",
+    "transliteration": "n~ajom",
+    "frequency": 13,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;iHosa`n_12",
+    "arabic": "إِحْسَٰن",
+    "transliteration": "&lt;iHosa`n",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aroHaAm_12",
+    "arabic": "أَرْحَام",
+    "transliteration": "&gt;aroHaAm",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;isomaAEiyl_12",
+    "arabic": "إِسْمَاعِيل",
+    "transliteration": "&lt;isomaAEiyl",
+    "frequency": 12,
+    "type": "Proper noun"
+  },
+  {
+    "id": "&gt;aSam~_12",
+    "arabic": "أَصَمّ",
+    "transliteration": "&gt;aSam~",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;afowa`h_12",
+    "arabic": "أَفْوَٰه",
+    "transliteration": "&gt;afowa`h",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;imaAm_12",
+    "arabic": "إِمَام",
+    "transliteration": "&lt;imaAm",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;injiyl_12",
+    "arabic": "إِنجِيل",
+    "transliteration": "&lt;injiyl",
+    "frequency": 12,
+    "type": "Proper noun"
+  },
+  {
+    "id": "&gt;ayon_12",
+    "arabic": "أَيْن",
+    "transliteration": "&gt;ayon",
+    "frequency": 12,
+    "type": "Interogative particle"
+  },
+  {
+    "id": "vala`vap_12",
+    "arabic": "ثَلَٰثَة",
+    "transliteration": "vala`vap",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "Haniyf_12",
+    "arabic": "حَنِيف",
+    "transliteration": "Haniyf",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "r~aHoma`n_12",
+    "arabic": "رَّحْمَٰن",
+    "transliteration": "r~aHoma`n",
+    "frequency": 12,
+    "type": "Adjective"
+  },
+  {
+    "id": "Tiyn_12",
+    "arabic": "طِين",
+    "transliteration": "Tiyn",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "Ea`mil_12",
+    "arabic": "عَٰمِل",
+    "transliteration": "Ea`mil",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "fatoH_12",
+    "arabic": "فَتْح",
+    "transliteration": "fatoH",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "laHom_12",
+    "arabic": "لَحْم",
+    "transliteration": "laHom",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "musorif_12",
+    "arabic": "مُسْرِف",
+    "transliteration": "musorif",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "masokan_12",
+    "arabic": "مَسْكَن",
+    "transliteration": "masokan",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "muEojiz_12",
+    "arabic": "مُعْجِز",
+    "transliteration": "muEojiz",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "m~awoEid_12",
+    "arabic": "مَّوْعِد",
+    "transliteration": "m~awoEid",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "n~uTofap_12",
+    "arabic": "نُّطْفَة",
+    "transliteration": "n~uTofap",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "waraA^'_12",
+    "arabic": "وَرَآء",
+    "transliteration": "waraA^'",
+    "frequency": 12,
+    "type": "Location adverb"
+  },
+  {
+    "id": "waraA^'_12",
+    "arabic": "وَرَآء",
+    "transliteration": "waraA^'",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "wizor_12",
+    "arabic": "وِزْر",
+    "transliteration": "wizor",
+    "frequency": 12,
+    "type": "Noun"
+  },
+  {
+    "id": "&lt;iboliys_11",
+    "arabic": "إِبْلِيس",
+    "transliteration": "&lt;iboliys",
+    "frequency": 11,
+    "type": "Proper noun"
+  },
+  {
+    "id": "&lt;iHodaY_11",
+    "arabic": "إِحْدَى",
+    "transliteration": "&lt;iHodaY",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;akobar_11",
+    "arabic": "أَكْبَر",
+    "transliteration": "&gt;akobar",
+    "frequency": 11,
+    "type": "Adjective"
+  },
+  {
+    "id": "&gt;am~aA_11",
+    "arabic": "أَمَّا",
+    "transliteration": "&gt;am~aA",
+    "frequency": 11,
+    "type": "Conditional particle"
+  },
+  {
+    "id": "bariY^'_11",
+    "arabic": "بَرِىٓء",
+    "transliteration": "bariY^'",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "bagoy_11",
+    "arabic": "بَغْي",
+    "transliteration": "bagoy",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "taw~aAb_11",
+    "arabic": "تَوَّاب",
+    "transliteration": "taw~aAb",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "vaman_11",
+    "arabic": "ثَمَن",
+    "transliteration": "vaman",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "Hasob_11",
+    "arabic": "حَسْب",
+    "transliteration": "Hasob",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "Haliym_11",
+    "arabic": "حَلِيم",
+    "transliteration": "Haliym",
+    "frequency": 11,
+    "type": "Adjective"
+  },
+  {
+    "id": "xa`liq_11",
+    "arabic": "خَٰلِق",
+    "transliteration": "xa`liq",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "xizoY_11",
+    "arabic": "خِزْى",
+    "transliteration": "xizoY",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "sir~_11",
+    "arabic": "سِرّ",
+    "transliteration": "sir~",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "siniyn_11",
+    "arabic": "سِنِين",
+    "transliteration": "siniyn",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "$araAb_11",
+    "arabic": "شَرَاب",
+    "transliteration": "$araAb",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "$uEayob_11",
+    "arabic": "شُعَيْب",
+    "transliteration": "$uEayob",
+    "frequency": 11,
+    "type": "Proper noun"
+  },
+  {
+    "id": "$iyEap_11",
+    "arabic": "شِيعَة",
+    "transliteration": "$iyEap",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "DaA^l~_11",
+    "arabic": "ضَآلّ",
+    "transliteration": "DaA^l~",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "Eadon_11",
+    "arabic": "عَدْن",
+    "transliteration": "Eadon",
+    "frequency": 11,
+    "type": "Proper noun"
+  },
+  {
+    "id": "Eid~ap_11",
+    "arabic": "عِدَّة",
+    "transliteration": "Eid~ap",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "Eiz~ap_11",
+    "arabic": "عِزَّة",
+    "transliteration": "Eiz~ap",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "Einab_11",
+    "arabic": "عِنَب",
+    "transliteration": "Einab",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "fa`kihap_11",
+    "arabic": "فَٰكِهَة",
+    "transliteration": "fa`kihap",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "fasaAd_11",
+    "arabic": "فَسَاد",
+    "transliteration": "fasaAd",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "qadar_11",
+    "arabic": "قَدَر",
+    "transliteration": "qadar",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "qariyb_11",
+    "arabic": "قَرِيب",
+    "transliteration": "qariyb",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "kaviyrap_11",
+    "arabic": "كَثِيرَة",
+    "transliteration": "kaviyrap",
+    "frequency": 11,
+    "type": "Adjective"
+  },
+  {
+    "id": "majonuwn_11",
+    "arabic": "مَجْنُون",
+    "transliteration": "majonuwn",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "muxoliS_11",
+    "arabic": "مُخْلِص",
+    "transliteration": "muxoliS",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "masiyH_11",
+    "arabic": "مَسِيح",
+    "transliteration": "masiyH",
+    "frequency": 11,
+    "type": "Proper noun"
+  },
+  {
+    "id": "ma$oriq_11",
+    "arabic": "مَشْرِق",
+    "transliteration": "ma$oriq",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "naASir_11",
+    "arabic": "نَاصِر",
+    "transliteration": "naASir",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "najowaY`^_11",
+    "arabic": "نَجْوَىٰٓ",
+    "transliteration": "najowaY`^",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "naxol_11",
+    "arabic": "نَخْل",
+    "transliteration": "naxol",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "nafoE_11",
+    "arabic": "نَفْع",
+    "transliteration": "nafoE",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "huzuw_11",
+    "arabic": "هُزُو",
+    "transliteration": "huzuw",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "hawaA^'_11",
+    "arabic": "هَوَآء",
+    "transliteration": "hawaA^'",
+    "frequency": 11,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;adonaY`_10",
+    "arabic": "أَدْنَىٰ",
+    "transliteration": "&gt;adonaY`",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "&gt;aEoraAb_10",
+    "arabic": "أَعْرَاب",
+    "transliteration": "&gt;aEoraAb",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "jaAhil_10",
+    "arabic": "جَاهِل",
+    "transliteration": "jaAhil",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "jin~ap_10",
+    "arabic": "جِنَّة",
+    "transliteration": "jin~ap",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "HijaArap_10",
+    "arabic": "حِجَارَة",
+    "transliteration": "HijaArap",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "HusonaY`_10",
+    "arabic": "حُسْنَىٰ",
+    "transliteration": "HusonaY`",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "xayora`t_10",
+    "arabic": "خَيْرَٰت",
+    "transliteration": "xayora`t",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "dam_10",
+    "arabic": "دَم",
+    "transliteration": "dam",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "rijos_10",
+    "arabic": "رِجْس",
+    "transliteration": "rijos",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "rawa`siY_10",
+    "arabic": "رَوَٰسِى",
+    "transliteration": "rawa`siY",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "ra'uwf_10",
+    "arabic": "رَءُوف",
+    "transliteration": "ra'uwf",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "zaroE_10",
+    "arabic": "زَرْع",
+    "transliteration": "zaroE",
+    "frequency": 10,
+    "type": "Noun"
+  },
+  {
+    "id": "saEoy_10",
+    "arabic": "سَعْي",
+    "transliteration": "saEoy",
+    "frequency": 10,
+    "type": "Noun"
+  }
+]

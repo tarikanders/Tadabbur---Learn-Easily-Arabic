@@ -1,0 +1,6 @@
+{
+  "name": "Tadabbur",
+  "description": "Application web interactive d'apprentissage de l'arabe coranique",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "min_3226",
+    "arabic": "مِن",
+    "trans": "min",
+    "current": "De, depuis"
+  },
+  {
+    "id": "{ll~ah_2699",
+    "arabic": "ٱللَّه",
+    "trans": "{ll~ah",
+    "current": "Allah, Dieu"
+  },
+  {
+    "id": "fiY_1701",
+    "arabic": "فِى",
+    "trans": "fiY",
+    "current": "Dans, au sujet de"
+  },
+  {
+    "id": "&lt;in~_1682",
+    "arabic": "إِنّ",
+    "trans": "<in~",
+    "current": "que"
+  },
+  {
+    "id": "EalaY`_1445",
+    "arabic": "عَلَىٰ",
+    "trans": "EalaY`",
+    "current": "Sur, contre"
+  },
+  {
+    "id": "{l~a*iY_1442",
+    "arabic": "ٱلَّذِى",
+    "trans": "{l~a*iY",
+    "current": "Celui qui"
+  },
+  {
+    "id": "laA_1364",
+    "arabic": "لَا",
+    "trans": "laA",
+    "current": "Non, ne pas"
+  },
+  {
+    "id": "maA_1266",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "rab~_975",
+    "arabic": "رَبّ",
+    "trans": "rab~",
+    "current": "Seigneur, Maître"
+  },
+  {
+    "id": "&lt;ilaY`_742",
+    "arabic": "إِلَىٰ",
+    "trans": "<ilaY`",
+    "current": "à"
+  },
+  {
+    "id": "maA_704",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "man_606",
+    "arabic": "مَن",
+    "trans": "man",
+    "current": "Celui qui, qui"
+  },
+  {
+    "id": "&lt;in_578",
+    "arabic": "إِن",
+    "trans": "<in",
+    "current": "que"
+  },
+  {
+    "id": "&gt;an_578",
+    "arabic": "أَن",
+    "trans": ">an",
+    "current": "que"
+  },
+  {
+    "id": "&lt;il~aA_558",
+    "arabic": "إِلَّا",
+    "trans": "<il~aA",
+    "current": "sauf si"
+  },
+  {
+    "id": "*a`lik_520",
+    "arabic": "ذَٰلِك",
+    "trans": "*a`lik",
+    "current": "Cela"
+  },
+  {
+    "id": "Ean_465",
+    "arabic": "عَن",
+    "trans": "Ean",
+    "current": "De, à propos"
+  },
+  {
+    "id": "&gt;aroD_461",
+    "arabic": "أَرْض",
+    "trans": ">aroD",
+    "current": "atterrir"
+  },
+  {
+    "id": "qad_406",
+    "arabic": "قَد",
+    "trans": "qad",
+    "current": "Certes, déjà"
+  },
+  {
+    "id": "&lt;i*aA_405",
+    "arabic": "إِذَا",
+    "trans": "<i*aA",
+    "current": "si"
+  },
+  {
+    "id": "qawom_383",
+    "arabic": "قَوْم",
+    "trans": "qawom",
+    "current": "Peuple"
+  },
+  {
+    "id": "'aAyap_382",
+    "arabic": "ءَايَة",
+    "trans": "'aAyap",
+    "current": "Signe, verset"
+  },
+  {
+    "id": "&gt;an~_362",
+    "arabic": "أَنّ",
+    "trans": ">an~",
+    "current": "que"
+  },
+  {
+    "id": "kul~_358",
+    "arabic": "كُلّ",
+    "trans": "kul~",
+    "current": "Chaque, tout"
+  },
+  {
+    "id": "lam_353",
+    "arabic": "لَم",
+    "trans": "lam",
+    "current": "Ne pas (passé)"
+  },
+  {
+    "id": "vum~_338",
+    "arabic": "ثُمّ",
+    "trans": "vum~",
+    "current": "Puis, ensuite"
+  },
+  {
+    "id": "rasuwl_332",
+    "arabic": "رَسُول",
+    "trans": "rasuwl",
+    "current": "Messager"
+  },
+  {
+    "id": "laA_327",
+    "arabic": "لَا",
+    "trans": "laA",
+    "current": "Non, ne pas"
+  },
+  {
+    "id": "yawom_325",
+    "arabic": "يَوْم",
+    "trans": "yawom",
+    "current": "Jour"
+  },
+  {
+    "id": "Ea*aAb_322",
+    "arabic": "عَذَاب",
+    "trans": "Ea*aAb",
+    "current": "Châtiment"
+  },
+  {
+    "id": "ha`*aA_317",
+    "arabic": "هَٰذَا",
+    "trans": "ha`*aA",
+    "current": "Ceci"
+  },
+  {
+    "id": "samaA^'_310",
+    "arabic": "سَمَآء",
+    "trans": "samaA^'",
+    "current": "Ciel"
+  },
+  {
+    "id": "nafos_295",
+    "arabic": "نَفْس",
+    "trans": "nafos",
+    "current": "Âme"
+  },
+  {
+    "id": "$aYo'_283",
+    "arabic": "شَىْء",
+    "trans": "$aYo'",
+    "current": "Chose"
+  },
+  {
+    "id": "&gt;aw_280",
+    "arabic": "أَو",
+    "trans": ">aw",
+    "current": "ou"
+  },
+  {
+    "id": "kita`b_260",
+    "arabic": "كِتَٰب",
+    "trans": "kita`b",
+    "current": "Livre"
+  },
+  {
+    "id": "bayon_243",
+    "arabic": "بَيْن",
+    "trans": "bayon",
+    "current": "Entre"
+  },
+  {
+    "id": "Haq~_242",
+    "arabic": "حَقّ",
+    "trans": "Haq~",
+    "current": "Vérité"
+  },
+  {
+    "id": "n~aAs_241",
+    "arabic": "نَّاس",
+    "trans": "n~aAs",
+    "current": "Hommes, gens"
+  },
+  {
+    "id": "&lt;i*_239",
+    "arabic": "إِذ",
+    "trans": "<i*",
+    "current": "donc"
+  },
+  {
+    "id": "&gt;uwla`^}ik_204",
+    "arabic": "أُولَٰٓئِك",
+    "trans": ">uwla`^}ik",
+    "current": "Ceux"
+  },
+  {
+    "id": "qabol_197",
+    "arabic": "قَبْل",
+    "trans": "qabol",
+    "current": "Avant"
+  },
+  {
+    "id": "mu&omin_195",
+    "arabic": "مُؤْمِن",
+    "trans": "mu&omin",
+    "current": "Croyant"
+  },
+  {
+    "id": "law_184",
+    "arabic": "لَو",
+    "trans": "law",
+    "current": "Si"
+  },
+  {
+    "id": "man_184",
+    "arabic": "مَن",
+    "trans": "man",
+    "current": "Celui qui, qui"
+  },
+  {
+    "id": "sabiyl_176",
+    "arabic": "سَبِيل",
+    "trans": "sabiyl",
+    "current": "Chemin, voie"
+  },
+  {
+    "id": "&gt;amor_166",
+    "arabic": "أَمْ��",
+    "trans": ">amor",
+    "current": "Mère..."
+  },
+  {
+    "id": "Eind_160",
+    "arabic": "عِند",
+    "trans": "Eind",
+    "current": "Auprès de"
+  },
+  {
+    "id": "maE_159",
+    "arabic": "مَع",
+    "trans": "maE",
+    "current": "Avec"
+  },
+  {
+    "id": "baEoD_157",
+    "arabic": "بَعْض",
+    "trans": "baEoD",
+    "current": "Une partie, certains"
+  },
+  {
+    "id": "lam~aA_156",
+    "arabic": "لَمَّا",
+    "trans": "lam~aA",
+    "current": "Lorsque, pas encore"
+  },
+  {
+    "id": "&gt;ay~uhaA_153",
+    "arabic": "أَيُّهَا",
+    "trans": ">ay~uhaA",
+    "current": "Oh elle"
+  },
+  {
+    "id": "xayor_148",
+    "arabic": "خَيْر",
+    "trans": "xayor",
+    "current": "Bien, meilleur"
+  },
+  {
+    "id": "&lt;ila`h_147",
+    "arabic": "إِلَٰه",
+    "trans": "<ila`h",
+    "current": "machine"
+  },
+  {
+    "id": "naAr_145",
+    "arabic": "نَار",
+    "trans": "naAr",
+    "current": "Feu"
+  },
+  {
+    "id": "gayor_144",
+    "arabic": "غَيْر",
+    "trans": "gayor",
+    "current": "Autre que, sans"
+  },
+  {
+    "id": "&gt;am_137",
+    "arabic": "أَم",
+    "trans": ">am",
+    "current": "ou"
+  },
+  {
+    "id": "muwsaY`_136",
+    "arabic": "مُوسَىٰ",
+    "trans": "muwsaY`",
+    "current": "Moïse"
+  },
+  {
+    "id": "duwn_135",
+    "arabic": "دُون",
+    "trans": "duwn",
+    "current": "En dehors de"
+  },
+  {
+    "id": "A^xir_133",
+    "arabic": "آخِر",
+    "trans": "A^xir",
+    "current": "Dernier"
+  },
+  {
+    "id": "baEod_133",
+    "arabic": "بَعْد",
+    "trans": "baEod",
+    "current": "Après"
+  },
+  {
+    "id": "qalob_132",
+    "arabic": "قَلْب",
+    "trans": "qalob",
+    "current": "Cœur"
+  },
+  {
+    "id": "Eabod_131",
+    "arabic": "عَبْد",
+    "trans": "Eabod",
+    "current": "Serviteur"
+  },
+  {
+    "id": "&gt;ahol_127",
+    "arabic": "أَهْل",
+    "trans": ">ahol",
+    "current": "Accueillir"
+  },
+  {
+    "id": "laEal~_123",
+    "arabic": "لَعَلّ",
+    "trans": "laEal~",
+    "current": "Peut-être, afin que"
+  },
+  {
+    "id": "bal_122",
+    "arabic": "بَل",
+    "trans": "bal",
+    "current": "Mais, au contraire"
+  },
+  {
+    "id": "yad_120",
+    "arabic": "يَد",
+    "trans": "yad",
+    "current": "Main"
+  },
+  {
+    "id": "ka`firuwn_119",
+    "arabic": "كَٰفِرُون",
+    "trans": "ka`firuwn",
+    "current": "Mécréant"
+  },
+  {
+    "id": "&lt;in_114",
+    "arabic": "إِن",
+    "trans": "<in",
+    "current": "que"
+  },
+  {
+    "id": "raHomap_114",
+    "arabic": "رَحْمَة",
+    "trans": "raHomap",
+    "current": "Miséricorde"
+  },
+  {
+    "id": "r~aHiym_112",
+    "arabic": "رَّحِيم",
+    "trans": "r~aHiym",
+    "current": "Très Miséricordieux"
+  },
+  {
+    "id": "&gt;ajor_105",
+    "arabic": "أَجْر",
+    "trans": ">ajor",
+    "current": "Récompense"
+  },
+  {
+    "id": "ZaAlim_105",
+    "arabic": "ظَالِم",
+    "trans": "ZaAlim",
+    "current": "Injuste"
+  },
+  {
+    "id": "Eilom_105",
+    "arabic": "عِلْم",
+    "trans": "Eilom",
+    "current": "Science"
+  },
+  {
+    "id": "EaZiym_104",
+    "arabic": "عَظِيم",
+    "trans": "EaZiym",
+    "current": "Immense"
+  },
+  {
+    "id": "lan_104",
+    "arabic": "لَن",
+    "trans": "lan",
+    "current": "Ne jamais"
+  },
+  {
+    "id": "&lt;il~aA_102",
+    "arabic": "إِلَّا",
+    "trans": "<il~aA",
+    "current": "sauf si"
+  },
+  {
+    "id": "Ealiym_101",
+    "arabic": "عَلِيم",
+    "trans": "Ealiym",
+    "current": "Omniscient"
+  },
+  {
+    "id": "jan~ap_96",
+    "arabic": "جَنَّة",
+    "trans": "jan~ap",
+    "current": "Jardin, paradis"
+  },
+  {
+    "id": "Hat~aY`_95",
+    "arabic": "حَتَّىٰ",
+    "trans": "Hat~aY`",
+    "current": "Jusqu'à ce que"
+  },
+  {
+    "id": "hal_93",
+    "arabic": "هَل",
+    "trans": "hal",
+    "current": "Est-ce que"
+  },
+  {
+    "id": "diyn_92",
+    "arabic": "دِين",
+    "trans": "diyn",
+    "current": "Religion, jugement"
+  },
+  {
+    "id": "qawol_92",
+    "arabic": "قَوْل",
+    "trans": "qawol",
+    "current": "Parole"
+  },
+  {
+    "id": "maA_92",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "*uw_90",
+    "arabic": "ذُو",
+    "trans": "*uw",
+    "current": "Possesseur de"
+  },
+  {
+    "id": "malak_88",
+    "arabic": "مَلَك",
+    "trans": "malak",
+    "current": "Ange"
+  },
+  {
+    "id": "maval_87",
+    "arabic": "مَثَل",
+    "trans": "maval",
+    "current": "Exemple"
+  },
+  {
+    "id": "maAl_86",
+    "arabic": "مَال",
+    "trans": "maAl",
+    "current": "Biens, richesse"
+  },
+  {
+    "id": "waliY~_86",
+    "arabic": "وَلِىّ",
+    "trans": "waliY~",
+    "current": "Allié, protecteur"
+  },
+  {
+    "id": "hudFY_85",
+    "arabic": "هُدًى",
+    "trans": "hudFY",
+    "current": "Guidée"
+  },
+  {
+    "id": "Hakiym_84",
+    "arabic": "حَكِيم",
+    "trans": "Hakiym",
+    "current": "Sage"
+  },
+  {
+    "id": "faDol_84",
+    "arabic": "فَضْل",
+    "trans": "faDol",
+    "current": "Faveur, grâce"
+  },
+  {
+    "id": "Salaw`p_83",
+    "arabic": "صَلَوٰة",
+    "trans": "Salaw`p",
+    "current": "Prière"
+  },
+  {
+    "id": "layol_82",
+    "arabic": "لَيْل",
+    "trans": "layol",
+    "current": "Nuit"
+  },
+  {
+    "id": "bunaY~_80",
+    "arabic": "بُنَىّ",
+    "trans": "bunaY~",
+    "current": "Fils"
+  },
+  {
+    "id": "$ayoTa`n_80",
+    "arabic": "شَيْطَٰن",
+    "trans": "$ayoTa`n",
+    "current": "Diable, Satan"
+  },
+  {
+    "id": "kayof_80",
+    "arabic": "كَيْف",
+    "trans": "kayof",
+    "current": "Comment"
+  },
+  {
+    "id": "yawom_80",
+    "arabic": "يَوْم",
+    "trans": "yawom",
+    "current": "Jour"
+  },
+  {
+    "id": "maA_79",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "&gt;aSoHa`b_78",
+    "arabic": "أَصْحَٰب",
+    "trans": ">aSoHa`b",
+    "current": "je suis un ami"
+  },
+  {
+    "id": "&gt;akovar_78",
+    "arabic": "أَكْثَر",
+    "trans": ">akovar",
+    "current": "plus"
+  },
+  {
+    "id": "jahan~am_77",
+    "arabic": "جَهَنَّم",
+    "trans": "jahan~am",
+    "current": "Enfer"
+  },
+  {
+    "id": "Hayaw`p_76",
+    "arabic": "حَيَوٰة",
+    "trans": "Hayaw`p",
+    "current": "Vie"
+  },
+  {
+    "id": "*ikor_76",
+    "arabic": "ذِكْر",
+    "trans": "*ikor",
+    "current": "Rappel, évocation"
+  },
+  {
+    "id": "zawoj_76",
+    "arabic": "زَوْج",
+    "trans": "zawoj",
+    "current": "Époux(se)"
+  },
+  {
+    "id": "&gt;ax_75",
+    "arabic": "أَخ",
+    "trans": ">ax",
+    "current": "frère"
+  },
+  {
+    "id": "mivol_75",
+    "arabic": "مِثْل",
+    "trans": "mivol",
+    "current": "Semblable"
+  },
+  {
+    "id": "n~abiY~_75",
+    "arabic": "نَّبِىّ",
+    "trans": "n~abiY~",
+    "current": "Prophète"
+  },
+  {
+    "id": "&gt;aHad_74",
+    "arabic": "أَحَد",
+    "trans": ">aHad",
+    "current": "Quelqu'un"
+  },
+  {
+    "id": "xa`lid_74",
+    "arabic": "خَٰلِد",
+    "trans": "xa`lid",
+    "current": "Éternel"
+  },
+  {
+    "id": "d~unoyaA_74",
+    "arabic": "دُّنْيَا",
+    "trans": "d~unoyaA",
+    "current": "Vie d'ici-bas"
+  },
+  {
+    "id": "firoEawon_74",
+    "arabic": "فِرْعَوْن",
+    "trans": "firoEawon",
+    "current": "Pharaon"
+  },
+  {
+    "id": "Ea`lamiyn_73",
+    "arabic": "عَٰلَمِين",
+    "trans": "Ea`lamiyn",
+    "current": "Mondes"
+  },
+  {
+    "id": "&gt;aliym_72",
+    "arabic": "أَلِيم",
+    "trans": ">aliym",
+    "current": "Douloureux"
+  },
+  {
+    "id": "m~ubiyn_72",
+    "arabic": "مُّبِين",
+    "trans": "m~ubiyn",
+    "current": "Évident"
+  },
+  {
+    "id": "&lt;insa`n_71",
+    "arabic": "إِنسَٰن",
+    "trans": "<insa`n",
+    "current": "Humain"
+  },
+  {
+    "id": "Eamal_71",
+    "arabic": "عَمَل",
+    "trans": "Eamal",
+    "current": "Œuvre"
+  },
+  {
+    "id": "wajoh_71",
+    "arabic": "وَجْه",
+    "trans": "wajoh",
+    "current": "Visage"
+  },
+  {
+    "id": "qiya`map_70",
+    "arabic": "قِيَٰمَة",
+    "trans": "qiya`map",
+    "current": "Résurrection"
+  },
+  {
+    "id": "yawoma}i*_70",
+    "arabic": "يَوْمَئِذ",
+    "trans": "yawoma}i*",
+    "current": "Ce jour-là"
+  },
+  {
+    "id": "&lt;iboraAhiym_69",
+    "arabic": "إِبْرَاهِيم",
+    "trans": "<iboraAhiym",
+    "current": "Ibrahim"
+  },
+  {
+    "id": "quro'aAn_68",
+    "arabic": "قُرْءَان",
+    "trans": "quro'aAn",
+    "current": "Coran"
+  },
+  {
+    "id": "baEod_66",
+    "arabic": "بَعْد",
+    "trans": "baEod",
+    "current": "Après"
+  },
+  {
+    "id": "bayot_65",
+    "arabic": "بَيْت",
+    "trans": "bayot",
+    "current": "maison"
+  },
+  {
+    "id": "la`kin_65",
+    "arabic": "لَٰكِن",
+    "trans": "la`kin",
+    "current": "mais"
+  },
+  {
+    "id": "yamiyn_65",
+    "arabic": "يَمِين",
+    "trans": "yamiyn",
+    "current": "droite"
+  },
+  {
+    "id": "A^baA'_64",
+    "arabic": "آبَاء",
+    "trans": "A^baA'",
+    "current": "Pères, ancêtres"
+  },
+  {
+    "id": "&gt;um~ap_64",
+    "arabic": "أُمَّة",
+    "trans": ">um~ap",
+    "current": "Une nation"
+  },
+  {
+    "id": "{bon_63",
+    "arabic": "ٱبْن",
+    "trans": "{bon",
+    "current": "Fils"
+  },
+  {
+    "id": "Eaziyz_63",
+    "arabic": "عَزِيز",
+    "trans": "Eaziyz",
+    "current": "Puissant"
+  },
+  {
+    "id": "maA^'_63",
+    "arabic": "مَآء",
+    "trans": "maA^'",
+    "current": "Eau"
+  },
+  {
+    "id": "S~a`liHa`t_62",
+    "arabic": "صَّٰلِحَٰت",
+    "trans": "S~a`liHa`t",
+    "current": "Elle a fait la paix"
+  },
+  {
+    "id": "Ealiym_62",
+    "arabic": "عَلِيم",
+    "trans": "Ealiym",
+    "current": "Omniscient"
+  },
+  {
+    "id": "gafuwr_62",
+    "arabic": "غَفُور",
+    "trans": "gafuwr",
+    "current": "indulgent"
+  },
+  {
+    "id": "&gt;aw~al_61",
+    "arabic": "أَوَّل",
+    "trans": ">aw~al",
+    "current": "d'abord"
+  },
+  {
+    "id": "Sa`liH_60",
+    "arabic": "صَٰلِح",
+    "trans": "Sa`liH",
+    "current": "réconciliation"
+  },
+  {
+    "id": "SaAdiq_59",
+    "arabic": "صَادِق",
+    "trans": "SaAdiq",
+    "current": "honnête"
+  },
+  {
+    "id": "nisaA^'_59",
+    "arabic": "نِسَآء",
+    "trans": "nisaA^'",
+    "current": "femmes"
+  },
+  {
+    "id": "na*iyr_58",
+    "arabic": "نَذِير",
+    "trans": "na*iyr",
+    "current": "Présage"
+  },
+  {
+    "id": "Eayon_57",
+    "arabic": "عَيْن",
+    "trans": "Eayon",
+    "current": "œil"
+  },
+  {
+    "id": "qaroyap_57",
+    "arabic": "قَرْيَة",
+    "trans": "qaroyap",
+    "current": "village"
+  },
+  {
+    "id": "la`kin~_57",
+    "arabic": "لَٰكِنّ",
+    "trans": "la`kin~",
+    "current": "mais"
+  },
+  {
+    "id": "nahaAr_56",
+    "arabic": "نَهَار",
+    "trans": "nahaAr",
+    "current": "jour"
+  },
+  {
+    "id": "walad_56",
+    "arabic": "وَلَد",
+    "trans": "walad",
+    "current": "enfant"
+  },
+  {
+    "id": "bay~inap_55",
+    "arabic": "بَيِّنَة",
+    "trans": "bay~inap",
+    "current": "preuve"
+  },
+  {
+    "id": "rizoq_55",
+    "arabic": "رِزْق",
+    "trans": "rizoq",
+    "current": "moyens de subsistance"
+  },
+  {
+    "id": "nahar_54",
+    "arabic": "نَهَر",
+    "trans": "nahar",
+    "current": "rivière"
+  },
+  {
+    "id": "jamiyE_53",
+    "arabic": "جَمِيع",
+    "trans": "jamiyE",
+    "current": "tous"
+  },
+  {
+    "id": "&gt;ajal_52",
+    "arabic": "أَجَل",
+    "trans": ">ajal",
+    "current": "D'accord"
+  },
+  {
+    "id": "xaloq_52",
+    "arabic": "خَلْق",
+    "trans": "xaloq",
+    "current": "créer"
+  },
+  {
+    "id": "jan~ap_51",
+    "arabic": "جَنَّة",
+    "trans": "jan~ap",
+    "current": "Jardin, paradis"
+  },
+  {
+    "id": "suw^'_50",
+    "arabic": "سُوٓء",
+    "trans": "suw^'",
+    "current": "je vais"
+  },
+  {
+    "id": "mawot_50",
+    "arabic": "مَوْت",
+    "trans": "mawot",
+    "current": "la mort"
+  },
+  {
+    "id": "niEomap_50",
+    "arabic": "نِعْمَة",
+    "trans": "niEomap",
+    "current": "bénédiction"
+  },
+  {
+    "id": "Eaduw~_49",
+    "arabic": "عَدُوّ",
+    "trans": "Eaduw~",
+    "current": "ennemi"
+  },
+  {
+    "id": "gayob_49",
+    "arabic": "غَيْب",
+    "trans": "gayob",
+    "current": "Invisible"
+  },
+  {
+    "id": "mut~aqiyn_49",
+    "arabic": "مُتَّقِين",
+    "trans": "mut~aqiyn",
+    "current": "Craintif"
+  },
+  {
+    "id": "waEod_49",
+    "arabic": "وَعْد",
+    "trans": "waEod",
+    "current": "une promesse"
+  },
+  {
+    "id": "baSar_48",
+    "arabic": "بَصَر",
+    "trans": "baSar",
+    "current": "vue"
+  },
+  {
+    "id": "taHot_48",
+    "arabic": "تَحْت",
+    "trans": "taHot",
+    "current": "sous"
+  },
+  {
+    "id": "daAr_48",
+    "arabic": "دَار",
+    "trans": "daAr",
+    "current": "maison"
+  },
+  {
+    "id": "mulok_48",
+    "arabic": "مُلْك",
+    "trans": "mulok",
+    "current": "roi"
+  },
+  {
+    "id": "&gt;an_47",
+    "arabic": "أَن",
+    "trans": ">an",
+    "current": "que"
+  },
+  {
+    "id": "Hat~aY`_47",
+    "arabic": "حَتَّىٰ",
+    "trans": "Hat~aY`",
+    "current": "Jusqu'à ce que"
+  },
+  {
+    "id": "saAEap_47",
+    "arabic": "سَاعَة",
+    "trans": "saAEap",
+    "current": "heure"
+  },
+  {
+    "id": "m~ubiyn_47",
+    "arabic": "مُّبِين",
+    "trans": "m~ubiyn",
+    "current": "Évident"
+  },
+  {
+    "id": "&gt;abN_46",
+    "arabic": "أَبٌ",
+    "trans": ">abN",
+    "current": "papa"
+  },
+  {
+    "id": "&gt;uwliY_45",
+    "arabic": "أُولِى",
+    "trans": ">uwliY",
+    "current": "d'abord"
+  },
+  {
+    "id": "&lt;iyma`n_45",
+    "arabic": "إِيمَٰن",
+    "trans": "<iyma`n",
+    "current": "Foi"
+  },
+  {
+    "id": "r~aHoma`n_45",
+    "arabic": "رَّحْمَٰن",
+    "trans": "r~aHoma`n",
+    "current": "Rahman"
+  },
+  {
+    "id": "Sira`T_45",
+    "arabic": "صِرَٰط",
+    "trans": "Sira`T",
+    "current": "Un chemin"
+  },
+  {
+    "id": "qabol_45",
+    "arabic": "قَبْل",
+    "trans": "qabol",
+    "current": "Avant"
+  },
+  {
+    "id": "A^xar_44",
+    "arabic": "آخَر",
+    "trans": "A^xar",
+    "current": "dernier"
+  },
+  {
+    "id": "&gt;am~aA_44",
+    "arabic": "أَمَّا",
+    "trans": ">am~aA",
+    "current": "Quant à"
+  },
+  {
+    "id": "Sador_44",
+    "arabic": "صَدْر",
+    "trans": "Sador",
+    "current": "libéré"
+  },
+  {
+    "id": "qadiyr_44",
+    "arabic": "قَدِير",
+    "trans": "qadiyr",
+    "current": "Tout-Puissant"
+  },
+  {
+    "id": "mujorim_44",
+    "arabic": "مُجْرِم",
+    "trans": "mujorim",
+    "current": "criminel"
+  },
+  {
+    "id": "mu$orik_44",
+    "arabic": "مُشْرِك",
+    "trans": "mu$orik",
+    "current": "gentil"
+  },
+  {
+    "id": "&lt;isoraA}iyl_43",
+    "arabic": "إِسْرَائِيل",
+    "trans": "<isoraA}iyl",
+    "current": "Israël"
+  },
+  {
+    "id": "Hamod_43",
+    "arabic": "حَمْد",
+    "trans": "Hamod",
+    "current": "Louer"
+  },
+  {
+    "id": "qaliyl_43",
+    "arabic": "قَلِيل",
+    "trans": "qaliyl",
+    "current": "un peu"
+  },
+  {
+    "id": "nuwH_43",
+    "arabic": "نُوح",
+    "trans": "nuwH",
+    "current": "Noé"
+  },
+  {
+    "id": "nuwr_43",
+    "arabic": "نُور",
+    "trans": "nuwr",
+    "current": "Lumière"
+  },
+  {
+    "id": "jazaA^'_42",
+    "arabic": "جَزَآء",
+    "trans": "jazaA^'",
+    "current": "peine"
+  },
+  {
+    "id": "sawof_42",
+    "arabic": "سَوْف",
+    "trans": "sawof",
+    "current": "volonté"
+  },
+  {
+    "id": "kaviyr_42",
+    "arabic": "كَث��ير",
+    "trans": "kaviyr",
+    "current": "Beaucoup"
+  },
+  {
+    "id": "baHor_41",
+    "arabic": "بَحْر",
+    "trans": "baHor",
+    "current": "mer"
+  },
+  {
+    "id": "d~unoyaA_41",
+    "arabic": "دُّنْيَا",
+    "trans": "d~unoyaA",
+    "current": "Vie d'ici-bas"
+  },
+  {
+    "id": "suboHa`n_41",
+    "arabic": "سُبْحَٰن",
+    "trans": "suboHa`n",
+    "current": "Gloire à Lui"
+  },
+  {
+    "id": "sala`m_41",
+    "arabic": "سَلَٰم",
+    "trans": "sala`m",
+    "current": "paix"
+  },
+  {
+    "id": "$ariyk_40",
+    "arabic": "شَرِيك",
+    "trans": "$ariyk",
+    "current": "un partenaire"
+  },
+  {
+    "id": "$ahiyd_40",
+    "arabic": "شَهِيد",
+    "trans": "$ahiyd",
+    "current": "martyr"
+  },
+  {
+    "id": "lawolaA^_40",
+    "arabic": "لَوْلَآ",
+    "trans": "lawolaA^",
+    "current": "Si ce n'était pas pour moi"
+  },
+  {
+    "id": "wayol_40",
+    "arabic": "وَيْل",
+    "trans": "wayol",
+    "current": "Malheur"
+  },
+  {
+    "id": "&lt;i*on_39",
+    "arabic": "إِذْن",
+    "trans": "<i*on",
+    "current": "autorisation"
+  },
+  {
+    "id": "{som_39",
+    "arabic": "ٱسْم",
+    "trans": "{som",
+    "current": "Nom"
+  },
+  {
+    "id": "&gt;alaA^_39",
+    "arabic": "أَلَآ",
+    "trans": ">alaA^",
+    "current": "sauf si"
+  },
+  {
+    "id": "jabal_39",
+    "arabic": "جَبَل",
+    "trans": "jabal",
+    "current": "montagne"
+  },
+  {
+    "id": "samiyE_39",
+    "arabic": "سَمِيع",
+    "trans": "samiyE",
+    "current": "Audience"
+  },
+  {
+    "id": "HisaAb_38",
+    "arabic": "حِسَاب",
+    "trans": "HisaAb",
+    "current": "compte"
+  },
+  {
+    "id": "Dala`l_38",
+    "arabic": "ضَلَٰل",
+    "trans": "Dala`l",
+    "current": "Il s'est égaré"
+  },
+  {
+    "id": "Eaziyz_38",
+    "arabic": "عَزِيز",
+    "trans": "Eaziyz",
+    "current": "Puissant"
+  },
+  {
+    "id": "muHosin_38",
+    "arabic": "مُحْسِن",
+    "trans": "muHosin",
+    "current": "Un philanthrope"
+  },
+  {
+    "id": "ba$ar_37",
+    "arabic": "بَشَر",
+    "trans": "ba$ar",
+    "current": "Prêcher"
+  },
+  {
+    "id": "*anb_37",
+    "arabic": "ذَنب",
+    "trans": "*anb",
+    "current": "péché"
+  },
+  {
+    "id": "suloTa`n_37",
+    "arabic": "سُلْطَٰن",
+    "trans": "suloTa`n",
+    "current": "Sultan"
+  },
+  {
+    "id": "Eind_37",
+    "arabic": "عِند",
+    "trans": "Eind",
+    "current": "Auprès de"
+  },
+  {
+    "id": "kufor_37",
+    "arabic": "كُفْر",
+    "trans": "kufor",
+    "current": "Blasphème"
+  },
+  {
+    "id": "say~i_#aAt_36",
+    "arabic": "سَيِّـَٔات",
+    "trans": "say~i_#aAt",
+    "current": "Siyat"
+  },
+  {
+    "id": "$adiyd_36",
+    "arabic": "شَدِيد",
+    "trans": "$adiyd",
+    "current": "Grave"
+  },
+  {
+    "id": "&lt;ivom_35",
+    "arabic": "إِثْم",
+    "trans": "<ivom",
+    "current": "péché"
+  },
+  {
+    "id": "&gt;aHosan_35",
+    "arabic": "أَحْسَن",
+    "trans": ">aHosan",
+    "current": "mieux"
+  },
+  {
+    "id": "&gt;aY~_35",
+    "arabic": "أَىّ",
+    "trans": ">aY~",
+    "current": "n'importe lequel"
+  },
+  {
+    "id": "lawolaA^_35",
+    "arabic": "لَوْلَآ",
+    "trans": "lawolaA^",
+    "current": "Si ce n'était pas pour moi"
+  },
+  {
+    "id": "mata`E_35",
+    "arabic": "مَتَٰع",
+    "trans": "mata`E",
+    "current": "Jouissance"
+  },
+  {
+    "id": "&gt;um~_34",
+    "arabic": "أُمّ",
+    "trans": ">um~",
+    "current": "ou"
+  },
+  {
+    "id": "fitonap_34",
+    "arabic": "فِتْنَة",
+    "trans": "fitonap",
+    "current": "Sédition"
+  },
+  {
+    "id": "m~urosal_34",
+    "arabic": "مُّرْسَل",
+    "trans": "m~urosal",
+    "current": "expéditeur"
+  },
+  {
+    "id": "maroyam_34",
+    "arabic": "مَرْيَم",
+    "trans": "maroyam",
+    "current": "Mariam"
+  },
+  {
+    "id": "m~aEoruwf_34",
+    "arabic": "مَّعْرُوف",
+    "trans": "m~aEoruwf",
+    "current": "connu"
+  },
+  {
+    "id": "man_34",
+    "arabic": "مَن",
+    "trans": "man",
+    "current": "Celui qui, qui"
+  },
+  {
+    "id": "m~ay~it_34",
+    "arabic": "مَّيِّت",
+    "trans": "m~ay~it",
+    "current": "mort"
+  },
+  {
+    "id": "naSiyr_34",
+    "arabic": "نَصِير",
+    "trans": "naSiyr",
+    "current": "Supporter"
+  },
+  {
+    "id": "'aAlaA^'_34",
+    "arabic": "ءَالَآء",
+    "trans": "'aAlaA^'",
+    "current": "Alaa"
+  },
+  {
+    "id": "&gt;aEolam_33",
+    "arabic": "أَعْلَم",
+    "trans": ">aEolam",
+    "current": "Savoir"
+  },
+  {
+    "id": "$amos_33",
+    "arabic": "شَمْس",
+    "trans": "$amos",
+    "current": "soleil"
+  },
+  {
+    "id": "fariyq_33",
+    "arabic": "فَرِيق",
+    "trans": "fariyq",
+    "current": "une équipe"
+  },
+  {
+    "id": "ka*ib_33",
+    "arabic": "كَذِب",
+    "trans": "ka*ib",
+    "current": "mentir"
+  },
+  {
+    "id": "kal~aA_33",
+    "arabic": "كَلَّا",
+    "trans": "kal~aA",
+    "current": "les deux"
+  },
+  {
+    "id": "n~aEam_33",
+    "arabic": "نَّعَم",
+    "trans": "n~aEam",
+    "current": "Oui"
+  },
+  {
+    "id": "xa`siriyn_32",
+    "arabic": "خَٰسِرِين",
+    "trans": "xa`siriyn",
+    "current": "Tu perds"
+  },
+  {
+    "id": "zakaw`p_32",
+    "arabic": "زَكَوٰة",
+    "trans": "zakaw`p",
+    "current": "Zakât"
+  },
+  {
+    "id": "Ea`qibap_32",
+    "arabic": "عَٰقِبَة",
+    "trans": "Ea`qibap",
+    "current": "obstacle"
+  },
+  {
+    "id": "kabiyr_32",
+    "arabic": "كَبِير",
+    "trans": "kabiyr",
+    "current": "grand"
+  },
+  {
+    "id": "baSiyr_31",
+    "arabic": "بَصِير",
+    "trans": "baSiyr",
+    "current": "Perspicace"
+  },
+  {
+    "id": "Hiyn_31",
+    "arabic": "حِين",
+    "trans": "Hiyn",
+    "current": "quand"
+  },
+  {
+    "id": "ka`*ib_31",
+    "arabic": "كَٰذِب",
+    "trans": "ka`*ib",
+    "current": "mentir"
+  },
+  {
+    "id": "Hukom_30",
+    "arabic": "حُكْم",
+    "trans": "Hukom",
+    "current": "gouverner"
+  },
+  {
+    "id": "xayor_30",
+    "arabic": "خَيْر",
+    "trans": "xayor",
+    "current": "Bien, meilleur"
+  },
+  {
+    "id": "$ar~_30",
+    "arabic": "شَرّ",
+    "trans": "$ar~",
+    "current": "mal"
+  },
+  {
+    "id": "quw~ap_30",
+    "arabic": "قُوَّة",
+    "trans": "quw~ap",
+    "current": "pouvoir"
+  },
+  {
+    "id": "mala&gt;_30",
+    "arabic": "مَلَأ",
+    "trans": "mala>",
+    "current": "remplir"
+  },
+  {
+    "id": "jund_29",
+    "arabic": "جُند",
+    "trans": "jund",
+    "current": "Il a été recruté"
+  },
+  {
+    "id": "rajul_29",
+    "arabic": "رَجُل",
+    "trans": "rajul",
+    "current": "homme"
+  },
+  {
+    "id": "riyH_29",
+    "arabic": "رِيح",
+    "trans": "riyH",
+    "current": "vent"
+  },
+  {
+    "id": "Earo$_29",
+    "arabic": "عَرْش",
+    "trans": "Earo$",
+    "current": "trône"
+  },
+  {
+    "id": "Eahod_29",
+    "arabic": "عَهْد",
+    "trans": "Eahod",
+    "current": "ère"
+  },
+  {
+    "id": "gafuwr_29",
+    "arabic": "غَفُور",
+    "trans": "gafuwr",
+    "current": "indulgent"
+  },
+  {
+    "id": "ka&gt;an~_29",
+    "arabic": "كَأَنّ",
+    "trans": "ka>an~",
+    "current": "Il était"
+  },
+  {
+    "id": "naba&gt;_29",
+    "arabic": "نَبَأ",
+    "trans": "naba>",
+    "current": "nouvelles"
+  },
+  {
+    "id": "&gt;abadFA_28",
+    "arabic": "أَبَدًا",
+    "trans": ">abadFA",
+    "current": "jamais"
+  },
+  {
+    "id": "&gt;a$ad~_28",
+    "arabic": "أَشَدّ",
+    "trans": ">a$ad~",
+    "current": "Plus sévère"
+  },
+  {
+    "id": "Hadiyv_28",
+    "arabic": "حَدِيث",
+    "trans": "Hadiyv",
+    "current": "accident"
+  },
+  {
+    "id": "*ur~iy~ap_28",
+    "arabic": "ذُرِّيَّة",
+    "trans": "*ur~iy~ap",
+    "current": "progéniture"
+  },
+  {
+    "id": "rijaAl_28",
+    "arabic": "رِجَال",
+    "trans": "rijaAl",
+    "current": "hommes"
+  },
+  {
+    "id": "siHor_28",
+    "arabic": "سِحْر",
+    "trans": "siHor",
+    "current": "charme"
+  },
+  {
+    "id": "kariym_28",
+    "arabic": "كَرِيم",
+    "trans": "kariym",
+    "current": "généreux"
+  },
+  {
+    "id": "kalimap_28",
+    "arabic": "كَلِمَة",
+    "trans": "kalimap",
+    "current": "mot"
+  },
+  {
+    "id": "masojid_28",
+    "arabic": "مَسْجِد",
+    "trans": "masojid",
+    "current": "mosquée"
+  },
+  {
+    "id": "maSiyr_28",
+    "arabic": "مَصِير",
+    "trans": "maSiyr",
+    "current": "destin"
+  },
+  {
+    "id": "m~agofirap_28",
+    "arabic": "مَّغْفِرَة",
+    "trans": "m~agofirap",
+    "current": "pardon"
+  },
+  {
+    "id": "&gt;an~aY`_27",
+    "arabic": "أَنَّىٰ",
+    "trans": ">an~aY`",
+    "current": "que je"
+  },
+  {
+    "id": "baAb_27",
+    "arabic": "بَاب",
+    "trans": "baAb",
+    "current": "porte"
+  },
+  {
+    "id": "ga`fil_27",
+    "arabic": "غَٰفِل",
+    "trans": "ga`fil",
+    "current": "Il était inattentif"
+  },
+  {
+    "id": "qaliyl_27",
+    "arabic": "قَلِيل",
+    "trans": "qaliyl",
+    "current": "un peu"
+  },
+  {
+    "id": "qamar_27",
+    "arabic": "قَمَر",
+    "trans": "qamar",
+    "current": "lune"
+  },
+  {
+    "id": "kaAfir_27",
+    "arabic": "كَافِر",
+    "trans": "kaAfir",
+    "current": "kafir"
+  },
+  {
+    "id": "luwT_27",
+    "arabic": "لُوط",
+    "trans": "luwT",
+    "current": "Parcelle"
+  },
+  {
+    "id": "muna`fiquwn_27",
+    "arabic": "مُنَٰفِقُون",
+    "trans": "muna`fiquwn",
+    "current": "Hypocrites"
+  },
+  {
+    "id": "yuwsuf_27",
+    "arabic": "يُوسُف",
+    "trans": "yuwsuf",
+    "current": "Youssef"
+  },
+  {
+    "id": "A^xar_26",
+    "arabic": "آخَر",
+    "trans": "A^xar",
+    "current": "dernier"
+  },
+  {
+    "id": "&gt;ajomaEiyn_26",
+    "arabic": "أَجْمَعِين",
+    "trans": ">ajomaEiyn",
+    "current": "Vous tous"
+  },
+  {
+    "id": "{mora&gt;at_26",
+    "arabic": "ٱمْرَأَت",
+    "trans": "{mora>at",
+    "current": "Une femme"
+  },
+  {
+    "id": "ba`Til_26",
+    "arabic": "بَٰطِل",
+    "trans": "ba`Til",
+    "current": "héros"
+  },
+  {
+    "id": "vamuwd_26",
+    "arabic": "ثَمُود",
+    "trans": "vamuwd",
+    "current": "Tamud"
+  },
+  {
+    "id": "jaHiym_26",
+    "arabic": "جَحِيم",
+    "trans": "jaHiym",
+    "current": "Enfer"
+  },
+  {
+    "id": "xawof_26",
+    "arabic": "خَوْف",
+    "trans": "xawof",
+    "current": "peur"
+  },
+  {
+    "id": "sawaA^'_26",
+    "arabic": "سَوَآء",
+    "trans": "sawaA^'",
+    "current": "si"
+  },
+  {
+    "id": "kayod_26",
+    "arabic": "كَيْد",
+    "trans": "kayod",
+    "current": "Enfant"
+  },
+  {
+    "id": "maA*aA_26",
+    "arabic": "مَاذَا",
+    "trans": "maA*aA",
+    "current": "Quoi"
+  },
+  {
+    "id": "'aAl_26",
+    "arabic": "ءَال",
+    "trans": "'aAl",
+    "current": "Aal"
+  },
+  {
+    "id": "A^dam_25",
+    "arabic": "آدَم",
+    "trans": "A^dam",
+    "current": "Adam"
+  },
+  {
+    "id": "ba&gt;os_25",
+    "arabic": "بَأْس",
+    "trans": "ba>os",
+    "current": "Basse"
+  },
+  {
+    "id": "junaAH_25",
+    "arabic": "جُنَاح",
+    "trans": "junaAH",
+    "current": "aile"
+  },
+  {
+    "id": "Hasanap_25",
+    "arabic": "حَسَنَة",
+    "trans": "Hasanap",
+    "current": "Bien"
+  },
+  {
+    "id": "EiysaY_25",
+    "arabic": "عِيسَى",
+    "trans": "EiysaY",
+    "current": "Issa"
+  },
+  {
+    "id": "fawoq_25",
+    "arabic": "فَوْق",
+    "trans": "fawoq",
+    "current": "au-dessus de"
+  },
+  {
+    "id": "lisaAn_25",
+    "arabic": "لِسَان",
+    "trans": "lisaAn",
+    "current": "Langue"
+  },
+  {
+    "id": "m~akaAn_25",
+    "arabic": "مَّكَان",
+    "trans": "m~akaAn",
+    "current": "lieu"
+  },
+  {
+    "id": "m~iyva`q_25",
+    "arabic": "مِّيثَٰق",
+    "trans": "m~iyva`q",
+    "current": "Engagement"
+  },
+  {
+    "id": "&gt;unvaY`_24",
+    "arabic": "أُنثَىٰ",
+    "trans": ">unvaY`",
+    "current": "féminin"
+  },
+  {
+    "id": "&gt;aY~_24",
+    "arabic": "أَىّ",
+    "trans": ">aY~",
+    "current": "n'importe lequel"
+  },
+  {
+    "id": "&lt;iy~aA_24",
+    "arabic": "إِيَّا",
+    "trans": "<iy~aA",
+    "current": "Oh"
+  },
+  {
+    "id": "TaEaAm_24",
+    "arabic": "طَعَام",
+    "trans": "TaEaAm",
+    "current": "nourriture"
+  },
+  {
+    "id": "ZaAlim_24",
+    "arabic": "ظَالِم",
+    "trans": "ZaAlim",
+    "current": "Injuste"
+  },
+  {
+    "id": "EaAd2_24",
+    "arabic": "عَاد",
+    "trans": "EaAd2",
+    "current": "Il est revenu"
+  },
+  {
+    "id": "faAsiq_24",
+    "arabic": "فَاسِق",
+    "trans": "faAsiq",
+    "current": "punk"
+  },
+  {
+    "id": "liqaA^'_24",
+    "arabic": "لِقَآء",
+    "trans": "liqaA^'",
+    "current": "Une rencontre"
+  },
+  {
+    "id": "musolim_24",
+    "arabic": "مُسْلِم",
+    "trans": "musolim",
+    "current": "musulman"
+  },
+  {
+    "id": "wa`Hid_24",
+    "arabic": "وَٰحِد",
+    "trans": "wa`Hid",
+    "current": "Un"
+  },
+  {
+    "id": "wakiyl_24",
+    "arabic": "وَكِيل",
+    "trans": "wakiyl",
+    "current": "agent"
+  },
+  {
+    "id": "bayon_23",
+    "arabic": "بَيْن",
+    "trans": "bayon",
+    "current": "Entre"
+  },
+  {
+    "id": "Hay~_23",
+    "arabic": "حَيّ",
+    "trans": "Hay~",
+    "current": "vivant"
+  },
+  {
+    "id": "xabiyr_23",
+    "arabic": "خَبِير",
+    "trans": "xabiyr",
+    "current": "expert"
+  },
+  {
+    "id": "*ikoraY`_23",
+    "arabic": "ذِكْرَىٰ",
+    "trans": "*ikoraY`",
+    "current": "mémoire"
+  },
+  {
+    "id": "$aha`dap_23",
+    "arabic": "شَهَٰدَة",
+    "trans": "$aha`dap",
+    "current": "Témoignage"
+  },
+  {
+    "id": "TaA^}ifap_23",
+    "arabic": "طَآئِفَة",
+    "trans": "TaA^}ifap",
+    "current": "secte"
+  },
+  {
+    "id": "fulok_23",
+    "arabic": "فُلْك",
+    "trans": "fulok",
+    "current": "orbite"
+  },
+  {
+    "id": "qaron_23",
+    "arabic": "قَرْن",
+    "trans": "qaron",
+    "current": "siècle"
+  },
+  {
+    "id": "maA_23",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "m~usotaqiym_23",
+    "arabic": "مُّسْتَقِيم",
+    "trans": "m~usotaqiym",
+    "current": "droit"
+  },
+  {
+    "id": "{l~a*iY_22",
+    "arabic": "ٱلَّذِى",
+    "trans": "{l~a*iY",
+    "current": "Celui qui"
+  },
+  {
+    "id": "&lt;im~aA_22",
+    "arabic": "إِمَّا",
+    "trans": "<im~aA",
+    "current": "Soit"
+  },
+  {
+    "id": "balaY`_22",
+    "arabic": "بَلَىٰ",
+    "trans": "balaY`",
+    "current": "en effet"
+  },
+  {
+    "id": "jin~_22",
+    "arabic": "جِنّ",
+    "trans": "jin~",
+    "current": "Devenir fou"
+  },
+  {
+    "id": "xabiyr_22",
+    "arabic": "خَبِير",
+    "trans": "xabiyr",
+    "current": "expert"
+  },
+  {
+    "id": "duEaA^'_22",
+    "arabic": "دُعَآء",
+    "trans": "duEaA^'",
+    "current": "une prière"
+  },
+  {
+    "id": "sa`Hir_22",
+    "arabic": "سَٰحِر",
+    "trans": "sa`Hir",
+    "current": "charme"
+  },
+  {
+    "id": "saboE_22",
+    "arabic": "سَبْع",
+    "trans": "saboE",
+    "current": "Sept"
+  },
+  {
+    "id": "samoE_22",
+    "arabic": "سَمْع",
+    "trans": "samoE",
+    "current": "audience"
+  },
+  {
+    "id": "Zuluma`t_22",
+    "arabic": "ظُلُمَٰت",
+    "trans": "Zuluma`t",
+    "current": "Obscurité"
+  },
+  {
+    "id": "ma&gt;owaY`_22",
+    "arabic": "مَأْوَىٰ",
+    "trans": "ma>owaY`",
+    "current": "abri"
+  },
+  {
+    "id": "misokiyn_22",
+    "arabic": "مِسْكِين",
+    "trans": "misokiyn",
+    "current": "pauvre"
+  },
+  {
+    "id": "naSor_22",
+    "arabic": "نَصْر",
+    "trans": "naSor",
+    "current": "victoire"
+  },
+  {
+    "id": "wa`Hidap_22",
+    "arabic": "وَٰحِدَة",
+    "trans": "wa`Hidap",
+    "current": "solitude"
+  },
+  {
+    "id": "A^xir_21",
+    "arabic": "آخِر",
+    "trans": "A^xir",
+    "current": "Dernier"
+  },
+  {
+    "id": "bar~_21",
+    "arabic": "بَرّ",
+    "trans": "bar~",
+    "current": "Droiture"
+  },
+  {
+    "id": "ruwH_21",
+    "arabic": "رُوح",
+    "trans": "ruwH",
+    "current": "esprit"
+  },
+  {
+    "id": "say~i}ap_21",
+    "arabic": "سَيِّئَة",
+    "trans": "say~i}ap",
+    "current": "Mauvais"
+  },
+  {
+    "id": "$ahor_21",
+    "arabic": "شَهْر",
+    "trans": "$ahor",
+    "current": "mois"
+  },
+  {
+    "id": "Tay~iba`t_21",
+    "arabic": "طَيِّبَٰت",
+    "trans": "Tay~iba`t",
+    "current": "Les bons"
+  },
+  {
+    "id": "Zan~_21",
+    "arabic": "ظَنّ",
+    "trans": "Zan~",
+    "current": "Il pensait"
+  },
+  {
+    "id": "kaviyr_21",
+    "arabic": "كَثِير",
+    "trans": "kaviyr",
+    "current": "beaucoup"
+  },
+  {
+    "id": "mufosid_21",
+    "arabic": "مُفْسِد",
+    "trans": "mufosid",
+    "current": "Becquet"
+  },
+  {
+    "id": "m~uka*~ibiyn_21",
+    "arabic": "مُّكَذِّبِين",
+    "trans": "m~uka*~ibiyn",
+    "current": "Ce sont des menteurs"
+  },
+  {
+    "id": "naSiyb_21",
+    "arabic": "نَصِيب",
+    "trans": "naSiyb",
+    "current": "partager"
+  },
+  {
+    "id": "yatiym_21",
+    "arabic": "يَتِيم",
+    "trans": "yatiym",
+    "current": "orphelin"
+  },
+  {
+    "id": "baSiyr_20",
+    "arabic": "بَصِير",
+    "trans": "baSiyr",
+    "current": "Perspicace"
+  },
+  {
+    "id": "baEiyd_20",
+    "arabic": "بَعِيد",
+    "trans": "baEiyd",
+    "current": "loin"
+  },
+  {
+    "id": "Hizob_20",
+    "arabic": "حِزْب",
+    "trans": "Hizob",
+    "current": "faire la fête"
+  },
+  {
+    "id": "Hasan_20",
+    "arabic": "حَسَن",
+    "trans": "Hasan",
+    "current": "Bien"
+  },
+  {
+    "id": "Hikomap_20",
+    "arabic": "حِكْمَة",
+    "trans": "Hikomap",
+    "current": "sagesse"
+  },
+  {
+    "id": "$adiyd_20",
+    "arabic": "شَدِيد",
+    "trans": "$adiyd",
+    "current": "Grave"
+  },
+  {
+    "id": "Zulom_20",
+    "arabic": "ظُلْم",
+    "trans": "Zulom",
+    "current": "injustice"
+  },
+  {
+    "id": "EiqaAb_20",
+    "arabic": "عِقَاب",
+    "trans": "EiqaAb",
+    "current": "punition"
+  },
+  {
+    "id": "ganiY~_20",
+    "arabic": "غَنِىّ",
+    "trans": "ganiY~",
+    "current": "riche"
+  },
+  {
+    "id": "kam_20",
+    "arabic": "كَم",
+    "trans": "kam",
+    "current": "combien"
+  },
+  {
+    "id": "laday_20",
+    "arabic": "لَدَي",
+    "trans": "laday",
+    "current": "J'ai"
+  },
+  {
+    "id": "ha`ruwn_20",
+    "arabic": "هَٰرُون",
+    "trans": "ha`ruwn",
+    "current": "Aaron"
+  },
+  {
+    "id": "&gt;aw~al_19",
+    "arabic": "أَوَّل",
+    "trans": ">aw~al",
+    "current": "d'abord"
+  },
+  {
+    "id": "ziynap_19",
+    "arabic": "زِينَة",
+    "trans": "ziynap",
+    "current": "Zeina"
+  },
+  {
+    "id": "$aAhid_19",
+    "arabic": "شَاهِد",
+    "trans": "$aAhid",
+    "current": "un témoin"
+  },
+  {
+    "id": "$ajarap_19",
+    "arabic": "شَجَرَة",
+    "trans": "$ajarap",
+    "current": "arbre"
+  },
+  {
+    "id": "SaAbir_19",
+    "arabic": "صَابِر",
+    "trans": "SaAbir",
+    "current": "Patient"
+  },
+  {
+    "id": "Dur~_19",
+    "arabic": "ضُرّ",
+    "trans": "Dur~",
+    "current": "Nuire"
+  },
+  {
+    "id": "Tayor_19",
+    "arabic": "طَيْر",
+    "trans": "Tayor",
+    "current": "oiseau"
+  },
+  {
+    "id": "fawoz_19",
+    "arabic": "فَوْز",
+    "trans": "fawoz",
+    "current": "victoire"
+  },
+  {
+    "id": "mar~ap_19",
+    "arabic": "مَرَّة",
+    "trans": "mar~ap",
+    "current": "temps"
+  },
+  {
+    "id": "m~uEoriDuwn_19",
+    "arabic": "مُّعْرِضُون",
+    "trans": "m~uEoriDuwn",
+    "current": "Exposé"
+  },
+  {
+    "id": "makor_19",
+    "arabic": "مَكْر",
+    "trans": "makor",
+    "current": "rusé"
+  },
+  {
+    "id": "&lt;i*FA_18",
+    "arabic": "إِذًا",
+    "trans": "<i*FA",
+    "current": "si"
+  },
+  {
+    "id": "&gt;u*unN_18",
+    "arabic": "أُذُنٌ",
+    "trans": ">u*unN",
+    "current": "autorisation"
+  },
+  {
+    "id": "&gt;aEomaY`_18",
+    "arabic": "أَعْمَىٰ",
+    "trans": ">aEomaY`",
+    "current": "aveugle"
+  },
+  {
+    "id": "&lt;ins_18",
+    "arabic": "إِنس",
+    "trans": "<ins",
+    "current": "Oublier"
+  },
+  {
+    "id": "t~aworaY`p_18",
+    "arabic": "تَّوْرَىٰة",
+    "trans": "t~aworaY`p",
+    "current": "Torah"
+  },
+  {
+    "id": "daA^b~ap_18",
+    "arabic": "دَآبَّة",
+    "trans": "daA^b~ap",
+    "current": "Motivation"
+  },
+  {
+    "id": "dubur_18",
+    "arabic": "دُبُر",
+    "trans": "dubur",
+    "current": "Plan"
+  },
+  {
+    "id": "darajap_18",
+    "arabic": "دَرَجَة",
+    "trans": "darajap",
+    "current": "degré"
+  },
+  {
+    "id": "*aA_18",
+    "arabic": "ذَا",
+    "trans": "*aA",
+    "current": "Que"
+  },
+  {
+    "id": "*akar_18",
+    "arabic": "ذَكَر",
+    "trans": "*akar",
+    "current": "mâle"
+  },
+  {
+    "id": "ra&gt;os_18",
+    "arabic": "رَأْس",
+    "trans": "ra>os",
+    "current": "tête"
+  },
+  {
+    "id": "rayob_18",
+    "arabic": "رَيْب",
+    "trans": "rayob",
+    "current": "Doute"
+  },
+  {
+    "id": "saAjid_18",
+    "arabic": "سَاجِد",
+    "trans": "saAjid",
+    "current": "prostré"
+  },
+  {
+    "id": "Ea`lim_18",
+    "arabic": "عَٰلِم",
+    "trans": "Ea`lim",
+    "current": "science"
+  },
+  {
+    "id": "munkar_18",
+    "arabic": "مُنكَر",
+    "trans": "munkar",
+    "current": "Refusé"
+  },
+  {
+    "id": "mawolaY`_18",
+    "arabic": "مَوْلَىٰ",
+    "trans": "mawolaY`",
+    "current": "sire"
+  },
+  {
+    "id": "m~u&omina`t_18",
+    "arabic": "مُّؤْمِنَٰت",
+    "trans": "m~u&omina`t",
+    "current": "Croyants"
+  },
+  {
+    "id": "&lt;isoHaAq_17",
+    "arabic": "إِسْحَاق",
+    "trans": "<isoHaAq",
+    "current": "Isaac"
+  },
+  {
+    "id": "&gt;aqorab_17",
+    "arabic": "أَقْرَب",
+    "trans": ">aqorab",
+    "current": "plus près"
+  },
+  {
+    "id": "&gt;ahowaA^'_17",
+    "arabic": "أَهْوَآء",
+    "trans": ">ahowaA^'",
+    "current": "Mes caprices"
+  },
+  {
+    "id": "baTon_17",
+    "arabic": "بَطْن",
+    "trans": "baTon",
+    "current": "estomac"
+  },
+  {
+    "id": "banaAt_17",
+    "arabic": "بَنَات",
+    "trans": "banaAt",
+    "current": "filles"
+  },
+  {
+    "id": "ta&gt;owiyl_17",
+    "arabic": "تَأْوِيل",
+    "trans": "ta>owiyl",
+    "current": "interprétation"
+  },
+  {
+    "id": "turaAb_17",
+    "arabic": "تُرَاب",
+    "trans": "turaAb",
+    "current": "sol"
+  },
+  {
+    "id": "taqowaY_17",
+    "arabic": "تَقْوَى",
+    "trans": "taqowaY",
+    "current": "piété"
+  },
+  {
+    "id": "HaraAm_17",
+    "arabic": "حَرَام",
+    "trans": "HaraAm",
+    "current": "interdit"
+  },
+  {
+    "id": "xalof_17",
+    "arabic": "خَلْف",
+    "trans": "xalof",
+    "current": "derrière"
+  },
+  {
+    "id": "sulayoma`n_17",
+    "arabic": "سُلَيْمَٰن",
+    "trans": "sulayoma`n",
+    "current": "Salomon"
+  },
+  {
+    "id": "fa`Hi$ap_17",
+    "arabic": "فَٰحِشَة",
+    "trans": "fa`Hi$ap",
+    "current": "Indécence"
+  },
+  {
+    "id": "qaA^}im_17",
+    "arabic": "قَآئِم",
+    "trans": "qaA^}im",
+    "current": "existant"
+  },
+  {
+    "id": "l~adun_17",
+    "arabic": "لَّدُن",
+    "trans": "l~adun",
+    "current": "LONDRES"
+  },
+  {
+    "id": "m~uhotaduwn_17",
+    "arabic": "مُّهْتَدُون",
+    "trans": "m~uhotaduwn",
+    "current": "Ils sont guidés"
+  },
+  {
+    "id": "naEiym_17",
+    "arabic": "نَعِيم",
+    "trans": "naEiym",
+    "current": "Bonheur"
+  },
+  {
+    "id": "&gt;aZolam_16",
+    "arabic": "أَظْلَم",
+    "trans": ">aZolam",
+    "current": "Plus sombre"
+  },
+  {
+    "id": "&gt;aEolam_16",
+    "arabic": "أَعْلَم",
+    "trans": ">aEolam",
+    "current": "Savoir"
+  },
+  {
+    "id": "&gt;aloba`b_16",
+    "arabic": "أَلْبَٰب",
+    "trans": ">aloba`b",
+    "current": "Cœurs"
+  },
+  {
+    "id": "bay~inap_16",
+    "arabic": "بَيِّنَة",
+    "trans": "bay~inap",
+    "current": "preuve"
+  },
+  {
+    "id": "vamara`t_16",
+    "arabic": "ثَمَرَٰت",
+    "trans": "vamara`t",
+    "current": "Cela a porté ses fruits"
+  },
+  {
+    "id": "HaraAm_16",
+    "arabic": "حَرَام",
+    "trans": "HaraAm",
+    "current": "interdit"
+  },
+  {
+    "id": "Hamiyd_16",
+    "arabic": "حَمِيد",
+    "trans": "Hamiyd",
+    "current": "Hamid"
+  },
+  {
+    "id": "Hayov_16",
+    "arabic": "حَيْث",
+    "trans": "Hayov",
+    "current": "où"
+  },
+  {
+    "id": "daAwud_16",
+    "arabic": "دَاوُد",
+    "trans": "daAwud",
+    "current": "David"
+  },
+  {
+    "id": "saEiyr_16",
+    "arabic": "سَعِير",
+    "trans": "saEiyr",
+    "current": "Prix"
+  },
+  {
+    "id": "sun~ap_16",
+    "arabic": "سُنَّة",
+    "trans": "sun~ap",
+    "current": "année"
+  },
+  {
+    "id": "$ahiyd_16",
+    "arabic": "شَهِيد",
+    "trans": "$ahiyd",
+    "current": "martyr"
+  },
+  {
+    "id": "EaZiym_16",
+    "arabic": "عَظِيم",
+    "trans": "EaZiym",
+    "current": "Immense"
+  },
+  {
+    "id": "fu&aAd_16",
+    "arabic": "فُؤَاد",
+    "trans": "fu&aAd",
+    "current": "Fouad"
+  },
+  {
+    "id": "fawoq_16",
+    "arabic": "فَوْق",
+    "trans": "fawoq",
+    "current": "au-dessus de"
+  },
+  {
+    "id": "qurobaY`_16",
+    "arabic": "قُرْبَىٰ",
+    "trans": "qurobaY`",
+    "current": "Mon parent"
+  },
+  {
+    "id": "law_16",
+    "arabic": "لَو",
+    "trans": "law",
+    "current": "Si"
+  },
+  {
+    "id": "marojiE_16",
+    "arabic": "مَرْجِع",
+    "trans": "marojiE",
+    "current": "référence"
+  },
+  {
+    "id": "m~usam~FY_16",
+    "arabic": "مُّسَمًّى",
+    "trans": "m~usam~FY",
+    "current": "Nommé"
+  },
+  {
+    "id": "miyzaAn_16",
+    "arabic": "مِيزَان",
+    "trans": "miyzaAn",
+    "current": "équilibre"
+  },
+  {
+    "id": "yaEoquwb_16",
+    "arabic": "يَعْقُوب",
+    "trans": "yaEoquwb",
+    "current": "Yaaqoub"
+  },
+  {
+    "id": "bu$oraY`_15",
+    "arabic": "بُشْرَىٰ",
+    "trans": "bu$oraY`",
+    "current": "humain"
+  },
+  {
+    "id": "bala`g_15",
+    "arabic": "بَلَٰغ",
+    "trans": "bala`g",
+    "current": "Il a atteint"
+  },
+  {
+    "id": "tanziyl_15",
+    "arabic": "تَنزِيل",
+    "trans": "tanziyl",
+    "current": "télécharger"
+  },
+  {
+    "id": "rijol_15",
+    "arabic": "رِجْل",
+    "trans": "rijol",
+    "current": "homme"
+  },
+  {
+    "id": "$ak~_15",
+    "arabic": "شَكّ",
+    "trans": "$ak~",
+    "current": "doute"
+  },
+  {
+    "id": "Sabor_15",
+    "arabic": "صَبْر",
+    "trans": "Sabor",
+    "current": "patience"
+  },
+  {
+    "id": "Zahor_15",
+    "arabic": "ظَهْر",
+    "trans": "Zahor",
+    "current": "dos"
+  },
+  {
+    "id": "qariyb_15",
+    "arabic": "قَرِيب",
+    "trans": "qariyb",
+    "current": "fermer"
+  },
+  {
+    "id": "qisoT_15",
+    "arabic": "قِسْط",
+    "trans": "qisoT",
+    "current": "Tranche"
+  },
+  {
+    "id": "kul~amaA_15",
+    "arabic": "كُلَّمَا",
+    "trans": "kul~amaA",
+    "current": "chaque fois que"
+  },
+  {
+    "id": "muSad~iq_15",
+    "arabic": "مُصَدِّق",
+    "trans": "muSad~iq",
+    "current": "Croire"
+  },
+  {
+    "id": "mil~ap_15",
+    "arabic": "مِلَّة",
+    "trans": "mil~ap",
+    "current": "secte"
+  },
+  {
+    "id": "mun*ir_15",
+    "arabic": "مُنذِر",
+    "trans": "mun*ir",
+    "current": "Avertissement"
+  },
+  {
+    "id": "naSoraAniy~_15",
+    "arabic": "نَصْرَانِيّ",
+    "trans": "naSoraAniy~",
+    "current": "chrétien"
+  },
+  {
+    "id": "{botigaA^'_14",
+    "arabic": "ٱبْتِغَآء",
+    "trans": "{botigaA^'",
+    "current": "Pour le plaisir"
+  },
+  {
+    "id": "&gt;avar_14",
+    "arabic": "أَثَر",
+    "trans": ">avar",
+    "current": "effet"
+  },
+  {
+    "id": "&gt;uxot_14",
+    "arabic": "أُخْت",
+    "trans": ">uxot",
+    "current": "sœur"
+  },
+  {
+    "id": "&lt;i*aA2_14",
+    "arabic": "إِذَا",
+    "trans": "<i*aA2",
+    "current": "si"
+  },
+  {
+    "id": "&gt;alof_14",
+    "arabic": "أَلْف",
+    "trans": ">alof",
+    "current": "mille"
+  },
+  {
+    "id": "&gt;amiyn_14",
+    "arabic": "أَمِين",
+    "trans": ">amiyn",
+    "current": "Amen"
+  },
+  {
+    "id": "balad_14",
+    "arabic": "بَلَد",
+    "trans": "balad",
+    "current": "pays"
+  },
+  {
+    "id": "Huduwd_14",
+    "arabic": "حُدُود",
+    "trans": "Huduwd",
+    "current": "frontière"
+  },
+  {
+    "id": "Haraj_14",
+    "arabic": "حَرَج",
+    "trans": "Haraj",
+    "current": "critique"
+  },
+  {
+    "id": "Hamiym_14",
+    "arabic": "حَمِيم",
+    "trans": "Hamiym",
+    "current": "intime"
+  },
+  {
+    "id": "xaA$iE_14",
+    "arabic": "خَاشِع",
+    "trans": "xaA$iE",
+    "current": "Soumis"
+  },
+  {
+    "id": "$aAkir_14",
+    "arabic": "شَاكِر",
+    "trans": "$aAkir",
+    "current": "Reconnaissant"
+  },
+  {
+    "id": "Sidoq_14",
+    "arabic": "صِدْق",
+    "trans": "Sidoq",
+    "current": "sincérité"
+  },
+  {
+    "id": "Zil~_14",
+    "arabic": "ظِلّ",
+    "trans": "Zil~",
+    "current": "Ombre"
+  },
+  {
+    "id": "Eadol_14",
+    "arabic": "عَدْل",
+    "trans": "Eadol",
+    "current": "justice"
+  },
+  {
+    "id": "gaDab_14",
+    "arabic": "غَضَب",
+    "trans": "gaDab",
+    "current": "colère"
+  },
+  {
+    "id": "qaAdir_14",
+    "arabic": "قَادِر",
+    "trans": "qaAdir",
+    "current": "capable"
+  },
+  {
+    "id": "kalima`t_14",
+    "arabic": "كَلِمَٰت",
+    "trans": "kalima`t",
+    "current": "Mots"
+  },
+  {
+    "id": "laEonap_14",
+    "arabic": "لَعْنَة",
+    "trans": "laEonap",
+    "current": "Malédiction"
+  },
+  {
+    "id": "layot_14",
+    "arabic": "لَيْت",
+    "trans": "layot",
+    "current": "Je souhaite"
+  },
+  {
+    "id": "m~usotaqiym_14",
+    "arabic": "مُّسْتَقِيم",
+    "trans": "m~usotaqiym",
+    "current": "droit"
+  },
+  {
+    "id": "musolim_14",
+    "arabic": "مُسْلِم",
+    "trans": "musolim",
+    "current": "musulman"
+  },
+  {
+    "id": "maqaAm_14",
+    "arabic": "مَقَام",
+    "trans": "maqaAm",
+    "current": "Un endroit"
+  },
+  {
+    "id": "waAlid_14",
+    "arabic": "وَالِد",
+    "trans": "waAlid",
+    "current": "père"
+  },
+  {
+    "id": "{vonayon_13",
+    "arabic": "ٱثْنَيْن",
+    "trans": "{vonayon",
+    "current": "Deux"
+  },
+  {
+    "id": "&lt;i*FA_13",
+    "arabic": "إِذًا",
+    "trans": "<i*FA",
+    "current": "si"
+  },
+  {
+    "id": "&gt;akobar_13",
+    "arabic": "أَكْبَر",
+    "trans": ">akobar",
+    "current": "plus grand"
+  },
+  {
+    "id": "bagotap_13",
+    "arabic": "بَغْتَة",
+    "trans": "bagotap",
+    "current": "Soudainement"
+  },
+  {
+    "id": "vawaAb_13",
+    "arabic": "ثَوَاب",
+    "trans": "vawaAb",
+    "current": "récompense"
+  },
+  {
+    "id": "jamoE_13",
+    "arabic": "جَمْع",
+    "trans": "jamoE",
+    "current": "collection"
+  },
+  {
+    "id": "Ha`fiZ_13",
+    "arabic": "حَٰفِظ",
+    "trans": "Ha`fiZ",
+    "current": "sauvegarder"
+  },
+  {
+    "id": "Harov_13",
+    "arabic": "حَرْث",
+    "trans": "Harov",
+    "current": "charrue"
+  },
+  {
+    "id": "Huson_13",
+    "arabic": "حُسْن",
+    "trans": "Huson",
+    "current": "Bien"
+  },
+  {
+    "id": "Hakiym_13",
+    "arabic": "حَكِيم",
+    "trans": "Hakiym",
+    "current": "Sage"
+  },
+  {
+    "id": "Hawol_13",
+    "arabic": "حَوْل",
+    "trans": "Hawol",
+    "current": "autour"
+  },
+  {
+    "id": "Hayov_13",
+    "arabic": "حَيْث",
+    "trans": "Hayov",
+    "current": "où"
+  },
+  {
+    "id": "riDowa`n_13",
+    "arabic": "رِضْوَٰن",
+    "trans": "riDowa`n",
+    "current": "Radwan"
+  },
+  {
+    "id": "$afa`Eap_13",
+    "arabic": "شَفَٰعَة",
+    "trans": "$afa`Eap",
+    "current": "Intercession"
+  },
+  {
+    "id": "SayoHap_13",
+    "arabic": "صَيْحَة",
+    "trans": "SayoHap",
+    "current": "crier"
+  },
+  {
+    "id": "gaAlib_13",
+    "arabic": "غَالِب",
+    "trans": "gaAlib",
+    "current": "victorieux"
+  },
+  {
+    "id": "gula`m_13",
+    "arabic": "غُلَٰم",
+    "trans": "gula`m",
+    "current": "Garçon"
+  },
+  {
+    "id": "faAsiq_13",
+    "arabic": "فَاسِق",
+    "trans": "faAsiq",
+    "current": "punk"
+  },
+  {
+    "id": "qitaAl_13",
+    "arabic": "قِتَال",
+    "trans": "qitaAl",
+    "current": "lutte"
+  },
+  {
+    "id": "maA_13",
+    "arabic": "مَا",
+    "trans": "maA",
+    "current": "Ce que, ne pas"
+  },
+  {
+    "id": "mavowFY_13",
+    "arabic": "مَثْوًى",
+    "trans": "mavowFY",
+    "current": "logement"
+  },
+  {
+    "id": "m~araD_13",
+    "arabic": "مَّرَض",
+    "trans": "m~araD",
+    "current": "maladie"
+  },
+  {
+    "id": "mufoliHuwn_13",
+    "arabic": "مُفْلِحُون",
+    "trans": "mufoliHuwn",
+    "current": "Ils réussissent"
+  },
+  {
+    "id": "malik_13",
+    "arabic": "مَلِك",
+    "trans": "malik",
+    "current": "roi"
+  },
+  {
+    "id": "n~ajom_13",
+    "arabic": "نَّجْم",
+    "trans": "n~ajom",
+    "current": "étoile"
+  },
+  {
+    "id": "&lt;iHosa`n_12",
+    "arabic": "إِحْسَٰن",
+    "trans": "<iHosa`n",
+    "current": "mieux"
+  },
+  {
+    "id": "&gt;aroHaAm_12",
+    "arabic": "أَرْحَام",
+    "trans": ">aroHaAm",
+    "current": "utérus"
+  },
+  {
+    "id": "&lt;isomaAEiyl_12",
+    "arabic": "إِسْمَاعِيل",
+    "trans": "<isomaAEiyl",
+    "current": "Ismaël"
+  },
+  {
+    "id": "&gt;aSam~_12",
+    "arabic": "أَصَمّ",
+    "trans": ">aSam~",
+    "current": "sourd"
+  },
+  {
+    "id": "&gt;afowa`h_12",
+    "arabic": "أَفْوَٰه",
+    "trans": ">afowa`h",
+    "current": "Une bouchée"
+  },
+  {
+    "id": "&lt;imaAm_12",
+    "arabic": "إِمَام",
+    "trans": "<imaAm",
+    "current": "avant"
+  },
+  {
+    "id": "&lt;injiyl_12",
+    "arabic": "إِنجِيل",
+    "trans": "<injiyl",
+    "current": "gospel"
+  },
+  {
+    "id": "&gt;ayon_12",
+    "arabic": "أَيْن",
+    "trans": ">ayon",
+    "current": "où"
+  },
+  {
+    "id": "vala`vap_12",
+    "arabic": "ثَلَٰثَة",
+    "trans": "vala`vap",
+    "current": "Trois"
+  },
+  {
+    "id": "Haniyf_12",
+    "arabic": "حَنِيف",
+    "trans": "Haniyf",
+    "current": "Hanif"
+  },
+  {
+    "id": "r~aHoma`n_12",
+    "arabic": "رَّحْمَٰن",
+    "trans": "r~aHoma`n",
+    "current": "Rahman"
+  },
+  {
+    "id": "Tiyn_12",
+    "arabic": "طِين",
+    "trans": "Tiyn",
+    "current": "argile"
+  },
+  {
+    "id": "Ea`mil_12",
+    "arabic": "عَٰمِل",
+    "trans": "Ea`mil",
+    "current": "un travail"
+  },
+  {
+    "id": "fatoH_12",
+    "arabic": "فَتْح",
+    "trans": "fatoH",
+    "current": "ouvrir"
+  },
+  {
+    "id": "laHom_12",
+    "arabic": "لَحْم",
+    "trans": "laHom",
+    "current": "viande"
+  },
+  {
+    "id": "musorif_12",
+    "arabic": "مُسْرِف",
+    "trans": "musorif",
+    "current": "somptueux"
+  },
+  {
+    "id": "masokan_12",
+    "arabic": "مَسْكَن",
+    "trans": "masokan",
+    "current": "résidence"
+  },
+  {
+    "id": "muEojiz_12",
+    "arabic": "مُعْجِز",
+    "trans": "muEojiz",
+    "current": "miraculeux"
+  },
+  {
+    "id": "m~awoEid_12",
+    "arabic": "مَّوْعِد",
+    "trans": "m~awoEid",
+    "current": "un rendez-vous"
+  },
+  {
+    "id": "n~uTofap_12",
+    "arabic": "نُّطْفَة",
+    "trans": "n~uTofap",
+    "current": "sperme"
+  },
+  {
+    "id": "waraA^'_12",
+    "arabic": "وَرَآء",
+    "trans": "waraA^'",
+    "current": "derrière"
+  },
+  {
+    "id": "waraA^'_12",
+    "arabic": "وَرَآء",
+    "trans": "waraA^'",
+    "current": "derrière"
+  },
+  {
+    "id": "wizor_12",
+    "arabic": "وِزْر",
+    "trans": "wizor",
+    "current": "Un fardeau"
+  },
+  {
+    "id": "&lt;iboliys_11",
+    "arabic": "إِبْلِيس",
+    "trans": "<iboliys",
+    "current": "diable"
+  },
+  {
+    "id": "&lt;iHodaY_11",
+    "arabic": "إِحْدَى",
+    "trans": "<iHodaY",
+    "current": "L'un d'eux"
+  },
+  {
+    "id": "&gt;akobar_11",
+    "arabic": "أَكْبَر",
+    "trans": ">akobar",
+    "current": "plus grand"
+  },
+  {
+    "id": "&gt;am~aA_11",
+    "arabic": "أَمَّا",
+    "trans": ">am~aA",
+    "current": "Quant à"
+  },
+  {
+    "id": "bariY^'_11",
+    "arabic": "بَرِىٓء",
+    "trans": "bariY^'",
+    "current": "Innocent"
+  },
+  {
+    "id": "bagoy_11",
+    "arabic": "بَغْي",
+    "trans": "bagoy",
+    "current": "punk"
+  },
+  {
+    "id": "taw~aAb_11",
+    "arabic": "تَوَّاب",
+    "trans": "taw~aAb",
+    "current": "Se repentir"
+  },
+  {
+    "id": "vaman_11",
+    "arabic": "ثَمَن",
+    "trans": "vaman",
+    "current": "prix"
+  },
+  {
+    "id": "Hasob_11",
+    "arabic": "حَسْب",
+    "trans": "Hasob",
+    "current": "C'est assez"
+  },
+  {
+    "id": "Haliym_11",
+    "arabic": "حَلِيم",
+    "trans": "Haliym",
+    "current": "Halim"
+  },
+  {
+    "id": "xa`liq_11",
+    "arabic": "خَٰلِق",
+    "trans": "xa`liq",
+    "current": "créer"
+  },
+  {
+    "id": "xizoY_11",
+    "arabic": "خِزْى",
+    "trans": "xizoY",
+    "current": "honte"
+  },
+  {
+    "id": "sir~_11",
+    "arabic": "سِرّ",
+    "trans": "sir~",
+    "current": "secrète"
+  },
+  {
+    "id": "siniyn_11",
+    "arabic": "سِنِين",
+    "trans": "siniyn",
+    "current": "Années"
+  },
+  {
+    "id": "$araAb_11",
+    "arabic": "شَرَاب",
+    "trans": "$araAb",
+    "current": "boire"
+  },
+  {
+    "id": "$uEayob_11",
+    "arabic": "شُعَيْب",
+    "trans": "$uEayob",
+    "current": "Shoaïb"
+  },
+  {
+    "id": "$iyEap_11",
+    "arabic": "شِيعَة",
+    "trans": "$iyEap",
+    "current": "Chiites"
+  },
+  {
+    "id": "DaA^l~_11",
+    "arabic": "ضَآلّ",
+    "trans": "DaA^l~",
+    "current": "errer"
+  },
+  {
+    "id": "Eadon_11",
+    "arabic": "عَدْن",
+    "trans": "Eadon",
+    "current": "Aden"
+  },
+  {
+    "id": "Eid~ap_11",
+    "arabic": "عِدَّة",
+    "trans": "Eid~ap",
+    "current": "plusieurs"
+  },
+  {
+    "id": "Eiz~ap_11",
+    "arabic": "عِزَّة",
+    "trans": "Eiz~ap",
+    "current": "Azza"
+  },
+  {
+    "id": "Einab_11",
+    "arabic": "عِنَب",
+    "trans": "Einab",
+    "current": "raisins"
+  },
+  {
+    "id": "fa`kihap_11",
+    "arabic": "فَٰكِهَة",
+    "trans": "fa`kihap",
+    "current": "Fruit"
+  },
+  {
+    "id": "fasaAd_11",
+    "arabic": "فَسَاد",
+    "trans": "fasaAd",
+    "current": "corruption"
+  },
+  {
+    "id": "qadar_11",
+    "arabic": "قَدَر",
+    "trans": "qadar",
+    "current": "montant"
+  },
+  {
+    "id": "qariyb_11",
+    "arabic": "قَرِيب",
+    "trans": "qariyb",
+    "current": "fermer"
+  },
+  {
+    "id": "kaviyrap_11",
+    "arabic": "كَثِيرَة",
+    "trans": "kaviyrap",
+    "current": "Beaucoup"
+  },
+  {
+    "id": "majonuwn_11",
+    "arabic": "مَجْنُون",
+    "trans": "majonuwn",
+    "current": "fou"
+  },
+  {
+    "id": "muxoliS_11",
+    "arabic": "مُخْلِص",
+    "trans": "muxoliS",
+    "current": "sincère"
+  },
+  {
+    "id": "masiyH_11",
+    "arabic": "مَسِيح",
+    "trans": "masiyH",
+    "current": "Christ"
+  },
+  {
+    "id": "ma$oriq_11",
+    "arabic": "مَشْرِق",
+    "trans": "ma$oriq",
+    "current": "brillant"
+  },
+  {
+    "id": "naASir_11",
+    "arabic": "نَاصِر",
+    "trans": "naASir",
+    "current": "supporter"
+  },
+  {
+    "id": "najowaY`^_11",
+    "arabic": "نَجْوَىٰٓ",
+    "trans": "najowaY`^",
+    "current": "Najwa"
+  },
+  {
+    "id": "naxol_11",
+    "arabic": "نَخْل",
+    "trans": "naxol",
+    "current": "tamiser"
+  },
+  {
+    "id": "nafoE_11",
+    "arabic": "نَفْع",
+    "trans": "nafoE",
+    "current": "Avantage"
+  },
+  {
+    "id": "huzuw_11",
+    "arabic": "هُزُو",
+    "trans": "huzuw",
+    "current": "quolibet"
+  },
+  {
+    "id": "hawaA^'_11",
+    "arabic": "هَوَآء",
+    "trans": "hawaA^'",
+    "current": "air"
+  },
+  {
+    "id": "&gt;adonaY`_10",
+    "arabic": "أَدْنَىٰ",
+    "trans": ">adonaY`",
+    "current": "minimum"
+  },
+  {
+    "id": "&gt;aEoraAb_10",
+    "arabic": "أَعْرَاب",
+    "trans": ">aEoraAb",
+    "current": "Bédouins"
+  },
+  {
+    "id": "jaAhil_10",
+    "arabic": "جَاهِل",
+    "trans": "jaAhil",
+    "current": "ignorant"
+  },
+  {
+    "id": "jin~ap_10",
+    "arabic": "جِنَّة",
+    "trans": "jin~ap",
+    "current": "paradis"
+  },
+  {
+    "id": "HijaArap_10",
+    "arabic": "حِجَارَة",
+    "trans": "HijaArap",
+    "current": "Pierres"
+  },
+  {
+    "id": "HusonaY`_10",
+    "arabic": "حُسْنَىٰ",
+    "trans": "HusonaY`",
+    "current": "Hosna"
+  },
+  {
+    "id": "xayora`t_10",
+    "arabic": "خَيْرَٰت",
+    "trans": "xayora`t",
+    "current": "De bonnes choses"
+  },
+  {
+    "id": "dam_10",
+    "arabic": "دَم",
+    "trans": "dam",
+    "current": "sang"
+  },
+  {
+    "id": "rijos_10",
+    "arabic": "رِجْس",
+    "trans": "rijos",
+    "current": "Abomination"
+  },
+  {
+    "id": "rawa`siY_10",
+    "arabic": "رَوَٰسِى",
+    "trans": "rawa`siY",
+    "current": "russe"
+  },
+  {
+    "id": "ra'uwf_10",
+    "arabic": "رَءُوف",
+    "trans": "ra'uwf",
+    "current": "Compatissant"
+  },
+  {
+    "id": "zaroE_10",
+    "arabic": "زَرْع",
+    "trans": "zaroE",
+    "current": "plantation"
+  },
+  {
+    "id": "saEoy_10",
+    "arabic": "سَعْي",
+    "trans": "saEoy",
+    "current": "Aspirer"
+  }
+]

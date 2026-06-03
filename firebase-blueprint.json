@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "UserProgress": {
+      "title": "User API Progress",
+      "description": "Stores user SRS vocabulary progress as a single document",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "srsData": {
+          "type": "object",
+          "description": "Dictionary of word ID mapping to SRS state"
+        },
+        "lastUpdated": { "type": "number" }
+      },
+      "required": ["uid", "srsData", "lastUpdated"]
+    }
+  },
+  "firestore": {
+    "user_progress/{userId}": {
+      "schema": { "$ref": "UserProgress" },
+      "description": "User progress data, read/write restricted to the user themselves"
+    }
+  }
+}

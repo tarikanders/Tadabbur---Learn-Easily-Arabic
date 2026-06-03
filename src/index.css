@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-arabic: "Amiri", "Traditional Arabic", serif;
+
+  /* Theme brand mapping */
+  --color-brand-bg: #FDFBF7;
+  --color-brand-text: #1A1A1A;
+  
+  --color-brand-cream: #FDFBF7;
+  --color-brand-cream-border: #EADDCA;
+  --color-brand-cream-muted: #F5F5F0;
+  
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-dark: #B89146;
+  --color-brand-gold-light: #FDF2E6;
+  
+  --color-brand-emerald: #10b981;
+  --color-brand-emerald-dark: #047857;
+  --color-brand-emerald-muted: #E6F4EF;
+  --color-brand-emerald-light: #ecfdf5;
+  
+  --color-brand-navy: #1A3A5F;
+  --color-brand-navy-light: #E8EEF5;
+  --color-brand-navy-lighter: #F0F3F9;
+
+  --color-cream-50: #FDFBF7;
+  --color-cream-100: #FDF7F0;
+  --color-cream-200: #EADDCA;
+  --color-cream-300: #F5F5F0;
+  --color-cream-400: #e2dbca;
+  --color-cream-500: #d6ccb7;
+  --color-cream-600: #c2b59b;
+  --color-cream-700: #a7987a;
+  --color-cream-800: #8c7e63;
+  --color-cream-900: #736752;
+
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+  --color-emerald-900: #064e3b;
+
+  --color-gold-50: #FDF2E6;
+  --color-gold-100: #fef9c3;
+  --color-gold-200: #E2D1B1;
+  --color-gold-300: #fcd34d;
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #d97706; /* requested amber/or doux target */
+  --color-gold-600: #b45309;
+  --color-gold-700: #92400e;
+  --color-gold-800: #78350f;
+  --color-gold-900: #451a03;
+
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: #1A1A1A;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark body {
+  background-color: var(--color-slate-900);
+  color: var(--color-cream-50);
+}
+
+::selection {
+  background-color: var(--color-gold-200);
+}
+
+.dark ::selection {
+  background-color: var(--color-gold-800);
+}
+
+.pattern-ornament {
+  background-image: radial-gradient(var(--color-brand-gold) 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.1;
+}
+
+.emerald-gradient {
+  background: linear-gradient(135deg, var(--color-brand-emerald) 0%, var(--color-brand-emerald-dark) 100%);
+}
