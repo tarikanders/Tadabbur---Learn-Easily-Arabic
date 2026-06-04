@@ -202,10 +202,10 @@ export default function Vocabulary() {
           {/* Overlays during drag */}
           {true && (
             <>
-              <motion.div style={{ opacity: overlayOpacityLeft }} className="absolute inset-0 bg-rose-50 z-20 flex items-center justify-start pl-8 border border-rose-200 rounded-[32px]">
+              <motion.div style={{ opacity: overlayOpacityLeft }} className="absolute inset-0 bg-rose-50 z-20 flex items-center justify-start pl-8 border border-rose-200 rounded-[32px] pointer-events-none">
                 <span className="text-rose-600 font-bold text-2xl flex flex-col items-center gap-2"><X className="w-10 h-10"/> À REVOIR</span>
               </motion.div>
-              <motion.div style={{ opacity: overlayOpacityRight }} className="absolute inset-0 bg-emerald-50 z-20 flex items-center justify-end pr-8 border border-emerald-200 rounded-[32px]">
+              <motion.div style={{ opacity: overlayOpacityRight }} className="absolute inset-0 bg-emerald-50 z-20 flex items-center justify-end pr-8 border border-emerald-200 rounded-[32px] pointer-events-none">
                 <span className="text-brand-emerald-dark font-bold text-2xl flex flex-col items-center gap-2"><Check className="w-10 h-10"/> JE SAVAIS</span>
               </motion.div>
             </>
@@ -284,7 +284,7 @@ export default function Vocabulary() {
 
       {/* AI Explanation Modal */}
       {(isExplaining || aiExplanation) && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm" onClick={() => setAiExplanation(null)}>
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm" onClick={() => { setAiExplanation(null); setIsExplaining(false); }}>
           <div 
             className="bg-white rounded-[32px] p-6 sm:p-8 w-full max-w-lg shadow-2xl relative max-h-[85vh] overflow-y-auto"
             onClick={e => e.stopPropagation()}

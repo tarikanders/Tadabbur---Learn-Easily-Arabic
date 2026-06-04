@@ -37,7 +37,7 @@ async function startServer() {
       }
 
       const client = getAnthropicClient();
-      const model = process.env.ANTHROPIC_MODEL || "claude-opus-4-8";
+      const model = process.env.ANTHROPIC_MODEL || "claude-haiku-4-5-20251001";
 
       const userPrompt =
         `Mot arabe : ${arabic ?? "(non fourni)"}\n` +

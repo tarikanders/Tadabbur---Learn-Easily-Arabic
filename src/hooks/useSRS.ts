@@ -236,11 +236,7 @@ export function useSRS() {
       return shuffleArray(activeWords).slice(0, limit);
     }
 
-    // Default Mix (buildDailySession algorithm)
-    const unseen = activeWords
-      .filter(w => !srsData[w.id] || srsData[w.id].status === "unseen")
-      .slice(0, 10);
-      
+    // Mix quotidien : priorité aux révisions dues, puis nouveaux mots
     const due = activeWords
       .filter(w => {
         const state = srsData[w.id];
@@ -249,22 +245,23 @@ export function useSRS() {
       .sort((a, b) => {
         const sa = srsData[a.id];
         const sb = srsData[b.id];
+        // Priorité aux mots les plus fragiles (ease factor le plus bas)
         if (sa.easeFactor !== sb.easeFactor) return sa.easeFactor - sb.easeFactor;
-        return b.frequency - a.frequency; // Proxy for earlier rank
-      })
-      .slice(0, 15);
-      
-    const session = [...unseen, ...due];
+        // Puis par overdue (plus en retard = plus urgent)
+        return sa.nextReview < sb.nextReview ? -1 : 1;
+      });
+
+    // Nouveaux mots : jusqu'à 5 si beaucoup de révisions dues, jusqu'à 15 si peu
+    const newWordsLimit = due.length >= 15 ? 5 : 15;
+    const unseen = activeWords
+      .filter(w => !srsData[w.id] || srsData[w.id].status === "unseen")
+      .slice(0, newWordsLimit);
+
+    const session = [...due.slice(0, limit - unseen.length), ...unseen];
     return shuffleArray(session).slice(0, limit);
   };
 
   const processReview = (wordId: string, isSuccess: boolean) => {
-    const wordIndex = [...VOCABULARY_LIST].sort((a,b) => b.frequency - a.frequency).findIndex(w => w.id === wordId);
-    if (wordIndex === -1) return;
-    
-    // rank is index + 1
-    const wordRank = wordIndex + 1;
-
     const rawState = srsData[wordId] || {
       interval: 0,
       easeFactor: 2.5,
@@ -281,8 +278,8 @@ export function useSRS() {
     if (isSuccess) {
       const currentStreak = (rawState.streak || 0) + 1;
       let newInterval = rawState.interval;
-      
-      // Anki-like steps: 0 days -> 1 day -> 3 days -> regular exponential
+
+      // Anki-like learning steps: 1j → 3j → exponentiel
       if (currentStreak === 1) {
         newInterval = 1;
       } else if (currentStreak === 2) {
@@ -290,23 +287,29 @@ export function useSRS() {
       } else {
         newInterval = Math.floor(Math.max(3, rawState.interval) * rawState.easeFactor);
       }
-      
+
+      // Cap à 365j (pas 30j) pour les mots vraiment maîtrisés
+      const cappedInterval = Math.min(newInterval, 365);
+      // Mastered = streak >= 5 ET interval >= 21j (critère plus strict et fiable)
+      const isMastered = currentStreak >= 5 && cappedInterval >= 21;
+
       newState = {
-        interval: Math.min(newInterval, 30),
-        easeFactor: Math.min(2.5, rawState.easeFactor + 0.1),
-        nextReview: addDaysStr(getTodayStr(), Math.min(newInterval, 30)),
+        interval: cappedInterval,
+        easeFactor: Math.min(2.7, rawState.easeFactor + 0.1),
+        nextReview: addDaysStr(getTodayStr(), cappedInterval),
         seen: true,
         totalSeen: rawState.totalSeen + 1,
         totalSuccess: rawState.totalSuccess + 1,
         streak: currentStreak,
-        status: (currentStreak >= 3 || newInterval >= 5) ? "mastered" : "learning"
+        status: isMastered ? "mastered" : "learning"
       };
     } else {
+      // Échec : reset streak, ease pénalisé, revoir dans 1j (pas aujourd'hui pour éviter le spam)
       newState = {
         ...rawState,
-        interval: 0,
-        easeFactor: Math.max(1.3, rawState.easeFactor - 0.2),
-        nextReview: addDaysStr(getTodayStr(), 0), // Review again today!
+        interval: 1,
+        easeFactor: Math.max(1.3, rawState.easeFactor - 0.25),
+        nextReview: addDaysStr(getTodayStr(), 1),
         seen: true,
         totalSeen: rawState.totalSeen + 1,
         streak: 0,
@@ -334,7 +337,8 @@ export function useSRS() {
       if (tierWords.length === 0) return tier; // Reached end of available vocab
       
       const mastered = tierWords.filter(w => srsData[w.id]?.status === "mastered").length;
-      if (mastered / tierWords.length < 1) return tier;
+      // Débloque le tier suivant quand 80% du tier courant est maîtrisé
+      if (mastered / tierWords.length < 0.8) return tier;
     }
     return 11;
   };
