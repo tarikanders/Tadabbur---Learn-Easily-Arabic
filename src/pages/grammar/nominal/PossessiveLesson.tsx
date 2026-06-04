@@ -3,7 +3,7 @@ import { Link as LinkIcon, AlertCircle } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 
 export default function PossessiveLesson({ onBack }: { onBack: () => void }) {
-  const [showIdafa, setShowIdafa] = useState(false);
+  const [showIdafa, setShowIdafa] = useState<number | false>(false);
 
   return (
     <div className="space-y-8 animate-in fade-in duration-500 pb-10">

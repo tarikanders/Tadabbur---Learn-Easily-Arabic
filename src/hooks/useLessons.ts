@@ -54,7 +54,7 @@ export function useLessons() {
     const lessonData = LESSONS.find(l => l.id === lessonId);
     if (!lessonData) return;
 
-    const current = progress[lessonId] || {};
+    const current = progress[lessonId] || {} as LessonProgress;
     const newState = {
       ...progress,
       [lessonId]: {

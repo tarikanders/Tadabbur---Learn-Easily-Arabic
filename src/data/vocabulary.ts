@@ -32,8 +32,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "أ ل هـ",
     "frequency": 2699,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "fiY_1701",
@@ -527,8 +527,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 166,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "Eind_160",
@@ -670,8 +670,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 133,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "baEod_133",
@@ -791,8 +791,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 112,
     "type": "Adjectif",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;ajor_105",
@@ -1341,8 +1341,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 69,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "quro'aAn_68",
@@ -1407,8 +1407,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 64,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;um~ap_64",
@@ -1880,8 +1880,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 45,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "Sira`T_45",
@@ -1913,8 +1913,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 133,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;am~aA_44",
@@ -1979,8 +1979,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 43,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "Hamod_43",
@@ -2056,8 +2056,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 42,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "baHor_41",
@@ -2991,8 +2991,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 133,
     "type": "Adjectif",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;ajomaEiyn_26",
@@ -3112,8 +3112,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 25,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "ba&gt;os_25",
@@ -3596,8 +3596,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 133,
     "type": "Adjectif",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "bar~_21",
@@ -4168,8 +4168,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 17,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;aqorab_17",
@@ -4839,8 +4839,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 14,
     "type": "Nom",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "$aAkir_14",
@@ -5290,8 +5290,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 12,
     "type": "Nom propre",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "&gt;aSam~_12",
@@ -5378,8 +5378,8 @@ export const VOCABULARY_LIST: WordData[] = [
     "root": "-",
     "frequency": 45,
     "type": "Adjectif",
-    "verse": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْفَجْرِ",
-    "verseTranslation": "Par l'Aube!"
+    "verse": "",
+    "verseTranslation": ""
   },
   {
     "id": "Tiyn_12",

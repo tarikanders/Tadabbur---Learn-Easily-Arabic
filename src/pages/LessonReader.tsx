@@ -14,7 +14,7 @@ const sectionVariants = {
   visible: { 
     opacity: 1, 
     y: 0,
-    transition: { type: "spring", stiffness: 300, damping: 24 }
+    transition: { type: "spring" as const, stiffness: 300, damping: 24 }
   }
 };
 
@@ -175,7 +175,7 @@ export default function LessonReader() {
               currentSection >= idx && (
                 <motion.div 
                   key={section.id}
-                  ref={el => sectionRefs.current[idx] = el}
+                  ref={el => { sectionRefs.current[idx] = el; }}
                   variants={sectionVariants}
                   initial="hidden"
                   animate="visible"

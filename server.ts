@@ -1,53 +1,87 @@
 import express from "express";
 import path from "path";
 import { createServer as createViteServer } from "vite";
-import { GoogleGenAI } from "@google/genai";
+import Anthropic from "@anthropic-ai/sdk";
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env.local" });
+dotenv.config();
+
+const SYSTEM_PROMPT = `Tu es un expert pédagogue en arabe coranique qui aide un francophone à mémoriser du vocabulaire.
+Ton rôle : donner une "astuce" claire, structurée et encourageante pour retenir un mot.
+Règles de réponse :
+- Réponds UNIQUEMENT en français.
+- Réponds directement avec l'astuce, sans préambule ("Voici...", "Bien sûr...") ni méta-commentaire.
+- Sois synthétique : une demi-page maximum.
+- Utilise le markdown (titres courts, gras, listes, et un petit tableau si utile).
+- Structure suggérée : sens & racine ; moyen mnémotechnique pour retenir le mot ; 1 à 2 exemples coraniques courts (arabe + traduction française) ; nuances de sens selon le contexte si pertinent.`;
+
+const getAnthropicClient = () => {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) throw new Error("ANTHROPIC_API_KEY is not set.");
+  return new Anthropic({ apiKey });
+};
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = parseInt(process.env.PORT || "3000", 10);
 
   app.use(express.json());
 
-  // API route for generating explanations
   app.post("/api/explain", async (req, res) => {
     try {
-      const { word, arabic, translation, context } = req.body;
-      
-      const ai = new GoogleGenAI({ 
-        apiKey: process.env.GEMINI_API_KEY,
-        httpOptions: {
-          headers: {
-            'User-Agent': 'aistudio-build',
-          }
-        }
-      });
-      
-      const prompt = `Explain the Arabic word "${arabic}" (transliteration: ${word}, translation: ${translation}). 
-Context/Verse: ${context || 'None'}.
-Please provide a clear, structured explanation with examples, similar to this format:
-- The meaning and root of the word
-- Its different roles/meanings in the Quran depending on context (if applicable)
-- A small table or bullet points for clarity
-- 1 or 2 examples from the Quran
-Keep the explanation in French. Use markdown for formatting, bolding, and tables if useful.`;
+      const { word, arabic, translation, context } = req.body ?? {};
 
-      const response = await ai.models.generateContent({
-        model: "gemini-3.5-flash",
-        contents: prompt,
-        config: {
-          systemInstruction: "You are an expert in Quranic Arabic, helping a French speaker learn vocabulary. Be educational, structured, and encouraging.",
-        }
+      if (!arabic && !word) {
+        return res.status(400).json({ error: "Aucun mot fourni." });
+      }
+
+      const client = getAnthropicClient();
+      const model = process.env.ANTHROPIC_MODEL || "claude-opus-4-8";
+
+      const userPrompt =
+        `Mot arabe : ${arabic ?? "(non fourni)"}\n` +
+        `Translittération : ${word ?? "(non fournie)"}\n` +
+        `Traduction française : ${translation ?? "(non fournie)"}\n` +
+        `Contexte / verset : ${context && String(context).trim() ? context : "aucun"}\n\n` +
+        `Donne une astuce pour mémoriser ce mot.`;
+
+      const message = await client.messages.create({
+        model,
+        max_tokens: 1024,
+        system: [
+          {
+            type: "text",
+            text: SYSTEM_PROMPT,
+            cache_control: { type: "ephemeral" },
+          },
+        ],
+        messages: [{ role: "user", content: userPrompt }],
       });
-      
-      res.json({ explanation: response.text });
+
+      const explanation = message.content
+        .filter((block): block is Anthropic.TextBlock => block.type === "text")
+        .map((block) => block.text)
+        .join("\n")
+        .trim();
+
+      res.json({ explanation: explanation || "Désolé, aucune astuce n'a pu être générée." });
     } catch (error) {
       console.error("Error generating explanation:", error);
-      res.status(500).json({ error: "Failed to generate explanation." });
+      if (error instanceof Anthropic.AuthenticationError) {
+        return res.status(500).json({ error: "Clé API Claude invalide ou manquante." });
+      }
+      if (error instanceof Anthropic.RateLimitError) {
+        return res.status(503).json({ error: "Trop de requêtes vers l'IA. Réessayez dans un instant." });
+      }
+      const msg = error instanceof Error ? error.message : String(error);
+      if (msg.includes("ANTHROPIC_API_KEY is not set")) {
+        return res.status(500).json({ error: "La clé ANTHROPIC_API_KEY n'est pas configurée sur le serveur." });
+      }
+      res.status(500).json({ error: "Impossible de générer l'astuce pour le moment." });
     }
   });
 
-  // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -55,10 +89,10 @@ Keep the explanation in French. Use markdown for formatting, bolding, and tables
     });
     app.use(vite.middlewares);
   } else {
-    const distPath = path.join(process.cwd(), 'dist');
+    const distPath = path.join(process.cwd(), "dist");
     app.use(express.static(distPath));
-    app.get('*', (req, res) => {
-      res.sendFile(path.join(distPath, 'index.html'));
+    app.get("*", (req, res) => {
+      res.sendFile(path.join(distPath, "index.html"));
     });
   }
 
