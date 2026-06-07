@@ -24,11 +24,11 @@ export default function Dashboard() {
       </header>
 
       <div className="grid grid-cols-2 gap-3 sm:gap-4">
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
+        <Link to="/bibliotheque?filter=mastered" className="bg-white hover:bg-slate-50 transition-colors p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
           <BookOpen className="w-6 h-6 text-brand-emerald mb-2" />
           <p className="text-[10px] sm:text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Maîtrisés</p>
-          <p className="text-xl sm:text-2xl font-bold text-slate-900">{stats.mastered} <span className="text-xs sm:text-sm font-normal text-slate-400">/ 550</span></p>
-        </div>
+          <p className="text-xl sm:text-2xl font-bold text-slate-900">{stats.mastered} <span className="text-xs sm:text-sm font-normal text-slate-400">/ {totalWords}</span></p>
+        </Link>
         
         <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
           <Trophy className="w-6 h-6 text-brand-gold-dark mb-2" />

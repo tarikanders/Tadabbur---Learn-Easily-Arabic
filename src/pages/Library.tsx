@@ -1,15 +1,17 @@
 import { useState, useEffect } from "react";
-import { Search, Filter, BookOpen } from "lucide-react";
-import { VOCABULARY_LIST } from "../data/vocabulary";
+import { Search, BookOpen, Sparkles } from "lucide-react";
+import { VOCABULARY_LIST, WordData } from "../data/vocabulary";
 import { useSRS } from "../hooks/useSRS";
 import { cn } from "../lib/utils";
 import { useSearchParams } from "react-router-dom";
+import AiTipModal from "../components/AiTipModal";
 
 export default function Library() {
   const { srsData } = useSRS();
   const [searchParams, setSearchParams] = useSearchParams();
   const initialFilter = (searchParams.get("filter") as any) || "all";
   
+  const [selectedWord, setSelectedWord] = useState<WordData | null>(null);
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState<"all" | "mastered" | "learning" | "unseen">(
     ["all", "mastered", "learning", "unseen"].includes(initialFilter) ? initialFilter : "all"
@@ -45,7 +47,7 @@ export default function Library() {
     <div className="max-w-2xl mx-auto space-y-6 animate-in fade-in duration-500 pb-24 px-4 pt-6">
       <header className="text-center space-y-2 mb-8">
         <h1 className="font-serif text-4xl font-bold text-slate-900">Bibliothèque</h1>
-        <p className="text-slate-500">Parcourez les 550 mots les plus fréquents.</p>
+        <p className="text-slate-500">Parcourez les {VOCABULARY_LIST.length} mots les plus fréquents.</p>
       </header>
 
       <div className="space-y-4">
@@ -104,7 +106,11 @@ export default function Library() {
            <div className="text-center py-10 text-slate-500 font-medium">Aucun mot trouvé.</div>
         ) : (
           filteredWords.map(word => (
-            <div key={word.id} className="bg-white p-4 rounded-2xl border border-slate-200 flex items-center justify-between hover:border-brand-gold-dark/40 transition-colors shadow-sm">
+            <div
+              key={word.id}
+              onClick={() => setSelectedWord(word)}
+              className="bg-white p-4 rounded-2xl border border-slate-200 flex items-center justify-between hover:border-brand-gold-dark/40 transition-colors shadow-sm cursor-pointer active:scale-[0.99]"
+            >
               <div className="flex items-center gap-4">
                 <div className={cn(
                   "w-3 h-3 rounded-full flex-shrink-0",
@@ -120,14 +126,17 @@ export default function Library() {
                   <p className="text-sm text-slate-600">{word.translation}</p>
                 </div>
               </div>
-              <div className="text-right flex flex-col items-end">
+              <div className="text-right flex flex-col items-end gap-1">
                  <span className="text-[10px] text-brand-gold-dark uppercase tracking-widest font-bold">Rang {word.frequency}</span>
-                 <span className="text-xs text-slate-600 bg-slate-100 px-2 py-1 rounded mt-1 border border-slate-200">{word.type}</span>
+                 <span className="text-xs text-slate-600 bg-slate-100 px-2 py-1 rounded border border-slate-200">{word.type}</span>
+                 <span className="text-[10px] text-indigo-400 flex items-center gap-1"><Sparkles className="w-3 h-3" />Astuce</span>
               </div>
             </div>
           ))
         )}
       </div>
+
+      <AiTipModal word={selectedWord} onClose={() => setSelectedWord(null)} />
     </div>
   );
 }

@@ -174,7 +174,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Sauf, excepté",
     "root": "-",
     "frequency": 558,
-    "type": "Restriction particle",
+    "type": "Particule restrictive",
     "verse": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
     "verseTranslation": "où ne brûlera que le damné,"
   },
@@ -218,7 +218,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Certes, déjà",
     "root": "-",
     "frequency": 406,
-    "type": "Particle of certainty",
+    "type": "Particule de certitude",
     "verse": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ",
     "verseTranslation": "Mais par contre, quand Il l'éprouve en lui restreignant sa subsistance, il dit: «Mon Seigneur m'a avili»."
   },
@@ -317,7 +317,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Non, ne pas",
     "root": "-",
     "frequency": 1364,
-    "type": "Prohibition particle",
+    "type": "Particule prohibitive",
     "verse": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
     "verseTranslation": "qui ne vous incitez pas mutuellement à nourrir le pauvre,"
   },
@@ -735,7 +735,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Mais, au contraire",
     "root": "-",
     "frequency": 122,
-    "type": "Retraction particle",
+    "type": "Particule de rétractation",
     "verse": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
     "verseTranslation": "Mais non! C'est vous plutôt, qui n'êtes pas généreux envers les orphelins;"
   },
@@ -856,7 +856,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Sauf, excepté",
     "root": "-",
     "frequency": 558,
-    "type": "Exceptive particle",
+    "type": "Particule d'exception",
     "verse": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
     "verseTranslation": "où ne brûlera que le damné,"
   },
@@ -900,7 +900,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Est-ce que",
     "root": "-",
     "frequency": 93,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "هَلْ فِى ذَٰلِكَ قَسَمٌۭ لِّذِى حِجْرٍ",
     "verseTranslation": "N'est-ce pas là un serment, pour un doué d'intelligence?"
   },
@@ -933,7 +933,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Ce que, ne pas",
     "root": "-",
     "frequency": 1266,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
     "verseTranslation": "[avec] Iram, [la cité] à la colonne remarquable,"
   },
@@ -1076,7 +1076,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Comment",
     "root": "-",
     "frequency": 80,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
     "verseTranslation": "N'as-tu pas vu comment ton Seigneur a agi avec les 'Aad"
   },
@@ -1384,7 +1384,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "mais, cependant",
     "root": "-",
     "frequency": 65,
-    "type": "Amendment particle",
+    "type": "Particule d'amendement",
     "verse": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ",
     "verseTranslation": "Certes, ce sont eux les véritables corrupteurs, mais ils ne s'en rendent pas compte."
   },
@@ -1802,7 +1802,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Que, de",
     "root": "-",
     "frequency": 578,
-    "type": "Particle of interpretation",
+    "type": "Particule d'interprétation",
     "verse": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
     "verseTranslation": "et que ce jour-là, on amènera l'Enfer; ce jour-là, l'homme se rappellera. Mais à quoi lui servira de se souvenir?"
   },
@@ -1813,7 +1813,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Jusqu'à, jusqu'à ce que",
     "root": "-",
     "frequency": 95,
-    "type": "Inceptive particle",
+    "type": "Particule inceptive",
     "verse": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
     "verseTranslation": "Elle est paix et salut jusqu'à l'apparition de l'aube."
   },
@@ -1923,7 +1923,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Quant à, en ce qui concerne",
     "root": "-",
     "frequency": 44,
-    "type": "Explanation particle",
+    "type": "Particule explicative",
     "verse": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
     "verseTranslation": "Quant à l'homme, lorsque son Seigneur l'éprouve en l'honorant et en le comblant de bienfaits, il dit: «Mon Seigneur m'a honoré»."
   },
@@ -2044,7 +2044,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Bientôt, dans peu",
     "root": "-",
     "frequency": 42,
-    "type": "Future particle",
+    "type": "Particule du futur",
     "verse": "وَلَسَوْفَ يَرْضَىٰ",
     "verseTranslation": "Et certes, il sera bientôt satisfait!"
   },
@@ -2132,7 +2132,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Si ce n'était, sans",
     "root": "-",
     "frequency": 40,
-    "type": "Exhortation particle",
+    "type": "Particule d'exhortation",
     "verse": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ قِيلَ لَهُمْ كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ إِذَا فَرِيقٌۭ مِّنْهُمْ يَخْشَوْنَ ٱلنَّاسَ كَخَشْيَةِ ٱللَّهِ أَوْ أَشَدَّ خَشْيَةًۭ ۚ وَقَالُوا۟ رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا ٱلْقِتَالَ لَوْلَآ أَخَّرْتَنَآ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ ۗ قُلْ مَتَٰعُ ٱلدُّنْيَا قَلِيلٌۭ وَٱلْءَاخِرَةُ خَيْرٌۭ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا",
     "verseTranslation": "N'as-tu pas vu ceux auxquels on avait dit: «Abstenez-vous de combattre, accomplissez la Salât et acquittez la Zakât!» Puis lorsque le combat leur fut prescrit, voilà qu'une partie d'entre eux se mit à craindre les gens comme on craint Allah, ou même d'une crainte plus forte encore, et à dire: «O notre Seigneur! Pourquoi nous as-Tu prescrit le combat? Pourquoi n'as-Tu pas reporté cela à un peu plus tard?» Dis: «La jouissance d'ici-bas est éphémère, mais la vie future est meilleure pour quiconque est pieux. Et on ne vous lésera pas, fût-ce d'un brin de noyau de datte."
   },
@@ -2176,7 +2176,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Certainement, n'est-ce pas",
     "root": "-",
     "frequency": 39,
-    "type": "Inceptive particle",
+    "type": "Particule inceptive",
     "verse": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ",
     "verseTranslation": "Certes, ce sont eux les véritables corrupteurs, mais ils ne s'en rendent pas compte."
   },
@@ -2352,7 +2352,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Lequel, qui",
     "root": "-",
     "frequency": 35,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
     "verseTranslation": "De quoi [Allah] l'a-t-Il créé?"
   },
@@ -2440,7 +2440,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Celui qui, quiconque",
     "root": "-",
     "frequency": 3226,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
     "verseTranslation": "Quant à l'homme, lorsque son Seigneur l'éprouve en l'honorant et en le comblant de bienfaits, il dit: «Mon Seigneur m'a honoré»."
   },
@@ -2528,7 +2528,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Non, certes non",
     "root": "-",
     "frequency": 33,
-    "type": "Aversion particle",
+    "type": "Particule d'aversion",
     "verse": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
     "verseTranslation": "Mais non! C'est vous plutôt, qui n'êtes pas généreux envers les orphelins;"
   },
@@ -2891,7 +2891,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "comment, d'où",
     "root": "-",
     "frequency": 27,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
     "verseTranslation": "et que ce jour-là, on amènera l'Enfer; ce jour-là, l'homme se rappellera. Mais à quoi lui servira de se souvenir?"
   },
@@ -3089,7 +3089,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "quoi, qu'est-ce que",
     "root": "-",
     "frequency": 26,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "۞ إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًۭا مَّا بَعُوضَةًۭ فَمَا فَوْقَهَا ۚ فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۖ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۘ يُضِلُّ بِهِۦ كَثِيرًۭا وَيَهْدِى بِهِۦ كَثِيرًۭا ۚ وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
     "verseTranslation": "Certes, Allah ne se gêne point de citer en exemple n'importe quoi: un moustique ou quoi que ce soit au-dessus; quant aux croyants, ils savent bien qu'il s'agit de la vérité venant de la part de leur Seigneur; quant aux infidèles, ils se demandent «Qu'a voulu dire Allah par un tel exemple?» Par cela, nombreux sont ceux qu'Il égare et nombreux sont ceux qu'Il guide; mais Il n'égare par cela que les pervers,"
   },
@@ -3232,7 +3232,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "vous, toi",
     "root": "-",
     "frequency": 24,
-    "type": "Personal pronoun",
+    "type": "Pronom personnel",
     "verse": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
     "verseTranslation": "C'est Toi [Seul] que nous adorons, et c'est Toi [Seul] dont nous implorons secours."
   },
@@ -3452,7 +3452,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Soit... soit, ou",
     "root": "-",
     "frequency": 22,
-    "type": "Explanation particle",
+    "type": "Particule explicative",
     "verse": "قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًۭا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "verseTranslation": "- Nous dîmes: «Descendez d'ici, vous tous! Toutes les fois que Je vous enverrai un guide, ceux qui [le] suivront n'auront rien à craindre et ne seront point affligés»."
   },
@@ -3463,7 +3463,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Oui certes, mais si",
     "root": "-",
     "frequency": 22,
-    "type": "Answer particle",
+    "type": "Particule de réponse",
     "verse": "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا",
     "verseTranslation": "Mais si! Certes, son Seigneur l'observait parfaitement."
   },
@@ -3826,7 +3826,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Combien, que de",
     "root": "-",
     "frequency": 20,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ",
     "verseTranslation": "Allah n'est-Il pas le plus sage des Juges?"
   },
@@ -3980,7 +3980,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Alors, donc",
     "root": "-",
     "frequency": 405,
-    "type": "Surprise particle",
+    "type": "Particule de surprise",
     "verse": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًۭا",
     "verseTranslation": "Si jamais ils vous attrapent, ils vous lapideront ou vous feront retourner à leur religion, et vous ne réussirez alors plus jamais»."
   },
@@ -4761,7 +4761,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Quand, lorsque, si",
     "root": "-",
     "frequency": 405,
-    "type": "Surprise particle",
+    "type": "Particule de surprise",
     "verse": "وَٱلَّيْلِ إِذَا يَسْرِ",
     "verseTranslation": "Et par la nuit quand elle s'écoule!"
   },
@@ -5003,7 +5003,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Alors, donc",
     "root": "-",
     "frequency": 405,
-    "type": "Answer particle",
+    "type": "Particule de réponse",
     "verse": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًۭا",
     "verseTranslation": "Si jamais ils vous attrapent, ils vous lapideront ou vous feront retourner à leur religion, et vous ne réussirez alors plus jamais»."
   },
@@ -5201,7 +5201,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Ce que, quoi",
     "root": "-",
     "frequency": 1266,
-    "type": "Supplemental particle",
+    "type": "Particule",
     "verse": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
     "verseTranslation": "[avec] Iram, [la cité] à la colonne remarquable,"
   },
@@ -5344,7 +5344,7 @@ export const VOCABULARY_LIST: WordData[] = [
     "translation": "Où, d'où",
     "root": "-",
     "frequency": 12,
-    "type": "Interogative particle",
+    "type": "Particule interrogative",
     "verse": "فَأَيْنَ تَذْهَبُونَ",
     "verseTranslation": "Où allez-vous donc?"
   },

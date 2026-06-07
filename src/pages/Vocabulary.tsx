@@ -5,10 +5,7 @@ import { useSRS } from "../hooks/useSRS";
 import { WordData } from "../data/vocabulary";
 import { motion, useMotionValue, useTransform, useAnimation, PanInfo } from "motion/react";
 import { Link } from "react-router-dom";
-import Markdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../lib/firebase";
+import AiTipModal from "../components/AiTipModal";
 
 export default function Vocabulary() {
   const { getDueWords, processReview, srsData } = useSRS();
@@ -24,8 +21,7 @@ export default function Vocabulary() {
     newSeen: 0
   });
 
-  const [aiExplanation, setAiExplanation] = useState<string | null>(null);
-  const [isExplaining, setIsExplaining] = useState(false);
+  const [showAiTip, setShowAiTip] = useState(false);
 
   const controls = useAnimation();
   const x = useMotionValue(0);
@@ -115,7 +111,7 @@ export default function Vocabulary() {
     }
     
     setIsRevealed(false);
-    setAiExplanation(null);
+    setShowAiTip(false);
     setCurrentIndex(prev => prev + 1);
     
     x.set(0);
@@ -123,49 +119,6 @@ export default function Vocabulary() {
     setIsProcessing(false);
   };
 
-  const fetchExplanation = async () => {
-    if (aiExplanation || isExplaining) return;
-    setIsExplaining(true);
-    try {
-      const tipRef = doc(db, "ai_tips", currentWord.id);
-
-      try {
-        const cached = await getDoc(tipRef);
-        if (cached.exists()) {
-          setAiExplanation(cached.data().explanation);
-          return;
-        }
-      } catch {
-        // Not authenticated or Firestore unavailable — fall through to API
-      }
-
-      const res = await fetch("/api/explain", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          word: currentWord.transliteration,
-          arabic: currentWord.arabic,
-          translation: currentWord.translation,
-          context: currentWord.verse
-        })
-      });
-      const data = await res.json();
-      if (data.explanation) {
-        setAiExplanation(data.explanation);
-        try {
-          await setDoc(tipRef, { explanation: data.explanation, generatedAt: Date.now() });
-        } catch {
-          // Not authenticated — cache write skipped silently
-        }
-      } else {
-        setAiExplanation("Désolé, impossible de charger l'explication.");
-      }
-    } catch (e) {
-      setAiExplanation("Erreur de connexion.");
-    } finally {
-      setIsExplaining(false);
-    }
-  };
 
   const handleDragEnd = async (event: any, info: PanInfo) => {
     const threshold = 100;
@@ -269,7 +222,7 @@ export default function Vocabulary() {
                   onPointerDown={(e) => e.stopPropagation()}
                   onClick={(e) => {
                     e.stopPropagation();
-                    fetchExplanation();
+                    setShowAiTip(true);
                   }}
                   className="pointer-events-auto mt-6 flex items-center gap-2 mx-auto px-4 py-2 bg-brand-gold-light/30 text-brand-gold-dark font-medium rounded-xl hover:bg-brand-gold-light/60 transition-colors cursor-pointer"
                 >
@@ -301,43 +254,10 @@ export default function Vocabulary() {
         </button>
       </div>
 
-      {/* AI Explanation Modal */}
-      {(isExplaining || aiExplanation) && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/40 backdrop-blur-sm" onClick={() => { setAiExplanation(null); setIsExplaining(false); }}>
-          <div 
-            className="bg-white rounded-[32px] p-6 sm:p-8 w-full max-w-lg shadow-2xl relative max-h-[85vh] overflow-y-auto"
-            onClick={e => e.stopPropagation()}
-          >
-            <button 
-              onClick={() => { setAiExplanation(null); setIsExplaining(false); }}
-              className="absolute top-4 right-4 sm:top-6 sm:right-6 bg-slate-100 p-2 rounded-full text-slate-500 hover:text-slate-800 hover:bg-slate-200 transition-colors"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-500">
-                <Sparkles className="w-6 h-6" />
-              </div>
-              <div>
-                <h3 className="font-bold text-xl text-slate-800">Astuce IA</h3>
-                <p className="text-sm text-slate-500">Pour le mot "{currentWord.arabic}"</p>
-              </div>
-            </div>
-
-            {isExplaining ? (
-              <div className="flex flex-col items-center justify-center py-12 space-y-4">
-                <div className="w-8 h-8 border-4 border-indigo-200 border-t-indigo-500 rounded-full animate-spin" />
-                <p className="text-slate-500 font-medium animate-pulse">Génération de l'explication...</p>
-              </div>
-            ) : (
-              <div className="prose prose-slate prose-sm sm:prose-base prose-p:leading-relaxed prose-headings:font-serif prose-headings:text-slate-900 prose-a:text-indigo-500 max-w-none pb-4">
-                <Markdown remarkPlugins={[remarkGfm]}>{aiExplanation}</Markdown>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
+      <AiTipModal
+        word={showAiTip ? currentWord : null}
+        onClose={() => setShowAiTip(false)}
+      />
     </div>
   );
 }

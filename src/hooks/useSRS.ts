@@ -43,6 +43,11 @@ export function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
+// SRS tuning constants
+const MAX_INTERVAL = 14;      // days — mots maîtrisés reviennent max ~2 semaines après
+const MASTERY_STREAK = 4;     // réussites consécutives requises
+const MASTERY_INTERVAL = 7;   // intervalle minimum (jours) pour être maîtrisé
+
 export function useSRS() {
   const { user } = useAuth();
   
@@ -257,7 +262,14 @@ export function useSRS() {
       .filter(w => !srsData[w.id] || srsData[w.id].status === "unseen")
       .slice(0, newWordsLimit);
 
-    const session = [...due.slice(0, limit - unseen.length), ...unseen];
+    const combined = [...due.slice(0, limit - unseen.length), ...unseen];
+    // Dédup par mot arabe : évite qu'un homographe apparaisse 2× dans la même session
+    const seenArabic = new Set<string>();
+    const session = combined.filter(w => {
+      if (seenArabic.has(w.arabic)) return false;
+      seenArabic.add(w.arabic);
+      return true;
+    });
     return shuffleArray(session).slice(0, limit);
   };
 
@@ -288,10 +300,8 @@ export function useSRS() {
         newInterval = Math.floor(Math.max(3, rawState.interval) * rawState.easeFactor);
       }
 
-      // Cap à 365j (pas 30j) pour les mots vraiment maîtrisés
-      const cappedInterval = Math.min(newInterval, 365);
-      // Mastered = streak >= 5 ET interval >= 21j (critère plus strict et fiable)
-      const isMastered = currentStreak >= 5 && cappedInterval >= 21;
+        const cappedInterval = Math.min(newInterval, MAX_INTERVAL);
+      const isMastered = currentStreak >= MASTERY_STREAK && cappedInterval >= MASTERY_INTERVAL;
 
       newState = {
         interval: cappedInterval,
