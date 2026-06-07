@@ -13,12 +13,26 @@
         "lastUpdated": { "type": "number" }
       },
       "required": ["uid", "srsData", "lastUpdated"]
+    },
+    "AiTip": {
+      "title": "AI Tip Cache",
+      "description": "Cached AI-generated mnemonic tips for Arabic vocabulary words",
+      "type": "object",
+      "properties": {
+        "explanation": { "type": "string" },
+        "generatedAt": { "type": "number" }
+      },
+      "required": ["explanation", "generatedAt"]
     }
   },
   "firestore": {
     "user_progress/{userId}": {
       "schema": { "$ref": "UserProgress" },
       "description": "User progress data, read/write restricted to the user themselves"
+    },
+    "ai_tips/{wordId}": {
+      "schema": { "$ref": "AiTip" },
+      "description": "Shared cache of AI tips keyed by word ID, read/write for any authenticated user"
     }
   }
 }

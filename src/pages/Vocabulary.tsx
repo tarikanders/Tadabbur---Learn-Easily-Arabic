@@ -7,6 +7,8 @@ import { motion, useMotionValue, useTransform, useAnimation, PanInfo } from "mot
 import { Link } from "react-router-dom";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { db } from "../lib/firebase";
 
 export default function Vocabulary() {
   const { getDueWords, processReview, srsData } = useSRS();
@@ -125,6 +127,13 @@ export default function Vocabulary() {
     if (aiExplanation || isExplaining) return;
     setIsExplaining(true);
     try {
+      const tipRef = doc(db, "ai_tips", currentWord.id);
+      const cached = await getDoc(tipRef);
+      if (cached.exists()) {
+        setAiExplanation(cached.data().explanation);
+        return;
+      }
+
       const res = await fetch("/api/explain", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -138,6 +147,7 @@ export default function Vocabulary() {
       const data = await res.json();
       if (data.explanation) {
         setAiExplanation(data.explanation);
+        await setDoc(tipRef, { explanation: data.explanation, generatedAt: Date.now() });
       } else {
         setAiExplanation("Désolé, impossible de charger l'explication.");
       }
