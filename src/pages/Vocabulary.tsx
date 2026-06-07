@@ -128,10 +128,15 @@ export default function Vocabulary() {
     setIsExplaining(true);
     try {
       const tipRef = doc(db, "ai_tips", currentWord.id);
-      const cached = await getDoc(tipRef);
-      if (cached.exists()) {
-        setAiExplanation(cached.data().explanation);
-        return;
+
+      try {
+        const cached = await getDoc(tipRef);
+        if (cached.exists()) {
+          setAiExplanation(cached.data().explanation);
+          return;
+        }
+      } catch {
+        // Not authenticated or Firestore unavailable — fall through to API
       }
 
       const res = await fetch("/api/explain", {
@@ -147,7 +152,11 @@ export default function Vocabulary() {
       const data = await res.json();
       if (data.explanation) {
         setAiExplanation(data.explanation);
-        await setDoc(tipRef, { explanation: data.explanation, generatedAt: Date.now() });
+        try {
+          await setDoc(tipRef, { explanation: data.explanation, generatedAt: Date.now() });
+        } catch {
+          // Not authenticated — cache write skipped silently
+        }
       } else {
         setAiExplanation("Désolé, impossible de charger l'explication.");
       }
