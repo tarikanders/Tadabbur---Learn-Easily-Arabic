@@ -6,7 +6,7 @@ on:
 
 env:
   PROJECT_ID: gen-lang-client-0365793293
-  REGION: europe-west1
+  REGION: us-west1
   SERVICE: tadabbur
   REGISTRY: europe-west1-docker.pkg.dev
 
