@@ -178,7 +178,7 @@ Règles :
 - La leçon est pour les niveaux ${lesson.level === 1 ? 'débutants' : lesson.level === 2 ? 'intermédiaires' : 'avancés'}`;
 
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 4096,
     system: [{ type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: prompt }]

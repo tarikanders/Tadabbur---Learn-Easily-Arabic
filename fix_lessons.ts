@@ -100,7 +100,7 @@ Structure exacte:
 Limite: 2 concepts max, 2 exercices, 2-3 exemples par concept. JSON compact et valide.`;
 
   const message = await client.messages.create({
-    model: 'claude-sonnet-4-6',
+    model: 'claude-haiku-4-5-20251001',
     max_tokens: 6000,
     messages: [{ role: 'user', content: prompt }]
   });
