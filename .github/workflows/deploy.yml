@@ -59,7 +59,7 @@ jobs:
       - name: Deploy Firestore rules
         run: |
           npm install -g firebase-tools
-          firebase deploy --only firestore:rules --project ${{ env.PROJECT_ID }} --non-interactive
+          firebase deploy --only firestore:rules --project ${{ env.PROJECT_ID }} --non-interactive --token ${{ secrets.FIREBASE_TOKEN }}
 
       - name: Show service URL
         run: |
