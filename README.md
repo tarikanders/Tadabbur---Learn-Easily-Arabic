@@ -1,20 +1,80 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# Tadabbur — Learn Quranic Arabic
+
+**Structured Arabic learning through Quranic study, with spaced repetition and AI-guided exercises**
+
+[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## What it does
 
-View your app in AI Studio: https://ai.studio/apps/c3a08c8e-b2a6-4379-9f2d-c41ff64b2527
+Tadabbur (تدبُّر — *to reflect deeply* in Arabic) is a **full Arabic learning platform** built around Quranic text. Instead of generic vocabulary lists, every lesson is anchored in real Quranic verses — so you learn the language in its most important context.
 
-## Run Locally
+The app covers grammar progressively, tracks your progress with **spaced repetition (SRS)**, and offers on-demand AI tips via Gemini when you're stuck.
 
-**Prerequisites:**  Node.js
+## Features
 
+- **Dashboard** — daily practice streak, progress overview, SRS queue
+- **Grammar lessons** — structured courses on nominal sentences, verbal sentences, gender, number, possessive constructs (*idafa*), apposition (*badal*), specification (*tamyiz*), adjectives
+- **5 exercise types** with real Quranic verses:
+  - **Verb Analyzer** — identify root, form, person, number, tense
+  - **Root Finder** — extract the trilateral root from conjugated forms
+  - **Case Identifier** — recognize إعراب (i'rab) cases: مرفوع / منصوب / مجرور
+  - **Classify** — sort words by grammatical category
+  - **Highlight** — identify specific grammatical patterns in context
+- **Vocabulary** — word list with search, SRS scheduling, pronunciation
+- **Library** — reference sheets and grammar tables
+- **Statistics** — retention rate, exercise history, SRS performance
+- **AI tips** — ask Gemini for a contextual explanation on any exercise
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Stack
+
+| Layer | Tech |
+|-------|------|
+| Frontend | React 18 + TypeScript |
+| Routing | React Router v6 |
+| Build | Vite |
+| Styling | Tailwind CSS |
+| AI tips | Gemini API |
+| Auth & sync | Firebase Auth + Firestore |
+| Spaced repetition | Custom SRS implementation |
+
+## Run locally
+
+```bash
+npm install
+# Set GEMINI_API_KEY in .env.local
+# Configure Firebase in src/lib/firebase.ts
+npm run dev     # http://localhost:5173
+```
+
+## Structure
+
+```
+src/
+├── pages/
+│   ├── Dashboard.tsx       # Home with streak + SRS queue
+│   ├── Practice.tsx        # Exercise selection
+│   ├── ExercisePlayer.tsx  # Plays any exercise type
+│   ├── Vocabulary.tsx      # Word bank with SRS
+│   ├── Statistics.tsx      # Progress analytics
+│   └── grammar/            # Lesson pages per grammar topic
+├── components/
+│   ├── exercises/          # 5 exercise type components
+│   └── lessons/            # Lesson reader components
+├── data/
+│   ├── quranExercises.ts   # Exercise bank (Quranic verses)
+│   ├── lessons.ts          # Grammar lesson content
+│   └── vocabulary.ts       # Word bank
+└── hooks/
+    ├── useSRS.ts           # Spaced repetition logic
+    └── useAiTip.ts         # Gemini integration
+```
