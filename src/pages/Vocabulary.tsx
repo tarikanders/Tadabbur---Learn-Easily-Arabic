@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { CheckCircle2, RotateCw, Check, X, ArrowLeft, Sparkles } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useSRS } from "../hooks/useSRS";
@@ -14,6 +14,12 @@ export default function Vocabulary() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isRevealed, setIsRevealed] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
+
+  // Nombre de cartes uniques au démarrage (barre de progression stable malgré les reprises)
+  const baseCount = useRef(0);
+  // Cartes déjà comptées dans les stats / déjà repassées une fois (par session)
+  const answeredIds = useRef<Set<string>>(new Set());
+  const relearnedIds = useRef<Set<string>>(new Set());
   
   const [sessionStats, setSessionStats] = useState({
     success: 0,
@@ -30,7 +36,9 @@ export default function Vocabulary() {
   const overlayOpacityRight = useTransform(x, [0, 100], [0, 1]);
 
   useEffect(() => {
-    setDueWords(getDueWords({}, 20));
+    const session = getDueWords({}, 15);
+    baseCount.current = session.length;
+    setDueWords(session);
   }, []);
 
   if (dueWords.length === 0) {
@@ -94,22 +102,24 @@ export default function Vocabulary() {
     const state = srsData[currentWord.id];
     const isNew = !state || state.status === "unseen";
 
-    setSessionStats(prev => ({
-      success: prev.success + (isSuccess ? 1 : 0),
-      fail: prev.fail + (!isSuccess ? 1 : 0),
-      newSeen: prev.newSeen + (isNew ? 1 : 0)
-    }));
+    // Stats comptées une seule fois par carte (la reprise ne re-compte pas)
+    if (!answeredIds.current.has(currentWord.id)) {
+      answeredIds.current.add(currentWord.id);
+      setSessionStats(prev => ({
+        success: prev.success + (isSuccess ? 1 : 0),
+        fail: prev.fail + (!isSuccess ? 1 : 0),
+        newSeen: prev.newSeen + (isNew ? 1 : 0)
+      }));
+    }
 
     processReview(currentWord.id, isSuccess);
 
-    const prevStreak = state?.streak || 0;
-    const newStreak = isSuccess ? prevStreak + 1 : 0;
-
-    if (!isSuccess || newStreak < 2) {
-      // Re-add to the end of the session so they must get it right twice in a row before finishing
+    // Carte ratée → une seule reprise vers la fin de session, puis terminée (planifiée demain)
+    if (!isSuccess && !relearnedIds.current.has(currentWord.id)) {
+      relearnedIds.current.add(currentWord.id);
       setDueWords(prev => [...prev, currentWord]);
     }
-    
+
     setIsRevealed(false);
     setShowAiTip(false);
     setCurrentIndex(prev => prev + 1);
@@ -145,7 +155,7 @@ export default function Vocabulary() {
         <div className="w-full h-1.5 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
           <div 
             className="h-full bg-brand-gold-dark transition-all duration-300"
-            style={{ width: `${((currentIndex) / dueWords.length) * 100}%` }}
+            style={{ width: `${Math.min(currentIndex / Math.max(1, baseCount.current), 1) * 100}%` }}
           />
         </div>
       </header>

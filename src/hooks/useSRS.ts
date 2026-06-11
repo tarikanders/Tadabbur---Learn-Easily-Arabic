@@ -44,9 +44,12 @@ export function shuffleArray<T>(array: T[]): T[] {
 }
 
 // SRS tuning constants
-const MAX_INTERVAL = 14;      // days — mots maîtrisés reviennent max ~2 semaines après
-const MASTERY_STREAK = 4;     // réussites consécutives requises
-const MASTERY_INTERVAL = 7;   // intervalle minimum (jours) pour être maîtrisé
+const LEARNING_STEPS = [1, 3];   // intervalles (jours) des 1re et 2e bonnes réponses
+const GRADUATING_INTERVAL = 7;   // 1er intervalle une fois "acquis"
+const MASTERY_STREAK = 3;        // acquis dès 3 réussites consécutives
+const MAX_INTERVAL = 270;        // acquis s'espacent jusqu'à ~9 mois (évite le spam)
+const ACCURACY_GATE = 0.6;       // précision minimale pour passer/rester "acquis"
+const EASE_MAX = 2.8;            // plafond du facteur de facilité
 
 export function useSRS() {
   const { user } = useAuth();
@@ -258,11 +261,13 @@ export function useSRS() {
 
     // Nouveaux mots : jusqu'à 5 si beaucoup de révisions dues, jusqu'à 15 si peu
     const newWordsLimit = due.length >= 15 ? 5 : 15;
-    const unseen = activeWords
-      .filter(w => !srsData[w.id] || srsData[w.id].status === "unseen")
-      .slice(0, newWordsLimit);
+    // On mélange seulement le segment des nouveaux mots (pas les dus, déjà triés par priorité)
+    const unseen = shuffleArray(
+      activeWords.filter(w => !srsData[w.id] || srsData[w.id].status === "unseen")
+    ).slice(0, newWordsLimit);
 
-    const combined = [...due.slice(0, limit - unseen.length), ...unseen];
+    // Dus prioritaires (fragiles/en retard d'abord) EN TÊTE, puis nouveaux mots — sans re-mélange global
+    const combined = [...due.slice(0, Math.max(0, limit - unseen.length)), ...unseen];
     // Dédup par mot arabe : évite qu'un homographe apparaisse 2× dans la même session
     const seenArabic = new Set<string>();
     const session = combined.filter(w => {
@@ -270,7 +275,7 @@ export function useSRS() {
       seenArabic.add(w.arabic);
       return true;
     });
-    return shuffleArray(session).slice(0, limit);
+    return session.slice(0, limit);
   };
 
   const processReview = (wordId: string, isSuccess: boolean) => {
@@ -289,23 +294,28 @@ export function useSRS() {
 
     if (isSuccess) {
       const currentStreak = (rawState.streak || 0) + 1;
-      let newInterval = rawState.interval;
+      const wasMastered = rawState.status === "mastered";
+      let newInterval: number;
 
-      // Anki-like learning steps: 1j → 3j → exponentiel
+      // Phase d'apprentissage (2 paliers) → diplôme "acquis" à la 3e réussite → croissance par ease
       if (currentStreak === 1) {
-        newInterval = 1;
+        newInterval = LEARNING_STEPS[0];
       } else if (currentStreak === 2) {
-        newInterval = 3;
+        newInterval = LEARNING_STEPS[1];
+      } else if (!wasMastered) {
+        newInterval = GRADUATING_INTERVAL;
       } else {
-        newInterval = Math.floor(Math.max(3, rawState.interval) * rawState.easeFactor);
+        newInterval = Math.round(Math.max(GRADUATING_INTERVAL, rawState.interval) * rawState.easeFactor);
       }
 
-        const cappedInterval = Math.min(newInterval, MAX_INTERVAL);
-      const isMastered = currentStreak >= MASTERY_STREAK && cappedInterval >= MASTERY_INTERVAL;
+      const cappedInterval = Math.min(newInterval, MAX_INTERVAL);
+      // Précision sur toute la durée de vie du mot (en incluant cette réussite)
+      const accuracy = (rawState.totalSuccess + 1) / (rawState.totalSeen + 1);
+      const isMastered = currentStreak >= MASTERY_STREAK && accuracy >= ACCURACY_GATE;
 
       newState = {
         interval: cappedInterval,
-        easeFactor: Math.min(2.7, rawState.easeFactor + 0.1),
+        easeFactor: Math.min(EASE_MAX, rawState.easeFactor + 0.1),
         nextReview: addDaysStr(getTodayStr(), cappedInterval),
         seen: true,
         totalSeen: rawState.totalSeen + 1,
