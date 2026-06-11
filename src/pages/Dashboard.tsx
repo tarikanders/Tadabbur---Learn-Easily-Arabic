@@ -24,37 +24,37 @@ export default function Dashboard() {
       </header>
 
       <div className="grid grid-cols-2 gap-3 sm:gap-4">
-        <Link to="/bibliotheque?filter=mastered" className="bg-white hover:bg-slate-50 transition-colors p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
+        <Link to="/bibliotheque?filter=mastered" className="bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center text-center shadow-sm">
           <BookOpen className="w-6 h-6 text-brand-emerald mb-2" />
-          <p className="text-[10px] sm:text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Maîtrisés</p>
-          <p className="text-xl sm:text-2xl font-bold text-slate-900">{stats.mastered} <span className="text-xs sm:text-sm font-normal text-slate-400">/ {totalWords}</span></p>
+          <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest font-bold mb-1">Maîtrisés</p>
+          <p className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-cream-50">{stats.mastered} <span className="text-xs sm:text-sm font-normal text-slate-400 dark:text-slate-500">/ {totalWords}</span></p>
         </Link>
-        
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
+
+        <div className="bg-white dark:bg-slate-800 p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center text-center shadow-sm">
           <Trophy className="w-6 h-6 text-brand-gold-dark mb-2" />
-          <p className="text-[10px] sm:text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Streak</p>
-          <p className="text-xl sm:text-2xl font-bold text-slate-900">{streakData.currentStreak} <span className="text-xs sm:text-sm font-normal text-slate-400">jours</span></p>
+          <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest font-bold mb-1">Streak</p>
+          <p className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-cream-50">{streakData.currentStreak} <span className="text-xs sm:text-sm font-normal text-slate-400 dark:text-slate-500">jours</span></p>
         </div>
 
-        <Link to="/bibliotheque?filter=learning" className="bg-white hover:bg-slate-50 transition-colors p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
+        <Link to="/bibliotheque?filter=learning" className="bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center text-center shadow-sm">
           <Sparkles className="w-6 h-6 text-orange-500 mb-2" />
-          <p className="text-[10px] sm:text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">À revoir</p>
-          <p className="text-xl sm:text-2xl font-bold text-slate-900">{wordsToReview}</p>
+          <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest font-bold mb-1">À revoir</p>
+          <p className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-cream-50">{wordsToReview}</p>
         </Link>
-        
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-slate-200 flex flex-col items-center justify-center text-center shadow-sm">
+
+        <div className="bg-white dark:bg-slate-800 p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-700 flex flex-col items-center justify-center text-center shadow-sm">
           <TrendingUp className="w-6 h-6 text-brand-emerald mb-2" />
-          <p className="text-[10px] sm:text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Vus ce jour</p>
-          <p className="text-xl sm:text-2xl font-bold text-slate-900">{streakData.wordsStudiedToday}</p>
+          <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest font-bold mb-1">Vus ce jour</p>
+          <p className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-cream-50">{streakData.wordsStudiedToday}</p>
         </div>
       </div>
 
-      <section className="bg-white rounded-[24px] sm:rounded-3xl p-6 border border-brand-gold-dark/20 shadow-sm text-center relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold-light rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none" />
-        
+      <section className="bg-white dark:bg-slate-800 rounded-[24px] sm:rounded-3xl p-6 border border-brand-gold-dark/20 dark:border-slate-700 shadow-sm text-center relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold-light dark:bg-brand-gold-dark/20 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none" />
+
         <div className="mb-6 z-10 relative">
-          <p className="text-slate-800 font-medium mb-1">Session Quotidienne</p>
-          <p className="text-sm text-slate-600">
+          <p className="text-slate-800 dark:text-cream-50 font-medium mb-1">Session Quotidienne</p>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
             <span className="text-brand-emerald-dark font-bold">{stats.dueToday} cartes à réviser</span> aujourd'hui<br/>
             <span className="text-brand-gold-dark font-bold">{stats.newWords} nouveaux mots</span> disponibles
           </p>
@@ -71,7 +71,7 @@ export default function Dashboard() {
 
       <section>
         <div className="flex justify-between items-end mb-4 px-1">
-          <h3 className="text-slate-900 font-serif font-bold text-xl">Progression Globale</h3>
+          <h3 className="text-slate-900 dark:text-cream-50 font-serif font-bold text-xl">Progression Globale</h3>
           <span className="text-[10px] sm:text-xs font-bold text-brand-gold-dark uppercase tracking-wider">Palier {currentTier}</span>
         </div>
         
@@ -90,16 +90,16 @@ export default function Dashboard() {
             const percentage = tierWords.length > 0 ? (masteredCount / tierWords.length) * 100 : 0;
             
             return (
-              <div key={tier} className={cn("relative p-4 rounded-[20px] sm:rounded-2xl border transition-all", 
-                isCurrent ? "bg-white border-brand-gold-dark/40 shadow-sm" : 
-                "bg-slate-50 border-brand-emerald/20 hover:border-brand-emerald/40 cursor-pointer"
+              <div key={tier} className={cn("relative p-4 rounded-[20px] sm:rounded-2xl border transition-all",
+                isCurrent ? "bg-white dark:bg-slate-800 border-brand-gold-dark/40 dark:border-brand-gold-dark/50 shadow-sm" :
+                "bg-slate-50 dark:bg-slate-800/50 border-brand-emerald/20 dark:border-slate-700 hover:border-brand-emerald/40 cursor-pointer"
               )}>
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-[13px] sm:text-sm font-bold text-slate-800">Palier {tier} <span className="text-slate-500 text-[10px] sm:text-xs ml-1 sm:ml-2">({startRank + 1}-{endRank})</span></span>
-                  {percentage === 100 && <span className="text-[10px] sm:text-xs text-brand-emerald-dark font-bold">Complété</span>}
+                  <span className="text-[13px] sm:text-sm font-bold text-slate-800 dark:text-cream-100">Palier {tier} <span className="text-slate-500 dark:text-slate-400 text-[10px] sm:text-xs ml-1 sm:ml-2">({startRank + 1}-{endRank})</span></span>
+                  {percentage === 100 && <span className="text-[10px] sm:text-xs text-brand-emerald-dark dark:text-emerald-400 font-bold">Complété</span>}
                   {percentage < 100 && <span className="text-[10px] sm:text-xs text-brand-gold-dark font-bold">{masteredCount}/{tierWords.length}</span>}
                 </div>
-                <div className="h-1.5 sm:h-2 w-full bg-slate-200 rounded-full overflow-hidden">
+                <div className="h-1.5 sm:h-2 w-full bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
                   <div 
                     className={cn("h-full transition-all duration-1000", isCurrent ? "bg-brand-gold-dark" : "bg-brand-emerald")}
                     style={{ width: `${percentage}%` }}

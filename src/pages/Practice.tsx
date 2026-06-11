@@ -33,28 +33,28 @@ export default function Practice() {
       <div className="absolute inset-0 pattern-ornament pointer-events-none -z-10 opacity-30" />
       
       <header className="mb-8 mt-6 px-4">
-        <h1 className="font-serif text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Pratique</h1>
-        <p className="text-slate-600 text-lg">Entraînez-vous pour consolider vos acquis.</p>
+        <h1 className="font-serif text-4xl sm:text-5xl font-bold text-slate-900 dark:text-cream-50 mb-4">Pratique</h1>
+        <p className="text-slate-600 dark:text-slate-400 text-lg">Entraînez-vous pour consolider vos acquis.</p>
       </header>
 
       {/* Tabs */}
       <div className="px-4 mb-6">
-        <div className="flex bg-slate-100 p-1 rounded-2xl">
-          <button 
+        <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-2xl">
+          <button
             onClick={() => setActiveTab("daily")}
-            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "daily" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "daily" ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-cream-50 shadow-sm" : "text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-cream-200")}
           >
             Daily Drill
           </button>
-          <button 
+          <button
             onClick={() => setActiveTab("surah")}
-            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "surah" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "surah" ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-cream-50 shadow-sm" : "text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-cream-200")}
           >
             Par Sourate
           </button>
-          <button 
+          <button
             onClick={() => setActiveTab("rule")}
-            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "rule" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+            className={cn("flex-1 py-2.5 px-4 rounded-xl text-sm font-bold transition-all", activeTab === "rule" ? "bg-white dark:bg-slate-700 text-slate-900 dark:text-cream-50 shadow-sm" : "text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-cream-200")}
           >
             Par Règle
           </button>
@@ -73,7 +73,7 @@ export default function Practice() {
           {activeTab === "daily" && (
             <>
               <motion.div variants={itemVariants}>
-                <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <h2 className="text-xl font-bold text-slate-900 dark:text-cream-50 mb-4 flex items-center gap-2">
                   <Sparkles className="w-5 h-5 text-brand-emerald" /> Entraînement du Jour
                 </h2>
                 <div className="grid gap-4">
@@ -96,24 +96,24 @@ export default function Practice() {
               </motion.div>
 
               <motion.div variants={itemVariants} className="pt-6">
-                <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <h2 className="text-xl font-bold text-slate-900 dark:text-cream-50 mb-4 flex items-center gap-2">
                   <BrainCircuit className="w-5 h-5 text-brand-gold-dark" /> Vocabulaire SRS
                 </h2>
                 <div className="grid gap-4">
-                  <Link to="/vocabulaire" className="bg-brand-gold-light/20 border border-brand-gold-dark/20 p-6 rounded-[32px] hover:bg-brand-gold-light/40 transition-all hover:scale-[1.02] active:scale-95 group">
+                  <Link to="/vocabulaire" className="bg-brand-gold-light/20 dark:bg-slate-800 border border-brand-gold-dark/20 dark:border-slate-700 p-6 rounded-[32px] hover:bg-brand-gold-light/40 dark:hover:bg-slate-700/50 transition-all hover:scale-[1.02] active:scale-95 group">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-4">
                         <div className="w-12 h-12 bg-brand-gold-dark text-white rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
                           <BrainCircuit className="w-6 h-6" />
                         </div>
                         <div>
-                          <h3 className="font-bold text-lg text-slate-800">Session du jour</h3>
-                          <p className="text-slate-500 text-sm">Répétition espacée</p>
+                          <h3 className="font-bold text-lg text-slate-800 dark:text-cream-50">Session du jour</h3>
+                          <p className="text-slate-500 dark:text-slate-400 text-sm">Répétition espacée</p>
                         </div>
                       </div>
                       <span className={cn(
                         "text-sm font-bold px-3 py-1.5 rounded-lg",
-                        dueWordsCount > 0 ? "bg-brand-gold-dark text-white" : "bg-white text-brand-gold-dark border border-brand-gold-dark/20"
+                        dueWordsCount > 0 ? "bg-brand-gold-dark text-white" : "bg-white dark:bg-slate-700 text-brand-gold-dark border border-brand-gold-dark/20 dark:border-slate-600"
                       )}>
                         {dueWordsCount > 0 ? `${dueWordsCount} à voir` : "À jour"}
                       </span>
@@ -126,31 +126,31 @@ export default function Practice() {
 
           {activeTab === "surah" && (
             <motion.div variants={itemVariants}>
-              <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-slate-900 dark:text-cream-50 mb-4 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-slate-500" /> Par Sourate
               </h2>
               <div className="space-y-4">
-                <Link to="/exercice/sourate/67" className="flex items-center justify-between p-5 rounded-3xl border border-slate-200 bg-white hover:border-slate-300 hover:shadow-sm transition-all group">
+                <Link to="/exercice/sourate/67" className="flex items-center justify-between p-5 rounded-3xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300 dark:hover:border-slate-600 hover:shadow-sm transition-all group">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 font-bold font-serif">
+                    <div className="w-12 h-12 bg-slate-100 dark:bg-slate-700 rounded-xl flex items-center justify-center text-slate-600 dark:text-slate-300 font-bold font-serif">
                       67
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg text-slate-800">Al-Mulk (الملك)</h3>
-                      <p className="text-slate-500 text-sm">Sourate principale • 30 versets</p>
+                      <h3 className="font-bold text-lg text-slate-800 dark:text-cream-50">Al-Mulk (الملك)</h3>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">Sourate principale • 30 versets</p>
                     </div>
                   </div>
                   <ChevronRight className="w-5 h-5 text-slate-400 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                
-                <div className="flex items-center justify-between p-5 rounded-3xl border border-slate-200 bg-slate-50/50 opacity-70">
+
+                <div className="flex items-center justify-between p-5 rounded-3xl border border-slate-200 dark:border-slate-700 bg-slate-50/50 dark:bg-slate-800/50 opacity-70">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-slate-200 rounded-xl flex items-center justify-center text-slate-400 font-bold font-serif">
+                    <div className="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-xl flex items-center justify-center text-slate-400 dark:text-slate-500 font-bold font-serif">
                       18
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg text-slate-800">Al-Kahf (الكهف)</h3>
-                      <p className="text-slate-500 text-sm">Prochainement</p>
+                      <h3 className="font-bold text-lg text-slate-800 dark:text-cream-50">Al-Kahf (الكهف)</h3>
+                      <p className="text-slate-500 dark:text-slate-400 text-sm">Prochainement</p>
                     </div>
                   </div>
                 </div>
@@ -160,7 +160,7 @@ export default function Practice() {
 
           {activeTab === "rule" && (
             <motion.div variants={itemVariants}>
-              <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+              <h2 className="text-xl font-bold text-slate-900 dark:text-cream-50 mb-4 flex items-center gap-2">
                 <Target className="w-5 h-5 text-slate-500" /> Par Règle Grammaticale
               </h2>
               <div className="grid gap-3">
@@ -171,14 +171,14 @@ export default function Practice() {
                   { name: "Les verbes (passé/présent/impératif)", type: "verb_analyzer" },
                   { name: "Les racines (الجذر)", type: "root_finder" }
                 ].map((rule, idx) => (
-                  <Link key={idx} to={`/exercice/rule/${rule.type}`} className="flex items-center justify-between p-4 rounded-2xl border border-slate-200 bg-white hover:bg-slate-50 transition-colors group">
-                    <span className="font-medium text-slate-700">{rule.name}</span>
+                  <Link key={idx} to={`/exercice/rule/${rule.type}`} className="flex items-center justify-between p-4 rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group">
+                    <span className="font-medium text-slate-700 dark:text-cream-200">{rule.name}</span>
                     <ChevronRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 ))}
               </div>
-              
-              <div className="mt-8 pt-6 border-t border-slate-200">
+
+              <div className="mt-8 pt-6 border-t border-slate-200 dark:border-slate-700">
                 <Link to="/exercice/free_irab" className="flex items-start gap-4 p-5 rounded-3xl bg-brand-gold-dark text-white hover:bg-slate-900 transition-colors shadow-md">
                   <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shrink-0">
                     <span className="text-xl">🏆</span>

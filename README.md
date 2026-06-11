@@ -18,7 +18,7 @@
 
 Tadabbur (تدبُّر — *to reflect deeply* in Arabic) is a **full Arabic learning platform** built around Quranic text. Instead of generic vocabulary lists, every lesson is anchored in real Quranic verses — so you learn the language in its most important context.
 
-The app covers grammar progressively, tracks your progress with **spaced repetition (SRS)**, and offers on-demand AI tips via Gemini when you're stuck.
+The app covers grammar progressively, tracks your progress with **spaced repetition (SRS)**, and offers on-demand AI tips (via the Claude API) when you're stuck.
 
 ## Features
 
@@ -33,17 +33,18 @@ The app covers grammar progressively, tracks your progress with **spaced repetit
 - **Vocabulary** — word list with search, SRS scheduling, pronunciation
 - **Library** — reference sheets and grammar tables
 - **Statistics** — retention rate, exercise history, SRS performance
-- **AI tips** — ask Gemini for a contextual explanation on any exercise
+- **AI tips** — ask Claude for a contextual mnemonic on any vocabulary word
 
 ## Stack
 
 | Layer | Tech |
 |-------|------|
-| Frontend | React 18 + TypeScript |
-| Routing | React Router v6 |
+| Frontend | React 19 + TypeScript |
+| Routing | React Router v7 |
 | Build | Vite |
-| Styling | Tailwind CSS |
-| AI tips | Gemini API |
+| Styling | Tailwind CSS v4 |
+| AI tips | Claude API (Anthropic) |
+| Backend | Express (serves the SPA + `/api/explain`) |
 | Auth & sync | Firebase Auth + Firestore |
 | Spaced repetition | Custom SRS implementation |
 
@@ -51,9 +52,9 @@ The app covers grammar progressively, tracks your progress with **spaced repetit
 
 ```bash
 npm install
-# Set GEMINI_API_KEY in .env.local
+# Set ANTHROPIC_API_KEY in .env.local
 # Configure Firebase in src/lib/firebase.ts
-npm run dev     # http://localhost:5173
+npm run dev     # http://localhost:3000
 ```
 
 ## Structure

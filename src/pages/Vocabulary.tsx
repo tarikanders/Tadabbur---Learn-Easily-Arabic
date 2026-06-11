@@ -36,7 +36,7 @@ export default function Vocabulary() {
   if (dueWords.length === 0) {
     return (
       <div className="max-w-2xl mx-auto space-y-8 animate-in fade-in duration-500 pb-20 text-center mt-20">
-         <p className="text-slate-500 font-bold">Préparation de la session...</p>
+         <p className="text-slate-500 dark:text-slate-400 font-bold">Préparation de la session...</p>
       </div>
     );
   }
@@ -46,27 +46,27 @@ export default function Vocabulary() {
   if (isSessionFinished) {
     return (
       <div className="max-w-xl mx-auto space-y-8 animate-in fade-in duration-500 pb-20 text-center px-4 mt-12">
-        <div className="bg-white border border-slate-200 rounded-[40px] p-8 sm:p-12 shadow-sm relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-brand-emerald-light rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none" />
-          
+        <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-[40px] p-8 sm:p-12 shadow-sm relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-brand-emerald-light dark:bg-emerald-500/10 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none" />
+
           <div className="w-24 h-24 bg-brand-emerald/10 rounded-full flex items-center justify-center mx-auto mb-6">
             <CheckCircle2 className="w-12 h-12 text-brand-emerald" />
           </div>
-          
-          <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">Session Terminée !</h2>
-          
+
+          <h2 className="text-2xl font-serif font-bold text-slate-900 dark:text-cream-50 mb-6">Session Terminée !</h2>
+
           <div className="grid grid-cols-2 gap-4 mb-8">
-            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200">
-              <span className="text-brand-emerald-dark font-bold flex items-center justify-center gap-2 mb-1"><Check className="w-4 h-4"/> Savais</span>
-              <span className="text-2xl font-bold text-slate-900">{sessionStats.success}</span>
+            <div className="bg-slate-50 dark:bg-slate-700/30 p-4 rounded-2xl border border-slate-200 dark:border-slate-700">
+              <span className="text-brand-emerald-dark dark:text-emerald-400 font-bold flex items-center justify-center gap-2 mb-1"><Check className="w-4 h-4"/> Savais</span>
+              <span className="text-2xl font-bold text-slate-900 dark:text-cream-50">{sessionStats.success}</span>
             </div>
-            <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+            <div className="bg-slate-50 dark:bg-slate-700/30 p-4 rounded-2xl border border-slate-200 dark:border-slate-700">
               <span className="text-orange-500 font-bold flex items-center justify-center gap-2 mb-1"><X className="w-4 h-4"/> À revoir</span>
-              <span className="text-2xl font-bold text-slate-900">{sessionStats.fail}</span>
+              <span className="text-2xl font-bold text-slate-900 dark:text-cream-50">{sessionStats.fail}</span>
             </div>
           </div>
-          
-          <p className="text-slate-600 font-medium mb-8">Vous avez découvert <span className="text-brand-gold-dark font-bold">{sessionStats.newSeen}</span> nouveaux mots.</p>
+
+          <p className="text-slate-600 dark:text-slate-400 font-medium mb-8">Vous avez découvert <span className="text-brand-gold-dark font-bold">{sessionStats.newSeen}</span> nouveaux mots.</p>
           
           <Link 
             to="/" 
@@ -138,11 +138,11 @@ export default function Vocabulary() {
     <div className="max-w-md mx-auto space-y-4 sm:space-y-6 animate-in fade-in duration-500 pb-24 flex flex-col min-h-[calc(100vh-140px)] overflow-hidden">
       <header className="text-center space-y-4 mt-4 px-4">
         <div className="flex items-center justify-between mb-2">
-          <span className="text-slate-500 font-medium text-sm">Carte {currentIndex + 1} / {dueWords.length}</span>
-          <span className="text-slate-600 font-bold text-xs uppercase tracking-widest bg-slate-100 px-2 py-1 rounded">Rank #{[...dueWords].sort((a,b)=>b.frequency - a.frequency).findIndex(w=>w.id === currentWord.id) + 1}</span>
+          <span className="text-slate-500 dark:text-slate-400 font-medium text-sm">Carte {currentIndex + 1} / {dueWords.length}</span>
+          <span className="text-slate-600 dark:text-slate-300 font-bold text-xs uppercase tracking-widest bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded">Rank #{[...dueWords].sort((a,b)=>b.frequency - a.frequency).findIndex(w=>w.id === currentWord.id) + 1}</span>
         </div>
         {/* Progress bar */}
-        <div className="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden">
+        <div className="w-full h-1.5 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
           <div 
             className="h-full bg-brand-gold-dark transition-all duration-300"
             style={{ width: `${((currentIndex) / dueWords.length) * 100}%` }}
@@ -246,10 +246,10 @@ export default function Vocabulary() {
         "flex justify-between gap-4 transition-all duration-300 relative z-20 px-4",
         "opacity-100 translate-y-0" 
       )}>
-        <button onClick={() => submitAnswer(false, 'left')} className="flex-1 py-4 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-sm font-bold text-sm bg-white text-slate-700 border border-slate-200 hover:bg-rose-50 hover:text-rose-600 hover:border-rose-200 active:scale-[0.98]">
+        <button onClick={() => submitAnswer(false, 'left')} className="flex-1 py-4 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-sm font-bold text-sm bg-white dark:bg-slate-800 text-slate-700 dark:text-cream-200 border border-slate-200 dark:border-slate-700 hover:bg-rose-50 dark:hover:bg-rose-500/10 hover:text-rose-600 dark:hover:text-rose-400 hover:border-rose-200 dark:hover:border-rose-500/30 active:scale-[0.98]">
           <X className="w-5 h-5"/> ✗ À revoir
         </button>
-        <button onClick={() => submitAnswer(true, 'right')} className="flex-1 py-4 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-sm font-bold text-sm bg-white text-slate-700 border border-slate-200 hover:bg-emerald-50 hover:text-brand-emerald-dark hover:border-brand-emerald/30 active:scale-[0.98]">
+        <button onClick={() => submitAnswer(true, 'right')} className="flex-1 py-4 rounded-2xl flex items-center justify-center gap-2 transition-all shadow-sm font-bold text-sm bg-white dark:bg-slate-800 text-slate-700 dark:text-cream-200 border border-slate-200 dark:border-slate-700 hover:bg-emerald-50 dark:hover:bg-emerald-500/10 hover:text-brand-emerald-dark dark:hover:text-emerald-400 hover:border-brand-emerald/30 active:scale-[0.98]">
           ✓ Je savais <Check className="w-5 h-5"/>
         </button>
       </div>

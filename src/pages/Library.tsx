@@ -46,8 +46,8 @@ export default function Library() {
   return (
     <div className="max-w-2xl mx-auto space-y-6 animate-in fade-in duration-500 pb-24 px-4 pt-6">
       <header className="text-center space-y-2 mb-8">
-        <h1 className="font-serif text-4xl font-bold text-slate-900">Bibliothèque</h1>
-        <p className="text-slate-500">Parcourez les {VOCABULARY_LIST.length} mots les plus fréquents.</p>
+        <h1 className="font-serif text-4xl font-bold text-slate-900 dark:text-cream-50">Bibliothèque</h1>
+        <p className="text-slate-500 dark:text-slate-400">Parcourez les {VOCABULARY_LIST.length} mots les plus fréquents.</p>
       </header>
 
       <div className="space-y-4">
@@ -58,7 +58,7 @@ export default function Library() {
             placeholder="Rechercher en arabe ou français..." 
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-brand-gold-dark focus:ring-1 focus:ring-brand-gold-dark transition-all shadow-sm"
+            className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-cream-50 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-brand-gold-dark focus:ring-1 focus:ring-brand-gold-dark transition-all shadow-sm"
           />
           <Search className="w-5 h-5 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2" />
         </div>
@@ -68,7 +68,7 @@ export default function Library() {
           <button 
             onClick={() => setFilter("all")}
             className={cn("px-4 py-2 rounded-xl whitespace-nowrap text-sm font-bold transition-colors border", 
-               filter === "all" ? "bg-slate-800 text-white border-slate-800" : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+               filter === "all" ? "bg-slate-800 dark:bg-emerald-500/20 dark:text-emerald-300 text-white border-slate-800 dark:border-emerald-500/30" :"bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50"
             )}
           >
             Tous les mots
@@ -76,7 +76,7 @@ export default function Library() {
           <button 
             onClick={() => setFilter("unseen")}
             className={cn("px-4 py-2 rounded-xl whitespace-nowrap text-sm font-bold transition-colors border", 
-               filter === "unseen" ? "bg-slate-800 text-white border-slate-800" : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+               filter === "unseen" ? "bg-slate-800 dark:bg-emerald-500/20 dark:text-emerald-300 text-white border-slate-800 dark:border-emerald-500/30" :"bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50"
             )}
           >
             Nouveaux
@@ -84,7 +84,7 @@ export default function Library() {
           <button 
             onClick={() => setFilter("learning")}
             className={cn("px-4 py-2 rounded-xl whitespace-nowrap text-sm font-bold transition-colors border", 
-               filter === "learning" ? "bg-slate-800 text-white border-slate-800" : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+               filter === "learning" ? "bg-slate-800 dark:bg-emerald-500/20 dark:text-emerald-300 text-white border-slate-800 dark:border-emerald-500/30" :"bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50"
             )}
           >
             En cours
@@ -92,7 +92,7 @@ export default function Library() {
           <button 
             onClick={() => setFilter("mastered")}
             className={cn("px-4 py-2 rounded-xl whitespace-nowrap text-sm font-bold transition-colors border", 
-               filter === "mastered" ? "bg-slate-800 text-white border-slate-800" : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
+               filter === "mastered" ? "bg-slate-800 dark:bg-emerald-500/20 dark:text-emerald-300 text-white border-slate-800 dark:border-emerald-500/30" :"bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50"
             )}
           >
             Maîtrisés
@@ -103,32 +103,32 @@ export default function Library() {
       {/* List */}
       <div className="space-y-3 mt-6">
         {filteredWords.length === 0 ? (
-           <div className="text-center py-10 text-slate-500 font-medium">Aucun mot trouvé.</div>
+           <div className="text-center py-10 text-slate-500 dark:text-slate-400 font-medium">Aucun mot trouvé.</div>
         ) : (
           filteredWords.map(word => (
             <div
               key={word.id}
               onClick={() => setSelectedWord(word)}
-              className="bg-white p-4 rounded-2xl border border-slate-200 flex items-center justify-between hover:border-brand-gold-dark/40 transition-colors shadow-sm cursor-pointer active:scale-[0.99]"
+              className="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 flex items-center justify-between hover:border-brand-gold-dark/40 dark:hover:border-brand-gold-dark/50 transition-colors shadow-sm cursor-pointer active:scale-[0.99]"
             >
               <div className="flex items-center gap-4">
                 <div className={cn(
                   "w-3 h-3 rounded-full flex-shrink-0",
                   word.status === "mastered" ? "bg-brand-emerald shadow-[0_0_10px_rgba(16,185,129,0.3)]" :
                   word.status === "learning" ? "bg-brand-gold-dark shadow-[0_0_10px_rgba(245,158,11,0.3)]" :
-                  "bg-slate-200"
+                  "bg-slate-200 dark:bg-slate-600"
                 )} />
                 <div>
-                  <p className="font-bold text-slate-900 flex items-baseline gap-2">
+                  <p className="font-bold text-slate-900 dark:text-cream-50 flex items-baseline gap-2">
                     <span className="font-arabic text-2xl" dir="rtl">{word.arabic}</span>
-                    <span className="text-xs text-slate-500 uppercase tracking-widest">{word.transliteration}</span>
+                    <span className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-widest">{word.transliteration}</span>
                   </p>
-                  <p className="text-sm text-slate-600">{word.translation}</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">{word.translation}</p>
                 </div>
               </div>
               <div className="text-right flex flex-col items-end gap-1">
                  <span className="text-[10px] text-brand-gold-dark uppercase tracking-widest font-bold">Rang {word.frequency}</span>
-                 <span className="text-xs text-slate-600 bg-slate-100 px-2 py-1 rounded border border-slate-200">{word.type}</span>
+                 <span className="text-xs text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded border border-slate-200 dark:border-slate-600">{word.type}</span>
                  <span className="text-[10px] text-indigo-400 flex items-center gap-1"><Sparkles className="w-3 h-3" />Astuce</span>
               </div>
             </div>
